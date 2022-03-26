@@ -36,6 +36,7 @@ Email: xianlin [DOT] zeng [AT] bit [DOT] edu [DOT] cn
 - **Xianlin Zeng**, Peng Yi, Yiguang Hong, and Lihua Xie, Distributed Continuous-Time Algorithms for Nonsmooth Extended Monotropic Optimization Problems, SIAM Journal on Control and Optimization, 56(6): 3973-3993, 2018.
 
 - **Xianlin Zeng**, Peng Yi, and Yiguang Hong, Distributed Continuous-Time Algorithm for Constrained Convex Optimizations via Nonsmooth Analysis Approach, IEEE Transactions on Automatic Control, vol. 62, no. 10, pp. 5227-5233, 2017.
+- 
 - **Xianlin Zeng**, Hybrid Networked Control for Cyber-Physical Network Systems with
 Applications to Interconnected Power Grids, Texas Tech University, August 2015. (Ph.D. Dissertation)
 
@@ -49,8 +50,10 @@ Applications to Interconnected Power Grids, Texas Tech University, August 2015. 
 - Optimization Theory and Methods, graduate course
 
 ## Current graduate students
+
 ### Phd students
 - Jie Hou, Phd student (08/2020-), Topic: Issues related to distributed projection-free optimization
+- 
 ### Master students
 - Jiebang Xing, MS Student (08/2019-),	Topic: Issues related to reinforcement learning for pursuit evasion games 
 - Junchao Zhang, MS Student (08/2019-),	Topic: Issues related to reinforcement learning for pursuit evasion games  
