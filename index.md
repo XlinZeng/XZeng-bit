@@ -5,7 +5,9 @@
 Associate professor 
 
 Key Laboratory of Intelligent Control and Decision of Complex Systems 
+
 School of Automation
+
 Beijing Institute of Technology, 100081, Beijing, China. 
 
 Email: xianlin [DOT] zeng [AT] bit [DOT] edu [DOT] cn
@@ -49,8 +51,9 @@ Applications to Interconnected Power Grids, Texas Tech University, August 2015. 
 - Optimization Theory and Methods, graduate course
 
 ## Current graduate students
-
+### Phd students
 - Jie Hou, Phd student (08/2020-), Topic: Issues related to distributed projection-free optimization
+### Master students
 - Jiebang Xing, MS Student (08/2019-),	Topic: Issues related to reinforcement learning for pursuit evasion games 
 - Junchao Zhang, MS Student (08/2019-),	Topic: Issues related to reinforcement learning for pursuit evasion games  
 - Zijun Cheng, MS Student (08/2020-), Topic: Issues related to motion planning of vehicles  
