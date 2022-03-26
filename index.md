@@ -53,7 +53,7 @@ Applications to Interconnected Power Grids, Texas Tech University, August 2015. 
 
 ### Phd students
 - Jie Hou, Phd student (08/2020-), Topic: Issues related to distributed projection-free optimization
-- 
+
 ### Master students
 - Jiebang Xing, MS Student (08/2019-),	Topic: Issues related to reinforcement learning for pursuit evasion games 
 - Junchao Zhang, MS Student (08/2019-),	Topic: Issues related to reinforcement learning for pursuit evasion games  
