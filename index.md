@@ -42,9 +42,24 @@ Applications to Interconnected Power Grids, Texas Tech University, August 2015. 
 [Complete Publication List](https://xlinzeng.github.io/web/).
 
 
-##Teaching
+## Teaching
 
 - Intelligent Control, undergraduate course
 - Optimization Theory and Methods, graduate course
 
+## Current graduate students
 
+- Jie Hou, Phd student(08/2020-), Topic: Issues related to distributed projection-free optimization
+- Jiebang Xing, MS Student (08/2019-),	Topic: Issues related to reinforcement learning for pursuit evasion games 
+
+2 Junchao Zhang, MS Student (08/2019-),	Topic: Issues related to reinforcement learning for pursuit evasion games  
+
+3 Zijun Cheng, MS Student (08/2020-), Topic: Issues related to motion planning of vehicles  
+
+4 Kai Wang, MS Student (08/2020-), Topic: Issues related to interpretable intention prediction of vehicles  
+
+5 Lan Wang, MS Student (08/2021-), Topic: Issues related to interpretable intention prediction of vehicles  
+
+6 Yanyan Fang, MS Student (08/2021-), Topic: Issues related to trajectory prediction of vehicles	
+
+## Student Alumni
