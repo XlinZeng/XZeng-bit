@@ -6,9 +6,7 @@ Associate professor
 
 Key Laboratory of Intelligent Control and Decision of Complex Systems 
 
-School of Automation
-
-Beijing Institute of Technology, 100081, Beijing, China. 
+School of Automation, Beijing Institute of Technology, 100081, Beijing, China. 
 
 Email: xianlin [DOT] zeng [AT] bit [DOT] edu [DOT] cn
 
