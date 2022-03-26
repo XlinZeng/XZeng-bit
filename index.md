@@ -39,8 +39,8 @@ Email: xianlin [DOT] zeng [AT] bit [DOT] edu [DOT] cn
 - **Xianlin Zeng**, Hybrid Networked Control for Cyber-Physical Network Systems with
 Applications to Interconnected Power Grids, Texas Tech University, August 2015. (Ph.D. Dissertation)
 
-[Complete Publication List](https://xlinzeng.github.io/web/).
-
+[Complete Publication List](https://xlinzeng.github.io/web/)
+[Google Scholar](https://scholar.google.com/citations?user=S4KS0noAAAAJ&hl=en)
 
 ## Teaching
 
