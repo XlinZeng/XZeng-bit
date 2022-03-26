@@ -41,7 +41,7 @@ Applications to Interconnected Power Grids, Texas Tech University, August 2015. 
 
 [Complete Publication List](https://xlinzeng.github.io/web/)
 
-[Google Scholar](https://scholar.google.com/citations?user=S4KS0noAAAAJ&hl=en)
+[My Google Scholar](https://scholar.google.com/citations?user=S4KS0noAAAAJ&hl=en)
 
 ## Teaching
 
