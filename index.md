@@ -4,12 +4,13 @@ I am an associate professor in  the Key Laboratory of Intelligent Control and De
 
 Email: xianlin [DOT] zeng [AT] bit [DOT] edu [DOT] cn
 
-### Markdown
+### Education
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Doctor of Philosophy in Mechanical Engineering, Texas Tech University, Lubbock, USA, 2015
 
-```markdown
-Syntax highlighted code block
+Master of Science in Control Science and Engineering, Harbin Institute of Technology, Harbin, China, 2011,
+
+Bachelor of Science in Control Science and Engineering, Harbin Institute of Technology, Harbin, China, 2009
 
 # Header 1
 ## Header 2
