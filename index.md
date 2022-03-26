@@ -1,10 +1,15 @@
-## WELCOME TO VISIT XIANLIN ZENG'S HOMEPAGE
+# WELCOME TO VISIT XIANLIN ZENG'S HOMEPAGE
 
-I am an associate professor in  the Key Laboratory of Intelligent Control and Decision of Complex Systems, School of Automation, Beijing Institute of Technology, 100081, Beijing, China. 
+## Xianlin Zeng
+
+Associate professor 
+
+Key Laboratory of Intelligent Control and Decision of Complex Systems
+School of Automation, Beijing Institute of Technology, 100081, Beijing, China. 
 
 Email: xianlin [DOT] zeng [AT] bit [DOT] edu [DOT] cn
 
-### Education
+## Education
 
 - Doctor of Philosophy in Mechanical Engineering, Texas Tech University, Lubbock, USA, 2015
 
@@ -12,13 +17,11 @@ Email: xianlin [DOT] zeng [AT] bit [DOT] edu [DOT] cn
 
 - Bachelor of Science in Control Science and Engineering, Harbin Institute of Technology, Harbin, China, 2009
 
-### Research Interests
+## Research Interests
 
-- Bulleted
-- List
+- Distributed Computation of Matrix Equations
+- Distributed control, optimization, and games
 
-1. Numbered
-2. List
 
 **Bold** and _Italic_ and `Code` text
 
