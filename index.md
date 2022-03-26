@@ -1,8 +1,8 @@
-## Welcome to GitHub Pages
+## WELCOME TO VISIT XIANLIN ZENG'S HOMEPAGE
 
-You can use the [editor on GitHub](https://github.com/XlinZeng/XZeng-bit/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+I am an associate professor in  the Key Laboratory of Intelligent Control and Decision of Complex Systems, School of Automation, Beijing Institute of Technology, 100081, Beijing, China. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Email: xianlin [DOT] zeng [AT] bit [DOT] edu [DOT] cn
 
 ### Markdown
 
