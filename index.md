@@ -4,7 +4,7 @@
 
 Associate professor 
 
-Key Laboratory of Intelligent Control and Decision of Complex Systems
+Key Laboratory of Intelligent Control and Decision of Complex Systems 
 School of Automation
 Beijing Institute of Technology, 100081, Beijing, China. 
 
