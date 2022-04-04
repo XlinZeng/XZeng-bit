@@ -12,8 +12,10 @@ Email: xianlin [DOT] zeng [AT] bit [DOT] edu [DOT] cn
 
 ## Education
 
+- Postdoc Researcher in School of Automation, Beijing Institute of Technology, Beijing, China (2017-2019)
+- Postdoc Researcher in Academy of Mathematics and Systems Science, Chinese Academy of Sciences, Beijing, China (2015-2017)
 - Doctor of Philosophy in Mechanical Engineering, Texas Tech University, Lubbock, USA, 2015
-- Master of Science in Control Science and Engineering, Harbin Institute of Technology, Harbin, China, 2011,
+- Master of Science in Control Science and Engineering, Harbin Institute of Technology, Harbin, China, 2011
 - Bachelor of Science in Control Science and Engineering, Harbin Institute of Technology, Harbin, China, 2009
 
 ## Research Interests
