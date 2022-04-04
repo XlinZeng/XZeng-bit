@@ -47,11 +47,11 @@ Email: xianlin [DOT] zeng [AT] bit [DOT] edu [DOT] cn
 - Jie Hou, Phd student (08/2020-), Topic: Issues related to distributed projection-free optimization
 
 ### Master students
-- Jiebang Xing, MS Student (08/2019-),	Topic: Issues related to reinforcement learning for pursuit evasion games 
-- Junchao Zhang, MS Student (08/2019-),	Topic: Issues related to reinforcement learning for pursuit evasion games  
-- Zijun Cheng, MS Student (08/2020-), Topic: Issues related to motion planning of vehicles  
-- Kai Wang, MS Student (08/2020-), Topic: Issues related to interpretable intention prediction of vehicles  
-- Lan Wang, MS Student (08/2021-), Topic: Issues related to interpretable intention prediction of vehicles  
-- Yanyan Fang, MS Student (08/2021-), Topic: Issues related to trajectory prediction of vehicles	
+- Jiebang Xing, M.Sc. (08/2019-),	Topic: Issues related to reinforcement learning for pursuit evasion games 
+- Junchao Zhang, M.Eng. (08/2019-),	Topic: Issues related to reinforcement learning for pursuit evasion games  
+- Zijun Cheng, M.Eng. (08/2020-), Topic: Issues related to motion planning of vehicles  
+- Kai Wang, M.Eng. (08/2020-), Topic: Issues related to interpretable intention prediction of vehicles  
+- Lan Wang, M.Sc. (08/2021-), Topic: Issues related to interpretable intention prediction of vehicles  
+- Yanyan Fang, M.Eng. (08/2021-), Topic: Issues related to trajectory prediction of vehicles	
 
 ## Student Alumni
