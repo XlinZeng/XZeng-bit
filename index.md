@@ -26,7 +26,7 @@ Email: xianlin [DOT] zeng [AT] bit [DOT] edu [DOT] cn
 ## Selected Publications
 
 - **Xianlin Zeng**, Jinlong Lei, and Jie Chen, Dynamical Primal-Dual Accelerated Method with Applications to Network Optimization, IEEE Transactions on Automatic Control, Volume, 68 (2023), Issue 3 (March).
-- **Xianlin Zeng**, Jie Chen, and Yiguang Hong, Distributed Optimization Design of Iterative Refinement Technique for Algebraic Riccati Equations, IEEE Transactions on Systems, Man, and Cybernetics: Systems, DOI: 10.1109/TSMC.2021.3056871.
+- **Xianlin Zeng**, Jie Chen, and Yiguang Hong, Distributed Optimization Design of Iterative Refinement Technique for Algebraic Riccati Equations, IEEE Transactions on Systems, Man, and Cybernetics: Systems, vol. 52, no. 5, pp. 2833-2847, May 2022.
 - **Xianlin Zeng**, Jie Chen, and Yiguang Hong, Distributed Optimization Design for Computation of Algebraic Riccati Inequalities, IEEE Transactions on  Cybernetics, vol. 52, no. 3, pp. 1924-1935, 2022.
 - **Xianlin Zeng**, Jie Chen, Shu Liang, and Yiguang Hong, "Generalized Nash Equilibrium Seeking Strategy for Distributed Nonsmooth Multi-Cluster Game," Automatica, vol. 103, 20-26, 2019.
 - **Xianlin Zeng**, Shu Liang, Yiguang Hong, and Jie Chen, Distributed Computation of Linear Matrix Equations: An Optimization Perspective, IEEE Transactions on Automatic Control, vol. 64, no. 5, pp. 1858-1873, 2019.
