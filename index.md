@@ -22,6 +22,10 @@ Email: xianlin [DOT] zeng [AT] bit [DOT] edu [DOT] cn
 
 - Distributed computation of matrix equations
 - Distributed control, optimization, and games
+- 
+## Funding
+
+- Distributed Smooth Method for Complex Nonsmooth Optimization of Multi-agent Systems, 1/1/2021-12/12/2024, NSFC
 
 ## Selected Publications
 
