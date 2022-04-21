@@ -30,8 +30,8 @@ Email: xianlin [DOT] zeng [AT] bit [DOT] edu [DOT] cn
 
 ## Selected Publications
 
-1 Xia Jiang, **Xianlin Zeng**, Jian Sun, and Jie Chen, Distributed synchronous and asynchronous algorithms for semi-definite programming with diagonal constraints, IEEE Transactions on Automatic Control, 2023 April issue
-- **Xianlin Zeng**, Jinlong Lei, and Jie Chen, Dynamical Primal-Dual Accelerated Method with Applications to Network Optimization, IEEE Transactions on Automatic Control, Volume, 68 (2023), Issue 3 (March).
+= Xia Jiang, **Xianlin Zeng**, Jian Sun, and Jie Chen, Distributed synchronous and asynchronous algorithms for semi-definite programming with diagonal constraints, IEEE Transactions on Automatic Control, 2023 April issue
++ **Xianlin Zeng**, Jinlong Lei, and Jie Chen, Dynamical Primal-Dual Accelerated Method with Applications to Network Optimization, IEEE Transactions on Automatic Control, Volume, 68 (2023), Issue 3 (March).
 - Yue Wei, Chengsi Shang, Hao Fang, **Xianlin Zeng**, Lihua Dou, Panos Pardalos, Solving a class of nonsmooth resource allocation problems with directed graphs through distributed Lipschitz continuous multi-proximal algorithms, Automatica, vol. 136, pp. 110071, 2022.
 - Chu Wu, Hao Fang, Qingkai Yang, **Xianlin Zeng**, and Jie Chen, Distributed cooperative control of redundant mobile manipulators with safety constraints, IEEE Transactions on Cybernetics, DOI: 10.1109/TCYB.2021.3104044.
 - **Xianlin Zeng**, Jie Chen, and Yiguang Hong, Distributed Optimization Design of Iterative Refinement Technique for Algebraic Riccati Equations, IEEE Transactions on Systems, Man, and Cybernetics: Systems, vol. 52, no. 5, pp. 2833-2847, May 2022.
