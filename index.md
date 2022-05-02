@@ -41,7 +41,7 @@ Email: xianlin [DOT] zeng [AT] bit [DOT] edu [DOT] cn
 - **Xianlin Zeng**, Shu Liang, Yiguang Hong, and Jie Chen, Distributed Computation of Linear Matrix Equations: An Optimization Perspective, IEEE Transactions on Automatic Control, vol. 64, no. 5, pp. 1858-1873, 2019.
 - **Xianlin Zeng**, Peng Yi, Yiguang Hong, and Lihua Xie, Distributed Continuous-Time Algorithms for Nonsmooth Extended Monotropic Optimization Problems, SIAM Journal on Control and Optimization, 56(6): 3973-3993, 2018.
 - **Xianlin Zeng**, Peng Yi, and Yiguang Hong, Distributed Continuous-Time Algorithm for Constrained Convex Optimizations via Nonsmooth Analysis Approach, IEEE Transactions on Automatic Control, vol. 62, no. 10, pp. 5227-5233, 2017.
-- **Xianlin Zeng**, Hybrid Networked Control for Cyber-Physical Network Systems with Applications to Interconnected Power Grids, Texas Tech University, August 2015. (Ph.D. Dissertation)
+- [1] **Xianlin Zeng**, Hybrid Networked Control for Cyber-Physical Network Systems with Applications to Interconnected Power Grids, Texas Tech University, August 2015. (Ph.D. Dissertation)
 
 [Complete Publication List](https://xlinzeng.github.io/web/)
 
