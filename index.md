@@ -29,7 +29,7 @@ Email: xianlin [DOT] zeng [AT] bit [DOT] edu [DOT] cn
 - Trustable and explainable hybrid intelligent decision-making and online assessment for human-machine co-driving, 2020.11-2024.10, National Key Research and Development Program of China, Co-PI
 
 ## Selected Publications
-
+- Xia Jiang, **Xianlin Zeng**, Jian Sun, and Jie Chen, Distributed stochastic gradient tracking algorithm with variance reduction for non-convex optimization, IEEE Transactions on Neural Networks and Learning Systems, accepted
 - Xia Jiang, **Xianlin Zeng**, Jian Sun, and Jie Chen, Distributed synchronous and asynchronous algorithms for semi-definite programming with diagonal constraints, IEEE Transactions on Automatic Control, (tentative) Volume, 68 (2023), Issue 4 (April).
 - **Xianlin Zeng**, Jinlong Lei, and Jie Chen, Dynamical Primal-Dual Accelerated Method with Applications to Network Optimization, IEEE Transactions on Automatic Control, (tentative) Volume, 68 (2023), Issue 3 (March).
 - Yue Wei, Chengsi Shang, Hao Fang, **Xianlin Zeng**, Lihua Dou, Panos Pardalos, Solving a class of nonsmooth resource allocation problems with directed graphs through distributed Lipschitz continuous multi-proximal algorithms, Automatica, vol. 136, pp. 110071, 2022.
