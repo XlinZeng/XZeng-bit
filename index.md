@@ -49,8 +49,8 @@ Email: xianlin [DOT] zeng [AT] bit [DOT] edu [DOT] cn
 
 ## Teaching
 
-- Intelligent Control, undergraduate course
-- Optimization Theory and Methods, graduate course
+- 2021-now: Intelligent Control, undergraduate course
+- 2020-now: Optimization Theory and Methods, graduate course
 
 ## Current graduate students
 
