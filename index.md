@@ -29,6 +29,7 @@ Email: xianlin [DOT] zeng [AT] bit [DOT] edu [DOT] cn
 - Trustable and explainable hybrid intelligent decision-making and online assessment for human-machine co-driving, 2020.11-2024.10, National Key Research and Development Program of China, Co-PI
 
 ## Selected Publications
+- [13] Jie Hou, **Xianlin Zeng**, Gang Wang, Jian Sun, and Jie Chen, Distributed Momentum-based Frank-Wolfe Algorithm for Stochastic Optimization, **IEEE/CAA JOURNAL OF AUTOMATICA SINICA**, accepted
 - [12] Xia Jiang, **Xianlin Zeng**, Jian Sun, and Jie Chen, Distributed stochastic gradient tracking algorithm with variance reduction for non-convex optimization, **IEEE Transactions on Neural Networks and Learning Systems**, DOI: 10.1109/TNNLS.2022.3170944
 - [11] Xia Jiang, **Xianlin Zeng**, Jian Sun, and Jie Chen, Distributed synchronous and asynchronous algorithms for semi-definite programming with diagonal constraints, **IEEE Transactions on Automatic Control**, (tentative) Volume, 68 (2023), Issue 4 (April), DOI: 10.1109/TAC.2022.3170529.
 - [10] **Xianlin Zeng**, Jinlong Lei, and Jie Chen, Dynamical Primal-Dual Accelerated Method with Applications to Network Optimization, **IEEE Transactions on Automatic Control**, (tentative) Volume, 68 (2023), Issue 3 (March), DOI: 10.1109/TAC.2022.3152720.
@@ -58,11 +59,11 @@ Email: xianlin [DOT] zeng [AT] bit [DOT] edu [DOT] cn
 - Jie Hou, Phd student (08/2020-), Topic: Issues related to distributed projection-free optimization
 
 ### Master students
-- Jiebang Xing, M.Sc. (08/2019-),	Topic: Issues related to reinforcement learning for pursuit evasion games 
-- Junchao Zhang, M.Eng. (08/2019-),	Topic: Issues related to reinforcement learning for pursuit evasion games  
 - Zijun Cheng, M.Eng. (08/2020-), Topic: Issues related to motion planning of vehicles  
 - Kai Wang, M.Eng. (08/2020-), Topic: Issues related to interpretable intention prediction of vehicles  
 - Lan Wang, M.Sc. (08/2021-), Topic: Issues related to interpretable intention prediction of vehicles  
 - Yanyan Fang, M.Eng. (08/2021-), Topic: Issues related to trajectory prediction of vehicles	
 
 ## Student Alumni
+- Jiebang Xing, M.Sc. (08/2019-06/2022),	Research on pursuit evasion games based on deep reinforcement learning 
+- Junchao Zhang, M.Eng. (08/2019-06/2022),	Pursuing strategy generation method based on model-free reinforcement learning  
