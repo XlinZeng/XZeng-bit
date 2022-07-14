@@ -29,8 +29,8 @@ Email: xianlin [DOT] zeng [AT] bit [DOT] edu [DOT] cn
 - Trustable and explainable hybrid intelligent decision-making and online assessment for human-machine co-driving, 2020.11-2024.10, National Key Research and Development Program of China, Co-PI
 
 ## Selected Publications
-- [15] Chu Wu, Hao Fang, **Xianlin Zeng**, Qingkai Yang, Yue Wei, and Jie Chen, Distributed Continuous-Time Algorithm for Time-Varying Optimization With Affine Formation Constraints, **IEEE/CAA JOURNAL OF AUTOMATICA SINICA**, DOI: 10.1109/TAC.2022.3190054
-- [14] Jie Hou, **Xianlin Zeng**, Gang Wang, Jian Sun, and Jie Chen, Distributed Momentum-based Frank-Wolfe Algorithm for Stochastic Optimization, **IEEE Transactions on Automatic Control**, accepted
+- [15] Chu Wu, Hao Fang, **Xianlin Zeng**, Qingkai Yang, Yue Wei, and Jie Chen, Distributed Continuous-Time Algorithm for Time-Varying Optimization With Affine Formation Constraints, **IEEE Transactions on Automatic Control**, DOI: 10.1109/TAC.2022.3190054
+- [14] Jie Hou, **Xianlin Zeng**, Gang Wang, Jian Sun, and Jie Chen, Distributed Momentum-based Frank-Wolfe Algorithm for Stochastic Optimization, **IEEE/CAA JOURNAL OF AUTOMATICA SINICA**, accepted
 - [13] Xia Jiang, **Xianlin Zeng**, Jian Sun, and Jie Chen, Distributed stochastic gradient tracking algorithm with variance reduction for non-convex optimization, **IEEE Transactions on Neural Networks and Learning Systems**, DOI: 10.1109/TNNLS.2022.3170944
 - [12] Xia Jiang, **Xianlin Zeng**, Jian Sun, and Jie Chen, Distributed synchronous and asynchronous algorithms for semi-definite programming with diagonal constraints, **IEEE Transactions on Automatic Control**, (tentative) Volume, 68 (2023), Issue 4 (April), DOI: 10.1109/TAC.2022.3170529.
 - [11] **Xianlin Zeng**, Jinlong Lei, and Jie Chen, Dynamical Primal-Dual Accelerated Method with Applications to Network Optimization, **IEEE Transactions on Automatic Control**, (tentative) Volume, 68 (2023), Issue 3 (March), DOI: 10.1109/TAC.2022.3152720.
