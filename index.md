@@ -25,6 +25,7 @@ Email: xianlin [DOT] zeng [AT] bit [DOT] edu [DOT] cn
  
 ## Current Fundings
 
+- Distributed Nonsmooth Control and Optimization of Multi-agent Systems, 2023.1-2025.12, National Natural Science Foundation of China, PI
 - Distributed Smooth Method for Complex Nonsmooth Optimization of Multi-agent Systems, 2021.1-2024.12, National Natural Science Foundation of China, PI
 - Trustable and explainable hybrid intelligent decision-making and online assessment for human-machine co-driving, 2020.11-2024.10, National Key Research and Development Program of China, Co-PI
 
@@ -58,12 +59,15 @@ Email: xianlin [DOT] zeng [AT] bit [DOT] edu [DOT] cn
 
 ### Phd students
 - Jie Hou, Phd student (08/2020-), Topic: Issues related to distributed projection-free optimization
+- Kui Zhu, Phd student (08/2022-), Topic: Issues related to distributed algorithms and game theory
 
 ### Master students
-- Zijun Cheng, M.Eng. (08/2020-), Topic: Issues related to motion planning of vehicles  
-- Kai Wang, M.Eng. (08/2020-), Topic: Issues related to interpretable intention prediction of vehicles  
-- Lan Wang, M.Sc. (08/2021-), Topic: Issues related to interpretable intention prediction of vehicles  
-- Yanyan Fang, M.Eng. (08/2021-), Topic: Issues related to trajectory prediction of vehicles	
+- Zijun Cheng, M.Eng. (08/2020-06/2023), Topic: Issues related to motion planning of vehicles  
+- Kai Wang, M.Eng. (08/2020-06/2023), Topic: Issues related to interpretable intention prediction of vehicles  
+- Lan Wang, M.Sc. (08/2021-06/2024), Topic: Issues related to interpretable intention prediction of vehicles  
+- Yanyan Fang, M.Eng. (08/2021-06/2024), Topic: Issues related to trajectory prediction of vehicles	
+- Yixuan Li, M.Sc. (08/2022-06/2025), Topic: Issues related to motion planning of vehicles
+- Xuanming Zhang, M.Sc. (08/2022-06/2025), Topic: Issues related to game theory	
 
 ## Student Alumni
 - Jiebang Xing, M.Sc. (08/2019-06/2022),	Research on pursuit evasion games based on deep reinforcement learning 
