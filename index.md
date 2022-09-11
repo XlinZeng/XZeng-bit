@@ -25,9 +25,9 @@ Email: xianlin [DOT] zeng [AT] bit [DOT] edu [DOT] cn
  
 ## Current Fundings
 
-- Distributed Nonsmooth Control and Optimization of Multi-agent Systems, 2023.1-2025.12, National Natural Science Foundation of China, PI
-- Distributed Smooth Method for Complex Nonsmooth Optimization of Multi-agent Systems, 2021.1-2024.12, National Natural Science Foundation of China, PI
-- Trustable and explainable hybrid intelligent decision-making and online assessment for human-machine co-driving, 2020.11-2024.10, National Key Research and Development Program of China, Co-PI
+- Distributed Nonsmooth Control and Optimization of Multi-agent Systems, National Natural Science Foundation of China, PI
+- Distributed Smooth Method for Complex Nonsmooth Optimization of Multi-agent Systems, National Natural Science Foundation of China, PI
+- Trustable and explainable hybrid intelligent decision-making and online assessment for human-machine co-driving, National Key Research and Development Program of China, Co-PI
 
 ## Selected Publications
 - [16] Xia Jiang, **Xianlin Zeng**, Jian Sun, Jie Chen, and Lihua Xie, Distributed stochastic proximal algorithm with random reshuffling for non-smooth finite-sum optimization, **IEEE Transactions on Neural Networks and Learning Systems**, DOI: 10.1109/TNNLS.2022.3201711
