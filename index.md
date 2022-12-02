@@ -20,8 +20,8 @@ Email: xianlin [DOT] zeng [AT] bit [DOT] edu [DOT] cn
 
 ## Research Interests
 
-- Distributed computation of matrix equations
-- Distributed control, optimization, and games
+- Distributed algorithms for optimization and noncooperative games
+- Game-theoretic decision, planning and control of autonomous systems
  
 ## Current Fundings
 
@@ -67,7 +67,7 @@ Email: xianlin [DOT] zeng [AT] bit [DOT] edu [DOT] cn
 - Lan Wang, M.Sc. (08/2021-06/2024), Topic: Issues related to interpretable intention prediction of vehicles  
 - Yanyan Fang, M.Eng. (08/2021-06/2024), Topic: Issues related to trajectory prediction of vehicles	
 - Yixuan Li, M.Sc. (08/2022-06/2025), Topic: Issues related to motion planning of vehicles
-- Xuanming Zhang, M.Sc. (08/2022-06/2025), Topic: Issues related to game theory	
+- Xuanming Zhang, M.Sc. (08/2022-06/2025), Topic: Issues related to motion planning of vehicles
 
 ## Student Alumni
 - Jiebang Xing, M.Sc. (08/2019-06/2022),	Research on pursuit evasion games based on deep reinforcement learning 
