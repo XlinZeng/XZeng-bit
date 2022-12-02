@@ -4,11 +4,11 @@
 
 Associate professor 
 
-Key Laboratory of Intelligent Control and Decision of Complex Systems 
+State Key Lab of Autonomous Intelligent Unmanned Systems 
 
 School of Automation, Beijing Institute of Technology, 100081, Beijing, China. 
 
-Email: xianlin [DOT] zeng [AT] bit [DOT] edu [DOT] cn
+Email: xianlin.zeng@bit.edu.cn
 
 ## Education
 
@@ -21,7 +21,7 @@ Email: xianlin [DOT] zeng [AT] bit [DOT] edu [DOT] cn
 ## Research Interests
 
 - Distributed optimization and noncooperative games
-- Game-theoretic planning and control of autonomous systems
+- Game-theoretic decision and control of autonomous systems
  
 ## Current Fundings
 
