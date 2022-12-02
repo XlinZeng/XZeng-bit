@@ -20,8 +20,8 @@ Email: xianlin [DOT] zeng [AT] bit [DOT] edu [DOT] cn
 
 ## Research Interests
 
-- Distributed algorithms for optimization and noncooperative games
-- Game-theoretic decision, planning and control of autonomous systems
+- Distributed optimization and noncooperative games
+- Game-theoretic planning and control of autonomous systems
  
 ## Current Fundings
 
