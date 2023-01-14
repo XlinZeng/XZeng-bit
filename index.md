@@ -4,7 +4,7 @@
 
 Associate professor 
 
-State Key Lab of Autonomous Intelligent Unmanned Systems 
+National Key Lab of Autonomous Intelligent Unmanned Systems 
 
 School of Automation, Beijing Institute of Technology, 100081, Beijing, China. 
 
