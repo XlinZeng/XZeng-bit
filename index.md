@@ -4,8 +4,6 @@
 
 Associate professor 
 
-National Key Lab of Autonomous Intelligent Unmanned Systems 
-
 School of Automation, Beijing Institute of Technology, 100081, Beijing, China. 
 
 Email: xianlin.zeng@bit.edu.cn
