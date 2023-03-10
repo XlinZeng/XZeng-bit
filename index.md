@@ -52,6 +52,7 @@ Email: xianlin.zeng@bit.edu.cn
 
 - 2021-now: Intelligent Control, undergraduate course
 - 2020-2022: Optimization Theory and Methods, graduate course
+- 2023-now: Fundamentals of Swarm Intelligence and Adversarial Games, graduate course
 
 ## Current graduate students
 
