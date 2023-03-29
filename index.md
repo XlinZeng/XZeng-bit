@@ -29,7 +29,7 @@ Email: xianlin.zeng@bit.edu.cn
 
 ## Selected Publications
 - [16] Zijun Cheng, **Xianlin Zeng**, Hao Fang, Gang Wang, and Lihua Dou, Hierarchical MPC-based Motion Planning for Automated Vehicles in Parallel Autonomy, **Unmanned Systems**, https://doi.org/10.1142/S2301385024500286, 2023
-- [15] Chu Wu, Hao Fang, **Xianlin Zeng**, Qingkai Yang, Yue Wei, and Jie Chen, Distributed Continuous-Time Algorithm for Time-Varying Optimization With Affine Formation Constraints, **IEEE Transactions on Automatic Control**, DOI: 10.1109/TAC.2022.3190054
+- [15] Chu Wu, Hao Fang, **Xianlin Zeng**, Qingkai Yang, Yue Wei, and Jie Chen, Distributed Continuous-Time Algorithm for Time-Varying Optimization With Affine Formation Constraints, **IEEE Transactions on Automatic Control**, vol. 68, no. 4, pp. 2615-2622, 2023
 - [14] Jie Hou, **Xianlin Zeng**, Gang Wang, Jian Sun, and Jie Chen, Distributed Momentum-based Frank-Wolfe Algorithm for Stochastic Optimization, **IEEE/CAA JOURNAL OF AUTOMATICA SINICA**, vol. 10, no. 3, 2023, DOI: 10.1109/JAS.2022.105923
 - [13] Xia Jiang, **Xianlin Zeng**, Jian Sun, and Jie Chen, Distributed stochastic gradient tracking algorithm with variance reduction for non-convex optimization, **IEEE Transactions on Neural Networks and Learning Systems**, DOI: 10.1109/TNNLS.2022.3170944
 - [12] Xia Jiang, **Xianlin Zeng**, Jian Sun, and Jie Chen, Distributed synchronous and asynchronous algorithms for semi-definite programming with diagonal constraints, **IEEE Transactions on Automatic Control**, Volume, 68, Issue 2, pp. 1007-1022, 2023.
