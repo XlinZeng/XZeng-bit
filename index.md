@@ -28,16 +28,19 @@ Email: xianlin.zeng@bit.edu.cn
 - Trustable and explainable hybrid intelligent decision-making and online assessment for human-machine co-driving, National Key Research and Development Program of China, Co-PI
 
 ## Selected Publications
+### 2023
 - [16] Zijun Cheng, **Xianlin Zeng**, Hao Fang, Gang Wang, and Lihua Dou, Hierarchical MPC-based Motion Planning for Automated Vehicles in Parallel Autonomy, **Unmanned Systems**, https://doi.org/10.1142/S2301385024500286, 2023
 - [15] Chu Wu, Hao Fang, **Xianlin Zeng**, Qingkai Yang, Yue Wei, and Jie Chen, Distributed Continuous-Time Algorithm for Time-Varying Optimization With Affine Formation Constraints, **IEEE Transactions on Automatic Control**, vol. 68, no. 4, pp. 2615-2622, 2023
 - [14] Jie Hou, **Xianlin Zeng**, Gang Wang, Jian Sun, and Jie Chen, Distributed Momentum-based Frank-Wolfe Algorithm for Stochastic Optimization, **IEEE/CAA JOURNAL OF AUTOMATICA SINICA**, vol. 10, no. 3, 2023, DOI: 10.1109/JAS.2022.105923
 - [13] Xia Jiang, **Xianlin Zeng**, Jian Sun, and Jie Chen, Distributed stochastic gradient tracking algorithm with variance reduction for non-convex optimization, **IEEE Transactions on Neural Networks and Learning Systems**, DOI: 10.1109/TNNLS.2022.3170944
 - [12] Xia Jiang, **Xianlin Zeng**, Jian Sun, and Jie Chen, Distributed synchronous and asynchronous algorithms for semi-definite programming with diagonal constraints, **IEEE Transactions on Automatic Control**, Volume, 68, Issue 2, pp. 1007-1022, 2023.
 - [11] **Xianlin Zeng**, Jinlong Lei, and Jie Chen, Dynamical Primal-Dual Accelerated Method with Applications to Network Optimization, **IEEE Transactions on Automatic Control**, Volume, 68, Issue 3, pp. 1760-1767, March 2023.
+### 2022
 - [10] Yue Wei, Chengsi Shang, Hao Fang, **Xianlin Zeng**, Lihua Dou, Panos Pardalos, Solving a class of nonsmooth resource allocation problems with directed graphs through distributed Lipschitz continuous multi-proximal algorithms, **Automatica**, vol. 136, pp. 110071, 2022.
 - [9] Chu Wu, Hao Fang, Qingkai Yang, **Xianlin Zeng**, and Jie Chen, Distributed cooperative control of redundant mobile manipulators with safety constraints, **IEEE Transactions on Cybernetics**, DOI: 10.1109/TCYB.2021.3104044.
 - [8] **Xianlin Zeng**, Jie Chen, and Yiguang Hong, Distributed Optimization Design of Iterative Refinement Technique for Algebraic Riccati Equations, **IEEE Transactions on Systems, Man, and Cybernetics: Systems**, vol. 52, no. 5, pp. 2833-2847, May 2022.
 - [7] **Xianlin Zeng**, Jie Chen, and Yiguang Hong, Distributed Optimization Design for Computation of Algebraic Riccati Inequalities, **IEEE Transactions on  Cybernetics**, vol. 52, no. 3, pp. 1924-1935, 2022.
+### before 2022
 - [6] Yue Wei, Hao Fang, **Xianlin Zeng**, Jie Chen, and Panos Pardalos, A smooth double proximal primal-dual algorithm for a class of distributed nonsmooth optimization problem, **IEEE Transactions on Automatic Control**, vol. 65, no. 4, pp. 1800-1806, 2020.
 - [5] **Xianlin Zeng**, Jie Chen, Shu Liang, and Yiguang Hong, Generalized Nash equilibrium seeking strategy for distributed nonsmooth multi-cluster game, **Automatica**, vol. 103, 20-26, 2019.
 - [4] **Xianlin Zeng**, Shu Liang, Yiguang Hong, and Jie Chen, Distributed computation of linear matrix equations: An optimization perspective, **IEEE Transactions on Automatic Control**, vol. 64, no. 5, pp. 1858-1873, 2019.
