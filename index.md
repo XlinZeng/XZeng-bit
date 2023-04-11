@@ -40,7 +40,7 @@ Email: xianlin.zeng@bit.edu.cn
 - [9] Chu Wu, Hao Fang, Qingkai Yang, **Xianlin Zeng**, and Jie Chen, Distributed cooperative control of redundant mobile manipulators with safety constraints, **IEEE Transactions on Cybernetics**, DOI: 10.1109/TCYB.2021.3104044.
 - [8] **Xianlin Zeng**, Jie Chen, and Yiguang Hong, Distributed Optimization Design of Iterative Refinement Technique for Algebraic Riccati Equations, **IEEE Transactions on Systems, Man, and Cybernetics: Systems**, vol. 52, no. 5, pp. 2833-2847, May 2022.
 - [7] **Xianlin Zeng**, Jie Chen, and Yiguang Hong, Distributed Optimization Design for Computation of Algebraic Riccati Inequalities, **IEEE Transactions on  Cybernetics**, vol. 52, no. 3, pp. 1924-1935, 2022.
-### before 2022
+### Before 2022
 - [6] Yue Wei, Hao Fang, **Xianlin Zeng**, Jie Chen, and Panos Pardalos, A smooth double proximal primal-dual algorithm for a class of distributed nonsmooth optimization problem, **IEEE Transactions on Automatic Control**, vol. 65, no. 4, pp. 1800-1806, 2020.
 - [5] **Xianlin Zeng**, Jie Chen, Shu Liang, and Yiguang Hong, Generalized Nash equilibrium seeking strategy for distributed nonsmooth multi-cluster game, **Automatica**, vol. 103, 20-26, 2019.
 - [4] **Xianlin Zeng**, Shu Liang, Yiguang Hong, and Jie Chen, Distributed computation of linear matrix equations: An optimization perspective, **IEEE Transactions on Automatic Control**, vol. 64, no. 5, pp. 1858-1873, 2019.
