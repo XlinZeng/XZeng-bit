@@ -2,7 +2,7 @@
 
 ## Xianlin Zeng, Ph.D.
 
-Associate professor 
+Professor 
 
 School of Automation, Beijing Institute of Technology, 100081, Beijing, China. 
 
