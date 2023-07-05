@@ -68,15 +68,19 @@ Email: xianlin.zeng@bit.edu.cn
 ### Phd students
 - Jie Hou, Phd student (08/2020-), Topic: Issues related to distributed projection-free optimization
 - Kui Zhu, Phd student (08/2022-), Topic: Issues related to distributed algorithms and game theory
+- Zijun Cheng, Phd student (08/2023-), Topic: Issues related to planning and control of autonomous robots
+- Azhushima, Phd student (08/2023-), Topic: Issues related to distributed optimization for multiple robots
 
-### Master students
-- Zijun Cheng, M.Eng. (08/2020-06/2023), Topic: Issues related to motion planning of vehicles  
-- Kai Wang, M.Eng. (08/2020-06/2023), Topic: Issues related to interpretable intention prediction of vehicles  
+### Master students 
 - Lan Wang, M.Sc. (08/2021-06/2024), Topic: Issues related to interpretable intention prediction of vehicles  
 - Yanyan Fang, M.Eng. (08/2021-06/2024), Topic: Issues related to trajectory prediction of vehicles	
 - Yixuan Li, M.Sc. (08/2022-06/2025), Topic: Issues related to motion planning of vehicles
 - Xuanming Zhang, M.Sc. (08/2022-06/2025), Topic: Issues related to motion planning of vehicles
+- Luying Chen, M.Sc. (08/2023-06/2026), Topic: Issues related to game theory
+- Chongyao Li, M.Eng. (08/2023-06/2026), Topic: Issues related to game theory
 
 ## Student Alumni
 - Jiebang Xing, M.Sc. (08/2019-06/2022),	Research on pursuit evasion games based on deep reinforcement learning 
-- Junchao Zhang, M.Eng. (08/2019-06/2022),	Pursuing strategy generation method based on model-free reinforcement learning  
+- Junchao Zhang, M.Eng. (08/2019-06/2022),	Pursuing strategy generation method based on model-free reinforcement learning
+- Zijun Cheng,	M.Eng. (08/2020-06/2023), Optimization-based motion planning algorithm for multiple vehicles
+- Kai Wang,	M.Eng. (08/2020-06/2023), Rule-Based Interpretable Intention Recognition and Trajectory Prediction of Surrounding Vehicles 
