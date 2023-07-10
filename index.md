@@ -72,12 +72,12 @@ Email: xianlin.zeng@bit.edu.cn
 - Azhushima, Phd student (08/2023-), Topic: Issues related to distributed optimization for multiple robots
 
 ### Master students 
-- Lan Wang, M.Sc. (08/2021-06/2024), Topic: Issues related to interpretable intention prediction of vehicles  
-- Yanyan Fang, M.Eng. (08/2021-06/2024), Topic: Issues related to trajectory prediction of vehicles	
-- Yixuan Li, M.Sc. (08/2022-06/2025), Topic: Issues related to motion planning of vehicles
-- Xuanming Zhang, M.Sc. (08/2022-06/2025), Topic: Issues related to motion planning of vehicles
-- Luying Chen, M.Sc. (08/2023-06/2026), Topic: Issues related to game theory
-- Chongyao Li, M.Eng. (08/2023-06/2026), Topic: Issues related to game theory
+- Lan Wang, M.Sc. (08/2021-), Topic: Issues related to interpretable intention prediction of vehicles  
+- Yanyan Fang, M.Eng. (08/2021-), Topic: Issues related to trajectory prediction of vehicles	
+- Yixuan Li, M.Sc. (08/2022-), Topic: Issues related to motion planning of vehicles
+- Xuanming Zhang, M.Sc. (08/2022-), Topic: Issues related to motion planning of vehicles
+- Luying Chen, M.Sc. (08/2023-), Topic: Issues related to game theory
+- Chongyao Li, M.Eng. (08/2023-), Topic: Issues related to game theory
 
 ## Student Alumni
 - Jiebang Xing, M.Sc. (08/2019-06/2022),	Research on pursuit evasion games based on deep reinforcement learning 
