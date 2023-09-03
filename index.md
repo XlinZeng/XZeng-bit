@@ -24,7 +24,6 @@ Email: xianlin.zeng@bit.edu.cn
 ## Current Fundings
 
 - Distributed Nonsmooth Control and Optimization of Multi-agent Systems, National Natural Science Foundation of China, PI
-- Distributed Smooth Method for Complex Nonsmooth Optimization of Multi-agent Systems, National Natural Science Foundation of China, PI
 - Trustable and explainable hybrid intelligent decision-making and online assessment for human-machine co-driving, National Key Research and Development Program of China, Co-PI
 
 ## Selected Publications
