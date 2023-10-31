@@ -29,9 +29,7 @@ Email: xianlin.zeng@bit.edu.cn
 ## Selected Publications
 
 ### 2023
-- **Xianlin Zeng**, Yiguang Hong, Hao Fang, Distributed Optimization and Control of Multi-agent System, Beijing Institute of Technology Press, 2023 (in Chinese)
-
-曾宪琳，洪奕光，方浩，多智能体系统的分布式非光滑优化控制，北京理工大学出版社，2023（“十四五” 时期 国家重点出版物出版 专项规划项目）
+- **Xianlin Zeng**, Yiguang Hong, Hao Fang, Distributed Optimization and Control of Multi-agent System, Beijing Institute of Technology Press, 2023 (in Chinese) 曾宪琳，洪奕光，方浩，多智能体系统的分布式非光滑优化控制，北京理工大学出版社，2023（“十四五” 时期 国家重点出版物出版 专项规划项目）
 - Xia Jiang, **Xianlin Zeng**, Lihua Xie, Jian Sun, Variance-reduced Shuffling Gradient Descent with Momentum for Finite-sum Minimization, **IEEE Control Systems Letters**, vol. 7, pp. 1700-1705, 2023.
 - Zijun Cheng, **Xianlin Zeng**, Hao Fang, Gang Wang, and Lihua Dou, Hierarchical MPC-based Motion Planning for Automated Vehicles in Parallel Autonomy, **Unmanned Systems**, https://doi.org/10.1142/S2301385024500286, 2023
 - Chu Wu, Hao Fang, **Xianlin Zeng**, Qingkai Yang, Yue Wei, and Jie Chen, Distributed Continuous-Time Algorithm for Time-Varying Optimization With Affine Formation Constraints, **IEEE Transactions on Automatic Control**, vol. 68, no. 4, pp. 2615-2622, 2023
