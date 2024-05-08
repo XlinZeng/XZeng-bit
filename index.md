@@ -26,10 +26,13 @@ Email: xianlin.zeng@bit.edu.cn
 - Distributed Nonsmooth Control and Optimization of Multi-agent Systems, National Natural Science Foundation of China, PI
 - Trustable and explainable hybrid intelligent decision-making and online assessment for human-machine co-driving, National Key Research and Development Program of China, Co-PI
 
+## Textbooks and Monographs
+
+- **Xianlin Zeng**, Yiguang Hong, Hao Fang, Distributed Optimization and Control of Multi-agent System, **Beijing Institute of Technology Press**, 2023 (in Chinese);（曾宪琳，洪奕光，方浩，多智能体系统的分布式非光滑优化控制，北京理工大学出版社，2023）
+- 
 ## Selected Publications
 
 - Hou, J., **Zeng, X.** & Chen, C. Distributed gradient-free and projection-free algorithm for stochastic constrained optimization. **Auton. Intell. Syst.** 4, 6 (2024)
-- **Xianlin Zeng**, Yiguang Hong, Hao Fang, Distributed Optimization and Control of Multi-agent System, **Beijing Institute of Technology Press**, 2023 (in Chinese);（曾宪琳，洪奕光，方浩，多智能体系统的分布式非光滑优化控制，北京理工大学出版社，2023）
 - Xia Jiang, **Xianlin Zeng**, Lihua Xie, Jian Sun, Variance-reduced Shuffling Gradient Descent with Momentum for Finite-sum Minimization, **IEEE Control Systems Letters**, vol. 7, pp. 1700-1705, 2023.
 - Zijun Cheng, **Xianlin Zeng**, Hao Fang, Gang Wang, and Lihua Dou, Hierarchical MPC-based Motion Planning for Automated Vehicles in Parallel Autonomy, **Unmanned Systems**, https://doi.org/10.1142/S2301385024500286, 2023
 - Chu Wu, Hao Fang, **Xianlin Zeng**, Qingkai Yang, Yue Wei, and Jie Chen, Distributed Continuous-Time Algorithm for Time-Varying Optimization With Affine Formation Constraints, **IEEE Transactions on Automatic Control**, vol. 68, no. 4, pp. 2615-2622, 2023
