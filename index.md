@@ -29,7 +29,7 @@ Email: xianlin.zeng@bit.edu.cn
 ## Textbooks and Monographs
 
 - **Xianlin Zeng**, Yiguang Hong, Hao Fang, Distributed Optimization and Control of Multi-agent System, **Beijing Institute of Technology Press**, 2023 (in Chinese);（曾宪琳，洪奕光，方浩，多智能体系统的分布式非光滑优化控制，北京理工大学出版社，2023）
-- 
+
 ## Selected Publications
 
 - Hou, J., **Zeng, X.** & Chen, C. Distributed gradient-free and projection-free algorithm for stochastic constrained optimization. **Auton. Intell. Syst.** 4, 6 (2024)
