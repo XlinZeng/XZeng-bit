@@ -32,8 +32,8 @@ Email: xianlin.zeng@bit.edu.cn
 
 ## Selected Publications
 
-- Jie Hou, **Xianlin Zeng**, Gang Wang, Chen Chen, Jian Sun, Distributed Frank-Wolfe Solver for Stochastic Optimization with Coupled Inequality Constraints, IEEE Transactions on Neural Networks and Learning Systems, DOI: 10.1109/TNNLS.2024.3423376 
-- Hou, J., **Zeng, X.** & Chen, C. Distributed gradient-free and projection-free algorithm for stochastic constrained optimization. **Auton. Intell. Syst.** 4, 6 (2024)
+- Jie Hou, **Xianlin Zeng**, Gang Wang, Chen Chen, Jian Sun, Distributed Frank-Wolfe Solver for Stochastic Optimization with Coupled Inequality Constraints, **IEEE Transactions on Neural Networks and Learning Systems**, DOI: 10.1109/TNNLS.2024.3423376 
+- Jie Hou, **Xianlin Zeng**, and Chen Chen, Distributed gradient-free and projection-free algorithm for stochastic constrained optimization, **Auton. Intell. Syst.** 4, 6 (2024)
 - Xia Jiang, **Xianlin Zeng**, Lihua Xie, Jian Sun, Variance-reduced Shuffling Gradient Descent with Momentum for Finite-sum Minimization, **IEEE Control Systems Letters**, vol. 7, pp. 1700-1705, 2023.
 - Zijun Cheng, **Xianlin Zeng**, Hao Fang, Gang Wang, and Lihua Dou, Hierarchical MPC-based Motion Planning for Automated Vehicles in Parallel Autonomy, **Unmanned Systems**, https://doi.org/10.1142/S2301385024500286, 2023
 - Chu Wu, Hao Fang, **Xianlin Zeng**, Qingkai Yang, Yue Wei, and Jie Chen, Distributed Continuous-Time Algorithm for Time-Varying Optimization With Affine Formation Constraints, **IEEE Transactions on Automatic Control**, vol. 68, no. 4, pp. 2615-2622, 2023
