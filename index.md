@@ -31,26 +31,33 @@ Email: xianlin.zeng@bit.edu.cn
 - **Xianlin Zeng**, Yiguang Hong, Hao Fang, Distributed Optimization and Control of Multi-agent System, **Beijing Institute of Technology Press**, 2023 (in Chinese);（曾宪琳，洪奕光，方浩，多智能体系统的分布式非光滑优化控制，北京理工大学出版社，2023）
 
 ## Selected Publications
-### Distributed optimization
+### Distributed stochastic optimization
 - Jie Hou, **Xianlin Zeng**, Gang Wang, Chen Chen, Jian Sun, Distributed Frank-Wolfe Solver for Stochastic Optimization with Coupled Inequality Constraints, **IEEE Transactions on Neural Networks and Learning Systems**, DOI: 10.1109/TNNLS.2024.3423376 
 - Jie Hou, **Xianlin Zeng**, and Chen Chen, Distributed gradient-free and projection-free algorithm for stochastic constrained optimization, **Auton. Intell. Syst.** 4, 6 (2024)
 - Xia Jiang, **Xianlin Zeng**, Lihua Xie, Jian Sun, Variance-reduced Shuffling Gradient Descent with Momentum for Finite-sum Minimization, **IEEE Control Systems Letters**, vol. 7, pp. 1700-1705, 2023.
+- Xia Jiang, **Xianlin Zeng**, Jian Sun, and Jie Chen, Distributed stochastic gradient tracking algorithm with variance reduction for non-convex optimization, **IEEE Transactions on Neural Networks and Learning Systems**, vol. 34, no. 9, pp. 5310-5321, Sept. 2023
+- Jie Hou, **Xianlin Zeng**, Gang Wang, Jian Sun, and Jie Chen, Distributed Momentum-based Frank-Wolfe Algorithm for Stochastic Optimization, **IEEE/CAA JOURNAL OF AUTOMATICA SINICA**, vol. 10, no. 3, 2023
+ 
+### Motion planning and control of autonomous systems
 - Zijun Cheng, **Xianlin Zeng**, Hao Fang, Gang Wang, and Lihua Dou, Hierarchical MPC-based Motion Planning for Automated Vehicles in Parallel Autonomy, **Unmanned Systems**, https://doi.org/10.1142/S2301385024500286, 2023
 - Chu Wu, Hao Fang, **Xianlin Zeng**, Qingkai Yang, Yue Wei, and Jie Chen, Distributed Continuous-Time Algorithm for Time-Varying Optimization With Affine Formation Constraints, **IEEE Transactions on Automatic Control**, vol. 68, no. 4, pp. 2615-2622, 2023
-- Jie Hou, **Xianlin Zeng**, Gang Wang, Jian Sun, and Jie Chen, Distributed Momentum-based Frank-Wolfe Algorithm for Stochastic Optimization, **IEEE/CAA JOURNAL OF AUTOMATICA SINICA**, vol. 10, no. 3, 2023
-- Xia Jiang, **Xianlin Zeng**, Jian Sun, and Jie Chen, Distributed stochastic gradient tracking algorithm with variance reduction for non-convex optimization, **IEEE Transactions on Neural Networks and Learning Systems**, vol. 34, no. 9, pp. 5310-5321, Sept. 2023
-- Xia Jiang, **Xianlin Zeng**, Jian Sun, and Jie Chen, Distributed synchronous and asynchronous algorithms for semi-definite programming with diagonal constraints, **IEEE Transactions on Automatic Control**, Volume, 68, Issue 2, pp. 1007-1022, 2023.
-- **Xianlin Zeng**, Jinlong Lei, and Jie Chen, Dynamical Primal-Dual Accelerated Method with Applications to Network Optimization, **IEEE Transactions on Automatic Control**, Volume, 68, Issue 3, pp. 1760-1767, March 2023.
-- Yue Wei, Chengsi Shang, Hao Fang, **Xianlin Zeng**, Lihua Dou, Panos Pardalos, Solving a class of nonsmooth resource allocation problems with directed graphs through distributed Lipschitz continuous multi-proximal algorithms, **Automatica**, vol. 136, pp. 110071, 2022.
 - Chu Wu, Hao Fang, Qingkai Yang, **Xianlin Zeng**, and Jie Chen, Distributed cooperative control of redundant mobile manipulators with safety constraints, **IEEE Transactions on Cybernetics**, DOI: 10.1109/TCYB.2021.3104044.
+- **Xianlin Zeng**, Hybrid Networked Control for Cyber-Physical Network Systems with Applications to Interconnected Power Grids, Texas Tech University, August 2015. (**Ph.D. Dissertation**)
+  
+### Distributed algorithms for matrix equations and inequalities
+- Xia Jiang, **Xianlin Zeng**, Jian Sun, and Jie Chen, Distributed synchronous and asynchronous algorithms for semi-definite programming with diagonal constraints, **IEEE Transactions on Automatic Control**, Volume, 68, Issue 2, pp. 1007-1022, 2023.
 - **Xianlin Zeng**, Jie Chen, and Yiguang Hong, Distributed Optimization Design of Iterative Refinement Technique for Algebraic Riccati Equations, **IEEE Transactions on Systems, Man, and Cybernetics: Systems**, vol. 52, no. 5, pp. 2833-2847, May 2022.
 - **Xianlin Zeng**, Jie Chen, and Yiguang Hong, Distributed Optimization Design for Computation of Algebraic Riccati Inequalities, **IEEE Transactions on  Cybernetics**, vol. 52, no. 3, pp. 1924-1935, 2022.
+
+### Continuous-time optimization algorithms
+- **Xianlin Zeng**, Jinlong Lei, and Jie Chen, Dynamical Primal-Dual Accelerated Method with Applications to Network Optimization, **IEEE Transactions on Automatic Control**, Volume, 68, Issue 3, pp. 1760-1767, March 2023.
+- Yue Wei, Chengsi Shang, Hao Fang, **Xianlin Zeng**, Lihua Dou, Panos Pardalos, Solving a class of nonsmooth resource allocation problems with directed graphs through distributed Lipschitz continuous multi-proximal algorithms, **Automatica**, vol. 136, pp. 110071, 2022.
 - Yue Wei, Hao Fang, **Xianlin Zeng**, Jie Chen, and Panos Pardalos, A smooth double proximal primal-dual algorithm for a class of distributed nonsmooth optimization problem, **IEEE Transactions on Automatic Control**, vol. 65, no. 4, pp. 1800-1806, 2020.
 - **Xianlin Zeng**, Jie Chen, Shu Liang, and Yiguang Hong, Generalized Nash equilibrium seeking strategy for distributed nonsmooth multi-cluster game, **Automatica**, vol. 103, 20-26, 2019.
 - **Xianlin Zeng**, Shu Liang, Yiguang Hong, and Jie Chen, Distributed computation of linear matrix equations: An optimization perspective, **IEEE Transactions on Automatic Control**, vol. 64, no. 5, pp. 1858-1873, 2019.
 - **Xianlin Zeng**, Peng Yi, Yiguang Hong, and Lihua Xie, Distributed continuous-time algorithms for nonsmooth extended monotropic optimization problems, **SIAM Journal on Control and Optimization**, 56(6): 3973-3993, 2018.
 - **Xianlin Zeng**, Peng Yi, and Yiguang Hong, Distributed continuous-time algorithm for constrained convex optimizations via nonsmooth analysis approach, **IEEE Transactions on Automatic Control**, vol. 62, no. 10, pp. 5227-5233, 2017.
-- **Xianlin Zeng**, Hybrid Networked Control for Cyber-Physical Network Systems with Applications to Interconnected Power Grids, Texas Tech University, August 2015. (**Ph.D. Dissertation**)
+
 
 [Complete Publication List](https://xlinzeng.github.io/web/)
 
