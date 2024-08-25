@@ -48,13 +48,13 @@ Email: xianlin.zeng@bit.edu.cn
 - Xia Jiang, **Xianlin Zeng**, Jian Sun, and Jie Chen, Distributed synchronous and asynchronous algorithms for semi-definite programming with diagonal constraints, **IEEE Transactions on Automatic Control**, Volume, 68, Issue 2, pp. 1007-1022, 2023.
 - **Xianlin Zeng**, Jie Chen, and Yiguang Hong, Distributed Optimization Design of Iterative Refinement Technique for Algebraic Riccati Equations, **IEEE Transactions on Systems, Man, and Cybernetics: Systems**, vol. 52, no. 5, pp. 2833-2847, May 2022.
 - **Xianlin Zeng**, Jie Chen, and Yiguang Hong, Distributed Optimization Design for Computation of Algebraic Riccati Inequalities, **IEEE Transactions on  Cybernetics**, vol. 52, no. 3, pp. 1924-1935, 2022.
-
+- **Xianlin Zeng**, Shu Liang, Yiguang Hong, and Jie Chen, Distributed computation of linear matrix equations: An optimization perspective, **IEEE Transactions on Automatic Control**, vol. 64, no. 5, pp. 1858-1873, 2019.
+  
 ### Continuous-time optimization algorithms
 - **Xianlin Zeng**, Jinlong Lei, and Jie Chen, Dynamical Primal-Dual Accelerated Method with Applications to Network Optimization, **IEEE Transactions on Automatic Control**, Volume, 68, Issue 3, pp. 1760-1767, March 2023.
 - Yue Wei, Chengsi Shang, Hao Fang, **Xianlin Zeng**, Lihua Dou, Panos Pardalos, Solving a class of nonsmooth resource allocation problems with directed graphs through distributed Lipschitz continuous multi-proximal algorithms, **Automatica**, vol. 136, pp. 110071, 2022.
 - Yue Wei, Hao Fang, **Xianlin Zeng**, Jie Chen, and Panos Pardalos, A smooth double proximal primal-dual algorithm for a class of distributed nonsmooth optimization problem, **IEEE Transactions on Automatic Control**, vol. 65, no. 4, pp. 1800-1806, 2020.
 - **Xianlin Zeng**, Jie Chen, Shu Liang, and Yiguang Hong, Generalized Nash equilibrium seeking strategy for distributed nonsmooth multi-cluster game, **Automatica**, vol. 103, 20-26, 2019.
-- **Xianlin Zeng**, Shu Liang, Yiguang Hong, and Jie Chen, Distributed computation of linear matrix equations: An optimization perspective, **IEEE Transactions on Automatic Control**, vol. 64, no. 5, pp. 1858-1873, 2019.
 - **Xianlin Zeng**, Peng Yi, Yiguang Hong, and Lihua Xie, Distributed continuous-time algorithms for nonsmooth extended monotropic optimization problems, **SIAM Journal on Control and Optimization**, 56(6): 3973-3993, 2018.
 - **Xianlin Zeng**, Peng Yi, and Yiguang Hong, Distributed continuous-time algorithm for constrained convex optimizations via nonsmooth analysis approach, **IEEE Transactions on Automatic Control**, vol. 62, no. 10, pp. 5227-5233, 2017.
 
