@@ -31,14 +31,14 @@ Email: xianlin.zeng@bit.edu.cn
 - **Xianlin Zeng**, Yiguang Hong, Hao Fang, Distributed Optimization and Control of Multi-agent System, **Beijing Institute of Technology Press**, 2023 (in Chinese);（曾宪琳，洪奕光，方浩，多智能体系统的分布式非光滑优化控制，北京理工大学出版社，2023）
 
 ## Selected Publications
-### Distributed stochastic optimization
+### Distributed otpimization and stochastic optimization
 - Jie Hou, **Xianlin Zeng**, Gang Wang, Chen Chen, Jian Sun, Distributed Frank-Wolfe Solver for Stochastic Optimization with Coupled Inequality Constraints, **IEEE Transactions on Neural Networks and Learning Systems**, DOI: 10.1109/TNNLS.2024.3423376 
 - Jie Hou, **Xianlin Zeng**, and Chen Chen, Distributed gradient-free and projection-free algorithm for stochastic constrained optimization, **Auton. Intell. Syst.** 4, 6 (2024)
 - Xia Jiang, **Xianlin Zeng**, Lihua Xie, Jian Sun, Variance-reduced Shuffling Gradient Descent with Momentum for Finite-sum Minimization, **IEEE Control Systems Letters**, vol. 7, pp. 1700-1705, 2023.
 - Xia Jiang, **Xianlin Zeng**, Jian Sun, and Jie Chen, Distributed stochastic gradient tracking algorithm with variance reduction for non-convex optimization, **IEEE Transactions on Neural Networks and Learning Systems**, vol. 34, no. 9, pp. 5310-5321, Sept. 2023
 - Jie Hou, **Xianlin Zeng**, Gang Wang, Jian Sun, and Jie Chen, Distributed Momentum-based Frank-Wolfe Algorithm for Stochastic Optimization, **IEEE/CAA JOURNAL OF AUTOMATICA SINICA**, vol. 10, no. 3, 2023
  
-### Motion planning and control of autonomous systems
+### Motion planning and control algorithms
 - Zijun Cheng, **Xianlin Zeng**, Hao Fang, Gang Wang, and Lihua Dou, Hierarchical MPC-based Motion Planning for Automated Vehicles in Parallel Autonomy, **Unmanned Systems**, https://doi.org/10.1142/S2301385024500286, 2023
 - Chu Wu, Hao Fang, **Xianlin Zeng**, Qingkai Yang, Yue Wei, and Jie Chen, Distributed Continuous-Time Algorithm for Time-Varying Optimization With Affine Formation Constraints, **IEEE Transactions on Automatic Control**, vol. 68, no. 4, pp. 2615-2622, 2023
 - Chu Wu, Hao Fang, Qingkai Yang, **Xianlin Zeng**, and Jie Chen, Distributed cooperative control of redundant mobile manipulators with safety constraints, **IEEE Transactions on Cybernetics**, DOI: 10.1109/TCYB.2021.3104044.
