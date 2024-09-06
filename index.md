@@ -76,12 +76,19 @@ Email: xianlin.zeng@bit.edu.cn
 - Kui Zhu, Phd student (08/2022-), Topic: Issues related to distributed algorithms and game theory
 - Zijun Cheng, Phd student (08/2023-), Topic: Issues related to planning and control of autonomous robots
 - Azhushima, Phd student (08/2023-), Topic: Issues related to distributed optimization for multiple robots
+- Yuman He, Phd student (08/2024-), Topic: Issues related to game theory and decision of robots
+- Yuliang Wang, Phd student (08/2024-), Topic: TBA
 
 ### Master students 
 - Yixuan Li, M.Sc. (08/2022-), Topic: Issues related to motion planning of vehicles
 - Xuanming Zhang, M.Sc. (08/2022-), Topic: Issues related to motion planning of vehicles
 - Luying Chen, M.Sc. (08/2023-), Topic: Issues related to game theory
 - Chongyao Li, M.Eng. (08/2023-), Topic: Issues related to game theory
+- Jiarui Liang, M.Eng. (08/2024-), Topic: TBA
+- Zhonghao Lin, M.Eng. (08/2024-), Topic: TBA
+- Dongxiang Liu, M.Eng. (08/2024-), Topic: TBA
+- Zelin Li, M.Eng. (08/2024-), Topic: TBA
+- Jiahui Chen, M.Eng. (08/2024-), Topic: TBA
 
 ## Student Alumni
 - Jiebang Xing, M.Sc. (08/2019-06/2022),	Research on pursuit evasion games based on deep reinforcement learning 
