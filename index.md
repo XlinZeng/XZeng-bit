@@ -43,6 +43,11 @@ Email: xianlin.zeng@bit.edu.cn
 - Chu Wu, Hao Fang, **Xianlin Zeng**, Qingkai Yang, Yue Wei, and Jie Chen, Distributed Continuous-Time Algorithm for Time-Varying Optimization With Affine Formation Constraints, **IEEE Transactions on Automatic Control**, vol. 68, no. 4, pp. 2615-2622, 2023
 - Chu Wu, Hao Fang, Qingkai Yang, **Xianlin Zeng**, and Jie Chen, Distributed cooperative control of redundant mobile manipulators with safety constraints, **IEEE Transactions on Cybernetics**, DOI: 10.1109/TCYB.2021.3104044.
 - **Xianlin Zeng**, Hybrid Networked Control for Cyber-Physical Network Systems with Applications to Interconnected Power Grids, Texas Tech University, August 2015. (**Ph.D. Dissertation**)
+
+### Optimization algorithms for multi-agent noncooperative games
+- **Xianlin Zeng**, Lihua Dou, and Jie Chen, Accelerated First-Order Continuous-Time Algorithm for Solving Convex-Concave Bilinear Saddle Point Problem,  21st IFAC World Congress, Germany, July 11-17, 2020.
+- **Xianlin Zeng**, Jie Chen, Shu Liang, and Yiguang Hong, Generalized Nash equilibrium seeking strategy for distributed nonsmooth multi-cluster game, **Automatica**, vol. 103, 20-26, 2019.
+- **Xianlin Zeng**, Shu Liang, and Yiguang Hong, Distributed Variational Equilibrium Seeking of Multi-coalition Game via Variational Inequality Approach, in 20th World Congress of the International Federation of Automatic Control, Toulouse, France, July, 2017.
   
 ### Distributed algorithms for matrix equations and inequalities
 - Xia Jiang, **Xianlin Zeng**, Jian Sun, and Jie Chen, Distributed synchronous and asynchronous algorithms for semi-definite programming with diagonal constraints, **IEEE Transactions on Automatic Control**, Volume, 68, Issue 2, pp. 1007-1022, 2023.
@@ -54,7 +59,6 @@ Email: xianlin.zeng@bit.edu.cn
 - **Xianlin Zeng**, Jinlong Lei, and Jie Chen, Dynamical Primal-Dual Accelerated Method with Applications to Network Optimization, **IEEE Transactions on Automatic Control**, Volume, 68, Issue 3, pp. 1760-1767, March 2023.
 - Yue Wei, Chengsi Shang, Hao Fang, **Xianlin Zeng**, Lihua Dou, Panos Pardalos, Solving a class of nonsmooth resource allocation problems with directed graphs through distributed Lipschitz continuous multi-proximal algorithms, **Automatica**, vol. 136, pp. 110071, 2022.
 - Yue Wei, Hao Fang, **Xianlin Zeng**, Jie Chen, and Panos Pardalos, A smooth double proximal primal-dual algorithm for a class of distributed nonsmooth optimization problem, **IEEE Transactions on Automatic Control**, vol. 65, no. 4, pp. 1800-1806, 2020.
-- **Xianlin Zeng**, Jie Chen, Shu Liang, and Yiguang Hong, Generalized Nash equilibrium seeking strategy for distributed nonsmooth multi-cluster game, **Automatica**, vol. 103, 20-26, 2019.
 - **Xianlin Zeng**, Peng Yi, Yiguang Hong, and Lihua Xie, Distributed continuous-time algorithms for nonsmooth extended monotropic optimization problems, **SIAM Journal on Control and Optimization**, 56(6): 3973-3993, 2018.
 - **Xianlin Zeng**, Peng Yi, and Yiguang Hong, Distributed continuous-time algorithm for constrained convex optimizations via nonsmooth analysis approach, **IEEE Transactions on Automatic Control**, vol. 62, no. 10, pp. 5227-5233, 2017.
 
@@ -68,6 +72,7 @@ Email: xianlin.zeng@bit.edu.cn
 - 2021-now: Fundamentals of Intelligent Control, undergraduate course
 - 2020-2022: Optimization Theory and Methods, graduate course
 - 2023-now: Fundamentals of Swarm Intelligence and Adversarial Games, graduate course
+- 2023-now: Scientific Writing and Communication, undergraduate course
 
 ## Current graduate students
 
