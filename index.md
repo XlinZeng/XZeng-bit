@@ -124,4 +124,3 @@
     <li>Yanyan Fang, M.Eng. (08/2021-06/2024), Multimodal Trajectory Prediction and Planning Methods for Mixed Traffic Flows in Urban Environments</li>
   </ol>
 </body>
-</html>
