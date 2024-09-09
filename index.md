@@ -1,3 +1,51 @@
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #000000, #1c1c1c);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card {
+    width: 80%;
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 215, 0, 0.2);
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.1);
+    backdrop-filter: blur(10px);
+  }
+
+  h2 {
+    color: white; 
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  p {
+    color: #ccc;
+    line-height: 1.6;
+  }
+
+  @media screen and (max-width: 600px) {
+    .card {
+      width: 90%;
+      padding: 20px;
+    }
+  }
+</style>
+
+<div class="card">
+  <h2>优雅的黑金色调</h2>
+  <p>黑色背景配以深灰渐变,点缀金色装饰线条,传递出奢华、精致的气质。华丽又不失内涵,适合高端产品、活动等场景。无论是科技感还是古典感,都能轻松驾驭。</p>
+</div>
+
+
 </head>
 <body>
   <h1>WELCOME TO VISIT XIANLIN ZENG'S HOMEPAGE</h1>
