@@ -1,12 +1,48 @@
-# WELCOME TO VISIT XIANLIN ZENG'S HOMEPAGE
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xianlin Zeng's Homepage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1, h2, h3 {
+      margin-top: 30px;
+    }
+    ol {
+      counter-reset: item;
+      padding-left: 20px;
+    }
+    li {
+      display: block;
+      margin-bottom: 10px;
+    }
+    li:before {
+      content: counters(item, ".") ". ";
+      counter-increment: item;
+    }
+    @media screen and (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>WELCOME TO VISIT XIANLIN ZENG'S HOMEPAGE</h1>
 
-## Xianlin Zeng, Ph.D.
-
-Professor 
-
-School of Automation, Beijing Institute of Technology, 100081, Beijing, China. 
-
-Email: xianlin.zeng@bit.edu.cn
+  <h2>Xianlin Zeng, Ph.D.</h2>
+  <p>
+    Professor<br>
+    School of Automation, Beijing Institute of Technology, 100081, Beijing, China.<br>
+    Email: xianlin.zeng@bit.edu.cn  
+  </p>
 
 ## Education
 
