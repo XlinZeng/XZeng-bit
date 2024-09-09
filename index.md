@@ -1,3 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xianlin Zeng's Homepage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1, h2, h3 {
+      margin-top: 30px;
+    }
+    ol {
+      counter-reset: item;
+      padding-left: 20px;
+    }
+    li {
+      display: block;
+      margin-bottom: 10px;
+    }
+    li:before {
+      content: counters(item, ".") ". ";
+      counter-increment: item;
+    }
+    @media screen and (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
   <h1>WELCOME TO VISIT XIANLIN ZENG'S HOMEPAGE</h1>
 
   <h2>Xianlin Zeng, Ph.D.</h2>
@@ -7,97 +44,119 @@
     Email: xianlin.zeng@bit.edu.cn  
   </p>
 
-## Education
+  <h2>Education</h2>
+  <ol>
+    <li>Postdoc Researcher in School of Automation, Beijing Institute of Technology, Beijing, China (2017-2019)</li>
+    <li>Postdoc Researcher in Academy of Mathematics and Systems Science, Chinese Academy of Sciences, Beijing, China (2015-2017)</li>
+    <li>Doctor of Philosophy in Mechanical Engineering, Texas Tech University, Lubbock, USA (2011-2015)</li>
+    <li>Master of Science in Control Science and Engineering, Harbin Institute of Technology, Harbin, China (2009-2011)</li>
+    <li>Bachelor of Science in Control Science and Engineering, Harbin Institute of Technology, Harbin, China (2005-2009)</li>
+  </ol>
 
-- Postdoc Researcher in School of Automation, Beijing Institute of Technology, Beijing, China (2017-2019)
-- Postdoc Researcher in Academy of Mathematics and Systems Science, Chinese Academy of Sciences, Beijing, China (2015-2017)
-- Doctor of Philosophy in Mechanical Engineering, Texas Tech University, Lubbock, USA (2011-2015)
-- Master of Science in Control Science and Engineering, Harbin Institute of Technology, Harbin, China (2009-2011)
-- Bachelor of Science in Control Science and Engineering, Harbin Institute of Technology, Harbin, China (2005-2009)
+  <h2>Research Interests</h2>
+  <ul>
+    <li>Distributed optimization and noncooperative games</li>
+    <li>Planning and control of autonomous systems</li>
+  </ul>
+   
+  <h2>Current Fundings</h2>
+  <ul>
+    <li>Distributed Nonsmooth Control and Optimization of Multi-agent Systems, National Natural Science Foundation of China, PI</li>
+    <li>Trustable and explainable hybrid intelligent decision-making and online assessment for human-machine co-driving, National Key Research and Development Program of China, Co-PI</li>
+  </ul>
 
-## Research Interests
+  <h2>Textbooks and Monographs</h2>
+  <ol>
+    <li><strong>Xianlin Zeng</strong>, Yiguang Hong, Hao Fang, Distributed Optimization and Control of Multi-agent System, <strong>Beijing Institute of Technology Press</strong>, 2023 (in Chinese);（曾宪琳，洪奕光，方浩，多智能体系统的分布式非光滑优化控制，北京理工大学出版社，2023）</li>
+  </ol>
 
-- Distributed optimization and noncooperative games
-- Planning and control of autonomous systems
- 
-## Current Fundings
+  <h2>Selected Publications</h2>
 
-- Distributed Nonsmooth Control and Optimization of Multi-agent Systems, National Natural Science Foundation of China, PI
-- Trustable and explainable hybrid intelligent decision-making and online assessment for human-machine co-driving, National Key Research and Development Program of China, Co-PI
+  <h3>Distributed otpimization and stochastic optimization</h3> 
+  <ol>
+    <li>Jie Hou, <strong>Xianlin Zeng</strong>, Gang Wang, Chen Chen, Jian Sun, Distributed Frank-Wolfe Solver for Stochastic Optimization with Coupled Inequality Constraints, <strong>IEEE Transactions on Neural Networks and Learning Systems</strong>, DOI: 10.1109/TNNLS.2024.3423376 </li>
+    <li>Jie Hou, <strong>Xianlin Zeng</strong>, and Chen Chen, Distributed gradient-free and projection-free algorithm for stochastic constrained optimization, <strong>Auton. Intell. Syst.</strong> 4, 6 (2024)</li>
+    <li>Xia Jiang, <strong>Xianlin Zeng</strong>, Lihua Xie, Jian Sun, Variance-reduced Shuffling Gradient Descent with Momentum for Finite-sum Minimization, <strong>IEEE Control Systems Letters</strong>, vol. 7, pp. 1700-1705, 2023.</li>
+    <li>Xia Jiang, <strong>Xianlin Zeng</strong>, Jian Sun, and Jie Chen, Distributed stochastic gradient tracking algorithm with variance reduction for non-convex optimization, <strong>IEEE Transactions on Neural Networks and Learning Systems</strong>, vol. 34, no. 9, pp. 5310-5321, Sept. 2023</li>
+    <li>Jie Hou, <strong>Xianlin Zeng</strong>, Gang Wang, Jian Sun, and Jie Chen, Distributed Momentum-based Frank-Wolfe Algorithm for Stochastic Optimization, <strong>IEEE/CAA JOURNAL OF AUTOMATICA SINICA</strong>, vol. 10, no. 3, 2023</li>
+  </ol>
 
-## Textbooks and Monographs
+  <h3>Motion planning and control algorithms</h3>
+  <ol>
+    <li>Zijun Cheng, <strong>Xianlin Zeng</strong>, Hao Fang, Gang Wang, and Lihua Dou, Hierarchical MPC-based Motion Planning for Automated Vehicles in Parallel Autonomy, <strong>Unmanned Systems</strong>, https://doi.org/10.1142/S2301385024500286, 2023</li>
+    <li>Chu Wu, Hao Fang, <strong>Xianlin Zeng</strong>, Qingkai Yang, Yue Wei, and Jie Chen, Distributed Continuous-Time Algorithm for Time-Varying Optimization With Affine Formation Constraints, <strong>IEEE Transactions on Automatic Control</strong>, vol. 68, no. 4, pp. 2615-2622, 2023</li>
+    <li>Chu Wu, Hao Fang, Qingkai Yang, <strong>Xianlin Zeng</strong>, and Jie Chen, Distributed cooperative control of redundant mobile manipulators with safety constraints, <strong>IEEE Transactions on Cybernetics</strong>, DOI: 10.1109/TCYB.2021.3104044.</li>
+    <li><strong>Xianlin Zeng</strong>, Hybrid Networked Control for Cyber-Physical Network Systems with Applications to Interconnected Power Grids, Texas Tech University, August 2015. (<strong>Ph.D. Dissertation</strong>)</li>
+  </ol>
 
-- **Xianlin Zeng**, Yiguang Hong, Hao Fang, Distributed Optimization and Control of Multi-agent System, **Beijing Institute of Technology Press**, 2023 (in Chinese);（曾宪琳，洪奕光，方浩，多智能体系统的分布式非光滑优化控制，北京理工大学出版社，2023）
+  <h3>Optimization algorithms for multi-agent noncooperative games</h3>
+  <ol>
+    <li><strong>Xianlin Zeng</strong>, Lihua Dou, and Jie Chen, Accelerated First-Order Continuous-Time Algorithm for Solving Convex-Concave Bilinear Saddle Point Problem,  21st IFAC World Congress, Germany, July 11-17, 2020.</li>  
+    <li><strong>Xianlin Zeng</strong>, Jie Chen, Shu Liang, and Yiguang Hong, Generalized Nash equilibrium seeking strategy for distributed nonsmooth multi-cluster game, <strong>Automatica</strong>, vol. 103, 20-26, 2019.</li>
+    <li><strong>Xianlin Zeng</strong>, Shu Liang, and Yiguang Hong, Distributed Variational Equilibrium Seeking of Multi-coalition Game via Variational Inequality Approach, in 20th World Congress of the International Federation of Automatic Control, Toulouse, France, July, 2017.</li>  
+  </ol>
 
-## Selected Publications
-### Distributed otpimization and stochastic optimization
-- Jie Hou, **Xianlin Zeng**, Gang Wang, Chen Chen, Jian Sun, Distributed Frank-Wolfe Solver for Stochastic Optimization with Coupled Inequality Constraints, **IEEE Transactions on Neural Networks and Learning Systems**, DOI: 10.1109/TNNLS.2024.3423376 
-- Jie Hou, **Xianlin Zeng**, and Chen Chen, Distributed gradient-free and projection-free algorithm for stochastic constrained optimization, **Auton. Intell. Syst.** 4, 6 (2024)
-- Xia Jiang, **Xianlin Zeng**, Lihua Xie, Jian Sun, Variance-reduced Shuffling Gradient Descent with Momentum for Finite-sum Minimization, **IEEE Control Systems Letters**, vol. 7, pp. 1700-1705, 2023.
-- Xia Jiang, **Xianlin Zeng**, Jian Sun, and Jie Chen, Distributed stochastic gradient tracking algorithm with variance reduction for non-convex optimization, **IEEE Transactions on Neural Networks and Learning Systems**, vol. 34, no. 9, pp. 5310-5321, Sept. 2023
-- Jie Hou, **Xianlin Zeng**, Gang Wang, Jian Sun, and Jie Chen, Distributed Momentum-based Frank-Wolfe Algorithm for Stochastic Optimization, **IEEE/CAA JOURNAL OF AUTOMATICA SINICA**, vol. 10, no. 3, 2023
- 
-### Motion planning and control algorithms
-- Zijun Cheng, **Xianlin Zeng**, Hao Fang, Gang Wang, and Lihua Dou, Hierarchical MPC-based Motion Planning for Automated Vehicles in Parallel Autonomy, **Unmanned Systems**, https://doi.org/10.1142/S2301385024500286, 2023
-- Chu Wu, Hao Fang, **Xianlin Zeng**, Qingkai Yang, Yue Wei, and Jie Chen, Distributed Continuous-Time Algorithm for Time-Varying Optimization With Affine Formation Constraints, **IEEE Transactions on Automatic Control**, vol. 68, no. 4, pp. 2615-2622, 2023
-- Chu Wu, Hao Fang, Qingkai Yang, **Xianlin Zeng**, and Jie Chen, Distributed cooperative control of redundant mobile manipulators with safety constraints, **IEEE Transactions on Cybernetics**, DOI: 10.1109/TCYB.2021.3104044.
-- **Xianlin Zeng**, Hybrid Networked Control for Cyber-Physical Network Systems with Applications to Interconnected Power Grids, Texas Tech University, August 2015. (**Ph.D. Dissertation**)
+  <h3>Distributed algorithms for matrix equations and inequalities</h3>
+  <ol>
+    <li>Xia Jiang, <strong>Xianlin Zeng</strong>, Jian Sun, and Jie Chen, Distributed synchronous and asynchronous algorithms for semi-definite programming with diagonal constraints, <strong>IEEE Transactions on Automatic Control</strong>, Volume, 68, Issue 2, pp. 1007-1022, 2023.</li>
+    <li><strong>Xianlin Zeng</strong>, Jie Chen, and Yiguang Hong, Distributed Optimization Design of Iterative Refinement Technique for Algebraic Riccati Equations, <strong>IEEE Transactions on Systems, Man, and Cybernetics: Systems</strong>, vol. 52, no. 5, pp. 2833-2847, May 2022.</li>
+    <li><strong>Xianlin Zeng</strong>, Jie Chen, and Yiguang Hong, Distributed Optimization Design for Computation of Algebraic Riccati Inequalities, <strong>IEEE Transactions on  Cybernetics</strong>, vol. 52, no. 3, pp. 1924-1935, 2022.</li>
+    <li><strong>Xianlin Zeng</strong>, Shu Liang, Yiguang Hong, and Jie Chen, Distributed computation of linear matrix equations: An optimization perspective, <strong>IEEE Transactions on Automatic Control</strong>, vol. 64, no. 5, pp. 1858-1873, 2019.</li>
+  </ol>
 
-### Optimization algorithms for multi-agent noncooperative games
-- **Xianlin Zeng**, Lihua Dou, and Jie Chen, Accelerated First-Order Continuous-Time Algorithm for Solving Convex-Concave Bilinear Saddle Point Problem,  21st IFAC World Congress, Germany, July 11-17, 2020.
-- **Xianlin Zeng**, Jie Chen, Shu Liang, and Yiguang Hong, Generalized Nash equilibrium seeking strategy for distributed nonsmooth multi-cluster game, **Automatica**, vol. 103, 20-26, 2019.
-- **Xianlin Zeng**, Shu Liang, and Yiguang Hong, Distributed Variational Equilibrium Seeking of Multi-coalition Game via Variational Inequality Approach, in 20th World Congress of the International Federation of Automatic Control, Toulouse, France, July, 2017.
-  
-### Distributed algorithms for matrix equations and inequalities
-- Xia Jiang, **Xianlin Zeng**, Jian Sun, and Jie Chen, Distributed synchronous and asynchronous algorithms for semi-definite programming with diagonal constraints, **IEEE Transactions on Automatic Control**, Volume, 68, Issue 2, pp. 1007-1022, 2023.
-- **Xianlin Zeng**, Jie Chen, and Yiguang Hong, Distributed Optimization Design of Iterative Refinement Technique for Algebraic Riccati Equations, **IEEE Transactions on Systems, Man, and Cybernetics: Systems**, vol. 52, no. 5, pp. 2833-2847, May 2022.
-- **Xianlin Zeng**, Jie Chen, and Yiguang Hong, Distributed Optimization Design for Computation of Algebraic Riccati Inequalities, **IEEE Transactions on  Cybernetics**, vol. 52, no. 3, pp. 1924-1935, 2022.
-- **Xianlin Zeng**, Shu Liang, Yiguang Hong, and Jie Chen, Distributed computation of linear matrix equations: An optimization perspective, **IEEE Transactions on Automatic Control**, vol. 64, no. 5, pp. 1858-1873, 2019.
-  
-### Continuous-time optimization algorithms
-- **Xianlin Zeng**, Jinlong Lei, and Jie Chen, Dynamical Primal-Dual Accelerated Method with Applications to Network Optimization, **IEEE Transactions on Automatic Control**, Volume, 68, Issue 3, pp. 1760-1767, March 2023.
-- Yue Wei, Chengsi Shang, Hao Fang, **Xianlin Zeng**, Lihua Dou, Panos Pardalos, Solving a class of nonsmooth resource allocation problems with directed graphs through distributed Lipschitz continuous multi-proximal algorithms, **Automatica**, vol. 136, pp. 110071, 2022.
-- Yue Wei, Hao Fang, **Xianlin Zeng**, Jie Chen, and Panos Pardalos, A smooth double proximal primal-dual algorithm for a class of distributed nonsmooth optimization problem, **IEEE Transactions on Automatic Control**, vol. 65, no. 4, pp. 1800-1806, 2020.
-- **Xianlin Zeng**, Peng Yi, Yiguang Hong, and Lihua Xie, Distributed continuous-time algorithms for nonsmooth extended monotropic optimization problems, **SIAM Journal on Control and Optimization**, 56(6): 3973-3993, 2018.
-- **Xianlin Zeng**, Peng Yi, and Yiguang Hong, Distributed continuous-time algorithm for constrained convex optimizations via nonsmooth analysis approach, **IEEE Transactions on Automatic Control**, vol. 62, no. 10, pp. 5227-5233, 2017.
+  <h3>Continuous-time optimization algorithms</h3>
+  <ol>
+    <li><strong>Xianlin Zeng</strong>, Jinlong Lei, and Jie Chen, Dynamical Primal-Dual Accelerated Method with Applications to Network Optimization, <strong>IEEE Transactions on Automatic Control</strong>, Volume, 68, Issue 3, pp. 1760-1767, March 2023. </li>
+    <li>Yue Wei, Chengsi Shang, Hao Fang, <strong>Xianlin Zeng</strong>, Lihua Dou, Panos Pardalos, Solving a class of nonsmooth resource allocation problems with directed graphs through distributed Lipschitz continuous multi-proximal algorithms, <strong>Automatica</strong>, vol. 136, pp. 110071, 2022.</li>
+    <li>Yue Wei, Hao Fang, <strong>Xianlin Zeng</strong>, Jie Chen, and Panos Pardalos, A smooth double proximal primal-dual algorithm for a class of distributed nonsmooth optimization problem, <strong>IEEE Transactions on Automatic Control</strong>, vol. 65, no. 4, pp. 1800-1806, 2020.</li>
+    <li><strong>Xianlin Zeng</strong>, Peng Yi, Yiguang Hong, and Lihua Xie, Distributed continuous-time algorithms for nonsmooth extended monotropic optimization problems, <strong>SIAM Journal on Control and Optimization</strong>, 56(6): 3973-3993, 2018.</li>
+    <li><strong>Xianlin Zeng</strong>, Peng Yi, and Yiguang Hong, Distributed continuous-time algorithm for constrained convex optimizations via nonsmooth analysis approach, <strong>IEEE Transactions on Automatic Control</strong>, vol. 62, no. 10, pp. 5227-5233, 2017.</li>
+  </ol>
 
+  <p><a href="https://xlinzeng.github.io/web/">Complete Publication List</a></p>
+  <p><a href="https://scholar.google.com/citations?user=S4KS0noAAAAJ&hl=en">My Google Scholar</a></p>
 
-[Complete Publication List](https://xlinzeng.github.io/web/)
+  <h2>Teaching</h2>
+  <ul>
+    <li>2021-now: Fundamentals of Intelligent Control, undergraduate course</li>
+    <li>2023-now: Scientific Writing and Communication, undergraduate course</li> 
+    <li>2020-2022: Optimization Theory and Methods, graduate course</li>
+    <li>2023-now: Fundamentals of Swarm Intelligence and Adversarial Games, graduate course</li>
+  </ul>
 
-[My Google Scholar](https://scholar.google.com/citations?user=S4KS0noAAAAJ&hl=en)
+  <h2>Current graduate students</h2>
 
-## Teaching
+  <h3>Phd students</h3>
+  <ol>
+    <li>Jie Hou, Phd student (08/2020-), Topic: Issues related to distributed projection-free optimization</li>
+    <li>Kui Zhu, Phd student (08/2022-), Topic: Issues related to distributed algorithms and game theory</li>
+    <li>Zijun Cheng, Phd student (08/2023-), Topic: Issues related to planning and control of autonomous robots</li>
+    <li>Azhushima, Phd student (08/2023-), Topic: Issues related to distributed optimization for multiple robots</li>
+    <li>Yuman He, Phd student (08/2024-), Topic: Issues related to game theory and decision of robots</li>
+    <li>Yuliang Wang, Phd student (08/2024-), Topic: TBA</li>
+  </ol>
 
-- 2021-now: Fundamentals of Intelligent Control, undergraduate course
-- 2023-now: Scientific Writing and Communication, undergraduate course
-- 2020-2022: Optimization Theory and Methods, graduate course
-- 2023-now: Fundamentals of Swarm Intelligence and Adversarial Games, graduate course
+  <h3>Master students</h3> 
+  <ol>
+    <li>Yixuan Li, M.Sc. (08/2022-), Topic: Issues related to motion planning of vehicles</li>
+    <li>Xuanming Zhang, M.Sc. (08/2022-), Topic: Issues related to motion planning of vehicles</li>
+    <li>Luying Chen, M.Sc. (08/2023-), Topic: Issues related to game theory</li>
+    <li>Chongyao Li, M.Eng. (08/2023-), Topic: Issues related to game theory</li>
+    <li>Jiarui Liang, M.Eng. (08/2024-), Topic: TBA</li>
+    <li>Zhonghao Lin, M.Eng. (08/2024-), Topic: TBA</li>
+    <li>Dongxiang Liu, M.Eng. (08/2024-), Topic: TBA</li>
+    <li>Zelin Li, M.Eng. (08/2024-), Topic: TBA</li>
+    <li>Jiahui Chen, M.Eng. (08/2024-), Topic: TBA</li>
+  </ol>
 
-## Current graduate students
-
-### Phd students
-- Jie Hou, Phd student (08/2020-), Topic: Issues related to distributed projection-free optimization
-- Kui Zhu, Phd student (08/2022-), Topic: Issues related to distributed algorithms and game theory
-- Zijun Cheng, Phd student (08/2023-), Topic: Issues related to planning and control of autonomous robots
-- Azhushima, Phd student (08/2023-), Topic: Issues related to distributed optimization for multiple robots
-- Yuman He, Phd student (08/2024-), Topic: Issues related to game theory and decision of robots
-- Yuliang Wang, Phd student (08/2024-), Topic: TBA
-
-### Master students 
-- Yixuan Li, M.Sc. (08/2022-), Topic: Issues related to motion planning of vehicles
-- Xuanming Zhang, M.Sc. (08/2022-), Topic: Issues related to motion planning of vehicles
-- Luying Chen, M.Sc. (08/2023-), Topic: Issues related to game theory
-- Chongyao Li, M.Eng. (08/2023-), Topic: Issues related to game theory
-- Jiarui Liang, M.Eng. (08/2024-), Topic: TBA
-- Zhonghao Lin, M.Eng. (08/2024-), Topic: TBA
-- Dongxiang Liu, M.Eng. (08/2024-), Topic: TBA
-- Zelin Li, M.Eng. (08/2024-), Topic: TBA
-- Jiahui Chen, M.Eng. (08/2024-), Topic: TBA
-
-## Student Alumni
-- Jiebang Xing, M.Sc. (08/2019-06/2022),	Research on pursuit evasion games based on deep reinforcement learning 
-- Junchao Zhang, M.Eng. (08/2019-06/2022),	Pursuing strategy generation method based on model-free reinforcement learning
-- Zijun Cheng,	M.Eng. (08/2020-06/2023), Optimization-based motion planning algorithm for multiple vehicles
-- Kai Wang,	M.Eng. (08/2020-06/2023), Rule-Based Interpretable Intention Recognition and Trajectory Prediction of Surrounding Vehicles
-- Lan Wang, M.Sc. (08/2021-06/2024), Interpretable Vehicle Intention Prediction Methods and Trajectory Forecasting Methods  
-- Yanyan Fang, M.Eng. (08/2021-06/2024), Multimodal Trajectory Prediction and Planning Methods for Mixed Traffic Flows in Urban Environments
+  <h2>Student Alumni</h2>
+  <ol>
+    <li>Jiebang Xing, M.Sc. (08/2019-06/2022), Research on pursuit evasion games based on deep reinforcement learning</li>
+    <li>Junchao Zhang, M.Eng. (08/2019-06/2022), Pursuing strategy generation method based on model-free reinforcement learning</li>
+    <li>Zijun Cheng, M.Eng. (08/2020-06/2023), Optimization-based motion planning algorithm for multiple vehicles</li>
+    <li>Kai Wang, M.Eng. (08/2020-06/2023), Rule-Based Interpretable Intention Recognition and Trajectory Prediction of Surrounding Vehicles</li>
+    <li>Lan Wang, M.Sc. (08/2021-06/2024), Interpretable Vehicle Intention Prediction Methods and Trajectory Forecasting Methods</li> 
+    <li>Yanyan Fang, M.Eng. (08/2021-06/2024), Multimodal Trajectory Prediction and Planning Methods for Mixed Traffic Flows in Urban Environments</li>
+  </ol>
+</body>
+</html>
