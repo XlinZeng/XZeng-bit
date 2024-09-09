@@ -55,9 +55,9 @@
 
   <h3>Optimization algorithms for multi-agent noncooperative games</h3>
   <ol>
+    <li>Kui Zhu and <strong>Xianlin Zeng</strong>, Almost Sure Convergence to Approximate Nash Equilibrium in Zero-Sum Extensive-Form Games with Noisy Feedback, 2024 IEEE 18th International Conference on Control & Automation (ICCA), Reykjavík, Iceland, 2024, pp. 591-596.</li>
     <li><strong>Xianlin Zeng</strong>, Lihua Dou, and Jie Chen, Accelerated First-Order Continuous-Time Algorithm for Solving Convex-Concave Bilinear Saddle Point Problem,  21st IFAC World Congress, Germany, July 11-17, 2020.</li>  
     <li><strong>Xianlin Zeng</strong>, Jie Chen, Shu Liang, and Yiguang Hong, Generalized Nash equilibrium seeking strategy for distributed nonsmooth multi-cluster game, <strong>Automatica</strong>, vol. 103, 20-26, 2019.</li>
-    <li><strong>Xianlin Zeng</strong>, Shu Liang, and Yiguang Hong, Distributed Variational Equilibrium Seeking of Multi-coalition Game via Variational Inequality Approach, in 20th World Congress of the International Federation of Automatic Control, Toulouse, France, July, 2017.</li>  
   </ol>
 
   <h3>Distributed algorithms for matrix equations and inequalities</h3>
