@@ -1,4 +1,3 @@
-</head>
 <body>
   <h1>WELCOME TO VISIT XIANLIN ZENG'S HOMEPAGE</h1>
 
