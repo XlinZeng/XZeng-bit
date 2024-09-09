@@ -10,13 +10,13 @@
   </p>
 
   <h2>Education</h2>
-  <ol>
+  <ul>
     <li>Postdoc Researcher in School of Automation, Beijing Institute of Technology, Beijing, China (2017-2019)</li>
     <li>Postdoc Researcher in Academy of Mathematics and Systems Science, Chinese Academy of Sciences, Beijing, China (2015-2017)</li>
     <li>Doctor of Philosophy in Mechanical Engineering, Texas Tech University, Lubbock, USA (2011-2015)</li>
     <li>Master of Science in Control Science and Engineering, Harbin Institute of Technology, Harbin, China (2009-2011)</li>
     <li>Bachelor of Science in Control Science and Engineering, Harbin Institute of Technology, Harbin, China (2005-2009)</li>
-  </ol>
+  </ul>
 
   <h2>Research Interests</h2>
   <ul>
