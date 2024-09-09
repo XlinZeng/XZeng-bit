@@ -96,7 +96,7 @@
     <li>Kui Zhu, Phd student (08/2022-), Topic: Issues related to distributed algorithms and game theory</li>
     <li>Zijun Cheng, Phd student (08/2023-), Topic: Issues related to planning and control of autonomous robots</li>
     <li>Azhushima, Phd student (08/2023-), Topic: Issues related to distributed optimization for multiple robots</li>
-    <li>Yuman He, Phd student (08/2024-), Topic: Issues related to game theory and decision of robots</li>
+    <li>Yuman He, Phd student (08/2024-), Topic: TBA</li>
     <li>Yuliang Wang, Phd student (08/2024-), Topic: TBA</li>
   </ol>
 
