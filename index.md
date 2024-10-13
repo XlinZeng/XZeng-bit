@@ -31,7 +31,7 @@
 
   <h2>Textbooks and Monographs</h2>
   <ol>
-    <li><strong>Xianlin Zeng</strong>, Yiguang Hong, Hao Fang, Distributed Optimization and Control of Multi-agent System, <strong>Beijing Institute of Technology Press</strong>, 2023 (in Chinese);（曾宪琳，洪奕光，方浩，多智能体系统的分布式非光滑优化控制，北京理工大学出版社，2023）</li>
+    <li><strong>Xianlin Zeng</strong>, Yiguang Hong, Hao Fang, Distributed Optimization and Control of Multi-agent System, <strong>Beijing Institute of Technology Press</strong>, 2023 (in Chinese);（<strong>曾宪琳</strong>，洪奕光，方浩，多智能体系统的分布式非光滑优化控制，北京理工大学出版社，2023）</li>
   </ol>
 
   <h2>Selected Publications</h2>
