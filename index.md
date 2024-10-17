@@ -39,7 +39,7 @@
   <h3>Distributed otpimization and stochastic optimization</h3> 
   <ol>
     <li>Xia Jiang, <strong>Xianlin Zeng</strong>, Lihua Xie, Jian Sun, Jie Chen, Variance-reduced Reshuffling Gradient Descent for Nonconvex Optimization: Centralized and Distributed Algorithms, <strong>Automatica</strong>, 23 Sep 2024 </li>
-    <li>Xia Jiang, <strong>Xianlin Zeng</strong>, Lihua Xie, Jian Sun, and Jie Chen, Distributed stochastic projection-free solver for constrained optimization,   <strong>IEEE Transactions on Automatic Control</strong>, accepted, 2024 </li>
+    <li>Xia Jiang, <strong>Xianlin Zeng</strong>, Lihua Xie, Jian Sun, and Jie Chen, Distributed stochastic projection-free solver for constrained optimization,   <strong>IEEE Transactions on Automatic Control</strong>, 2024, doi10.1109/TAC.2024.3481040 </li>
     <li>Jie Hou, <strong>Xianlin Zeng</strong>, Gang Wang, Chen Chen, Jian Sun, Distributed Frank-Wolfe Solver for Stochastic Optimization with Coupled Inequality Constraints, <strong>IEEE Transactions on Neural Networks and Learning Systems</strong>, DOI: 10.1109/TNNLS.2024.3423376 </li>
     <li>Jie Hou, <strong>Xianlin Zeng</strong>, and Chen Chen, Distributed gradient-free and projection-free algorithm for stochastic constrained optimization, <strong>Auton. Intell. Syst.</strong> 4, 6 (2024)</li>
     <li>Xia Jiang, <strong>Xianlin Zeng</strong>, Lihua Xie, Jian Sun, Variance-reduced Shuffling Gradient Descent with Momentum for Finite-sum Minimization, <strong>IEEE Control Systems Letters</strong>, vol. 7, pp. 1700-1705, 2023.</li>
