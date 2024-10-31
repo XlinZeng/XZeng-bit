@@ -20,7 +20,7 @@
   <h2>Research Interests</h2>
   <ul>
     <li>Distributed optimization and noncooperative games</li>
-    <li>Planning and control of autonomous systems</li>
+    <li>Motion planning of autonomous systems</li>
   </ul>
    
   <h2>Current Fundings</h2>
