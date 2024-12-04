@@ -4,6 +4,7 @@
   <h2>Xianlin Zeng, Ph.D.</h2>
   <p>
     Professor<br>
+    National Key Laboratory of Autonomous Intelligent Unmanned Systems, China.<br>
     School of Automation, Beijing Institute of Technology, 100081, Beijing, China.<br>
     Email: xianlin.zeng@bit.edu.cn  
   </p>
@@ -84,7 +85,7 @@
 
   <h2>Teaching</h2>
   <ul>
-    <li>2021-now: Fundamentals of Intelligent Control, undergraduate course</li>
+    <li>2021-2024: Fundamentals of Intelligent Control, undergraduate course</li>
     <li>2023-now: Scientific Writing and Communication, undergraduate course</li> 
     <li>2020-2022: Optimization Theory and Methods, graduate course</li>
     <li>2023-now: Fundamentals of Swarm Intelligence and Adversarial Games, graduate course</li>
