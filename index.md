@@ -50,6 +50,7 @@
 
   <h3>Motion planning and control algorithms</h3>
   <ol>
+    <li>Xiaozhen Zhang, Qingkai Yang, <strong>Xianlin Zeng<strong>, Hao Fang and Jie Chen, Cooperative Shape-Translation Estimation and Control for Time-Varying Linear Formation, <strong>IEEE Transactions on Automatic Control<strong>, doi: 10.1109/TAC.2025.3540570.</li>
     <li>Zijun Cheng, <strong>Xianlin Zeng</strong>, Hao Fang, Gang Wang, and Lihua Dou, Hierarchical MPC-based Motion Planning for Automated Vehicles in Parallel Autonomy, <strong>Unmanned Systems</strong>, https://doi.org/10.1142/S2301385024500286, 2023</li>
     <li>Chu Wu, Hao Fang, <strong>Xianlin Zeng</strong>, Qingkai Yang, Yue Wei, and Jie Chen, Distributed Continuous-Time Algorithm for Time-Varying Optimization With Affine Formation Constraints, <strong>IEEE Transactions on Automatic Control</strong>, vol. 68, no. 4, pp. 2615-2622, 2023</li>
     <li>Chu Wu, Hao Fang, Qingkai Yang, <strong>Xianlin Zeng</strong>, and Jie Chen, Distributed cooperative control of redundant mobile manipulators with safety constraints, <strong>IEEE Transactions on Cybernetics</strong>, DOI: 10.1109/TCYB.2021.3104044.</li>
