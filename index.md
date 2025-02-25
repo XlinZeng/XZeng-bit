@@ -87,9 +87,10 @@
   <h2>Teaching</h2>
   <ul>
     <li>2021-2024: Fundamentals of Intelligent Control, undergraduate course</li>
-    <li>2023-now: Scientific Writing and Communication, undergraduate course</li> 
     <li>2020-2022: Optimization Theory and Methods, graduate course</li>
+    <li>2023-now: Scientific Writing and Communication, undergraduate course</li> 
     <li>2023-now: Fundamentals of Swarm Intelligence and Adversarial Games, graduate course</li>
+    <li>2025-now: Intelligent Coordination of Multi-Robot Systems</li>
   </ul>
 
   <h2>Current graduate students</h2>
