@@ -90,7 +90,7 @@
     <li>2020-2022: Optimization Theory and Methods, graduate course</li>
     <li>2023-now: Scientific Writing and Communication, undergraduate course</li> 
     <li>2023-now: Fundamentals of Swarm Intelligence and Adversarial Games, graduate course</li>
-    <li>2025-now: Intelligent Coordination of Multi-Robot Systems</li>
+    <li>2025-now: Intelligent Coordination of Multi-Robot Systems, undergraduate course</li>
   </ul>
 
   <h2>Current graduate students</h2>
