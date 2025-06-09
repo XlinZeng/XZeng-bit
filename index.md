@@ -97,25 +97,22 @@
 
   <h3>Phd students</h3>
   <ol>
-    <li>Jie Hou, Phd student (08/2020-), Topic: Issues related to distributed projection-free optimization</li>
-    <li>Kui Zhu, Phd student (08/2022-), Topic: Issues related to distributed algorithms and game theory</li>
+    <li>Kui Zhu, Phd student (08/2022-), Topic: Issues related to algorithms for noncooperative games</li>
     <li>Zijun Cheng, Phd student (08/2023-), Topic: Issues related to planning and control of autonomous robots</li>
     <li>Azhushima, Phd student (08/2023-), Topic: Issues related to distributed optimization for multiple robots</li>
-    <li>Yuman He, Phd student (08/2024-), Topic: TBA</li>
-    <li>Yuliang Wang, Phd student (08/2024-), Topic: TBA</li>
+    <li>Yuman He, Phd student (08/2024-), Topic: Issues related to algorithms for noncooperative games</li>
+    <li>Yuliang Wang, Phd student (08/2024-), Topic: Issues related to task and path planning of robots</li>
   </ol>
 
   <h3>Master students</h3> 
   <ol>
-    <li>Yixuan Li, M.Sc. (08/2022-), Topic: Issues related to motion planning of vehicles</li>
-    <li>Xuanming Zhang, M.Sc. (08/2022-), Topic: Issues related to motion planning of vehicles</li>
     <li>Luying Chen, M.Sc. (08/2023-), Topic: Issues related to game theory</li>
     <li>Chongyao Li, M.Eng. (08/2023-), Topic: Issues related to game theory</li>
-    <li>Jiarui Liang, M.Eng. (08/2024-), Topic: TBA</li>
-    <li>Zhonghao Lin, M.Eng. (08/2024-), Topic: TBA</li>
-    <li>Dongxiang Liu, M.Eng. (08/2024-), Topic: TBA</li>
-    <li>Zelin Li, M.Eng. (08/2024-), Topic: TBA</li>
-    <li>Jiahui Chen, M.Eng. (08/2024-), Topic: TBA</li>
+    <li>Jiarui Liang, M.Eng. (08/2024-), Topic: Issues related to motion planning of vehicles</li>
+    <li>Zhonghao Lin, M.Eng. (08/2024-), Topic: Issues related to time-varying optimization</li>
+    <li>Dongxiang Liu, M.Eng. (08/2024-), Topic: Issues related to motion planning of vehicles</li>
+    <li>Zelin Li, M.Eng. (08/2024-), Topic: Issues related to task planning of robots</li>
+    <li>Jiahui Chen, M.Eng. (08/2024-), Topic: Issues related to path planning of robots</li>
   </ol>
 
   <h2>Student Alumni</h2>
@@ -126,5 +123,8 @@
     <li>Kai Wang, M.Eng. (08/2020-06/2023), Rule-Based Interpretable Intention Recognition and Trajectory Prediction of Surrounding Vehicles</li>
     <li>Lan Wang, M.Sc. (08/2021-06/2024), Interpretable Vehicle Intention Prediction Methods and Trajectory Forecasting Methods</li> 
     <li>Yanyan Fang, M.Eng. (08/2021-06/2024), Multimodal Trajectory Prediction and Planning Methods for Mixed Traffic Flows in Urban Environments</li>
+    <li>Jie Hou, Phd (08/2020-03/2025), Distributed projection-free methods for constrained stochastic optimization</li>
+    <li>Yixuan Li, M.Sc. (08/2022-06/2025), Cooperative Pursuit Strategy Based on Intelligent Adversarial Game Theory</li>
+    <li>Xuanming Zhang, M.Sc. (08/2022-06/2025), Multimodal Vehicle Trajectory Prediction and Motion Planning Methods Based on Behavioral Game Theory</li>
   </ol>
 </body>
