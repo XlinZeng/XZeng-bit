@@ -77,6 +77,7 @@
 
   <h3>Continuous-time optimization algorithms</h3>
   <ol>
+    <li>Weijian Li, <strong>Xianlin Zeng</strong>, Lacra Pavel* , Primal-dual Accelerated Mirror-Descent Method for Constrained Bilinear Saddle-Point Problems,  IEEE Transactions on Automatic Control, 2026 February issue </li>
     <li><strong>Xianlin Zeng</strong>, Jinlong Lei, and Jie Chen, Dynamical Primal-Dual Accelerated Method with Applications to Network Optimization, <strong>IEEE Transactions on Automatic Control</strong>, Volume, 68, Issue 3, pp. 1760-1767, March 2023. </li>
     <li>Yue Wei, Chengsi Shang, Hao Fang, <strong>Xianlin Zeng</strong>, Lihua Dou, Panos Pardalos, Solving a class of nonsmooth resource allocation problems with directed graphs through distributed Lipschitz continuous multi-proximal algorithms, <strong>Automatica</strong>, vol. 136, pp. 110071, 2022.</li>
     <li>Yue Wei, Hao Fang, <strong>Xianlin Zeng</strong>, Jie Chen, and Panos Pardalos, A smooth double proximal primal-dual algorithm for a class of distributed nonsmooth optimization problem, <strong>IEEE Transactions on Automatic Control</strong>, vol. 65, no. 4, pp. 1800-1806, 2020.</li>
