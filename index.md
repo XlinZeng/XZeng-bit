@@ -34,7 +34,9 @@
   <ol>
     <li><strong>Xianlin Zeng</strong>, Yiguang Hong, Hao Fang, Distributed Nonsmooth Optimization Control of Multi-agent System, <strong>Beijing Institute of Technology Press</strong>, 2023 (in Chinese);（<strong>曾宪琳</strong>，洪奕光，方浩，多智能体系统的分布式非光滑优化控制，北京理工大学出版社，2023）</li>
   </ol>
-
+  <ol>
+    <li>Hao Fang, <strong>Xianlin Zeng</strong>, Qingkai Yang, Jie Chen, Autonomous Intelligent Unmanned System, <strong>Tsinghua University Press</strong>, 2023 (in Chinese);（方浩，<strong>曾宪琳</strong>，杨庆凯，陈杰，自主智能无人系统，清华大学出版社，2025）</li>
+  </ol>
   <h2>Selected Publications</h2>
 
   <h3>Distributed otpimization and stochastic optimization</h3> 
