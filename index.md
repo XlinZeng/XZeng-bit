@@ -27,7 +27,7 @@
   <h2>Current Fundings</h2>
   <ul>
     <li>Distributed Nonsmooth Control and Optimization of Multi-agent Systems, National Natural Science Foundation of China, PI</li>
-    <li>Trustable and explainable hybrid intelligent decision-making and online assessment for human-machine co-driving, National Key Research and Development Program of China, Co-PI</li>
+    <li>Distributed Optimization and Intelligent Decision-Making for Multi-Agent Cooperative Exploration in Complex Open Environments, National Natural Science Foundation of China, Co-PI</li>
   </ul>
 
   <h2>Textbooks and Monographs</h2>
