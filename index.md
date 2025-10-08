@@ -108,6 +108,9 @@
     <li>Azhushima, Phd student (08/2023-), Topic: Issues related to distributed optimization for multiple robots</li>
     <li>Yuman He, Phd student (08/2024-), Topic: Issues related to algorithms for noncooperative games</li>
     <li>Yuliang Wang, Phd student (08/2024-), Topic: Issues related to task and path planning of robots</li>
+    <li>Yuhui Huang, Phd student (08/2025-), Topic: TBA</li>
+    <li>Xin Yu, Phd student (08/2025-), Topic: TBA</li>
+    <li>Qinglong Zhang, Phd student (08/2025-), Topic: TBA</li>
   </ol>
 
   <h3>Master students</h3> 
@@ -119,6 +122,10 @@
     <li>Dongxiang Liu, M.Eng. (08/2024-), Topic: Issues related to motion planning of vehicles</li>
     <li>Zelin Li, M.Eng. (08/2024-), Topic: Issues related to task planning of robots</li>
     <li>Jiahui Chen, M.Eng. (08/2024-), Topic: Issues related to path planning of robots</li>
+    <li>Sunhan Zhou, M.Eng. (08/2024-), Topic: TBA</li>  
+    <li>Ke Jia, M.Eng. (08/2024-), Topic: TBA</li>
+    <li>Kairui Guo, M.Sc. (08/2024-), Topic: TBA</li>
+    <li>Tong Huang, M.Eng. (08/2024-), Topic: TBA</li>
   </ol>
 
   <h2>Student Alumni</h2>
