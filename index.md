@@ -41,6 +41,7 @@
 
   <h3>Distributed otpimization and stochastic optimization</h3> 
   <ol>
+    <li>Jie Hou, <strong>Xianlin Zeng</strong>, Shisheng Cui, and Jian Sun, Stochastic Frank-Wolfe Algorithm for Constrained Bilevel Optimization With Improved Per-Iteration Complexity, <strong>IEEE Transactions on Signal Processing</strong>, vol. 73, pp. 3237-3252, 2025</li>
     <li>Jie Hou, <strong>Xianlin Zeng</strong>, Shisheng Cui, and Jian Sun, Distributed Stochastic Frank-Wolfe for Constrained Composite Minimization, <strong>IEEE Transactions on Automatic Control</strong>, 2025 December issue</li>
     <li>Xia Jiang, <strong>Xianlin Zeng</strong>, Lihua Xie, Jian Sun, Jie Chen, Variance-reduced Reshuffling Gradient Descent for Nonconvex Optimization: Centralized and Distributed Algorithms, <strong>Automatica</strong>, 23 Sep 2024 </li>
     <li>Xia Jiang, <strong>Xianlin Zeng</strong>, Lihua Xie, Jian Sun, and Jie Chen, Distributed stochastic projection-free solver for constrained optimization,   <strong>IEEE Transactions on Automatic Control</strong>, 2024, doi10.1109/TAC.2024.3481040 </li>
