@@ -26,7 +26,6 @@
    
   <h2>Current Fundings</h2>
   <ul>
-    <li>Distributed Nonsmooth Control and Optimization of Multi-agent Systems, National Natural Science Foundation of China, 2023-2025, PI</li>
     <li>Distributed Optimization and Intelligent Decision-Making for Multi-Agent Cooperative Exploration in Complex Open Environments, National Natural Science Foundation of China, 2026-2030, Co-PI</li>
   </ul>
 
@@ -34,7 +33,6 @@
   <ul>
     <li><strong>Xianlin Zeng</strong>, Yiguang Hong, Hao Fang, Distributed Nonsmooth Optimization Control of Multi-agent System, <strong>Beijing Institute of Technology Press</strong>, 2023 (in Chinese);（<strong>曾宪琳</strong>，洪奕光，方浩，多智能体系统的分布式非光滑优化控制，北京理工大学出版社，2023）</li>
     <li>Hao Fang, <strong>Xianlin Zeng</strong>, Qingkai Yang, Jie Chen, Autonomous Intelligent Unmanned System, <strong>Tsinghua University Press</strong>, 2025 (in Chinese);（方浩，<strong>曾宪琳</strong>，杨庆凯，陈杰，自主智能无人系统，清华大学出版社，2025）</li>
-    <li>Hao Fang, Qingkai Yang, <strong>Xianlin Zeng</strong>, Jie Chen, Collaborative Control and Optimization of Autonomous Unmanned Systems, <strong>SCIENCE PRESS</strong>, 2026 (in Chinese);（方浩，杨庆凯，<strong>曾宪琳</strong>，陈杰，自主无人系统协同控制与优化，科学出版社，2026）</li>
   </ul>
   <h2>Selected Publications</h2>
 
