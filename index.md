@@ -318,19 +318,19 @@
 <section class="tab-content" id="tab-research">
   <h2 class="section-title">Research Interests</h2>
   <div class="card">
-    <h3>🔬 Distributed Optimization & Noncooperative Games</h3>
+    <h3>🔬 Optimizaiton, game theory, and AI for multi-agent systems</h3>
     <ul>
-      <li>Distributed nonsmooth optimization for multi-agent systems</li>
-      <li>Stochastic Frank-Wolfe algorithms for constrained bilevel optimization</li>
-      <li>Nash equilibrium seeking in generalized multi-cluster games</li>
+      <li>Distributed Optimization Algorithms  </li>
+      <li>Game Theory and Equilibrium Seeking</li>
+      <li>Solving Matrix Equations and Inequalities</li>
     </ul>
   </div>
   <div class="card">
-    <h3>🤖 Task & Motion Planning of Autonomous Systems</h3>
+    <h3>🤖 Application of these methods for unmanned systems</h3>
     <ul>
-      <li>Hierarchical MPC-based motion planning for automated vehicles</li>
-      <li>Cooperative shape-translation estimation for time-varying formation</li>
-      <li>Distributed cooperative control of redundant mobile manipulators</li>
+      <li>Motion planning of autonomous vehicles and robots</li>
+      <li>Modeling and intelligent control of robotic systems</li>
+      <li>AI planning for decision makeing problems under uncertainty</li>
     </ul>
   </div>
   <div class="card">
