@@ -336,9 +336,8 @@
   <div class="card">
     <h3>📘 Textbooks & Monographs</h3>
     <ul>
-- Xianlin Zeng, Yiguang Hong, Hao Fang, Distributed Optimization and Control of Multi-agent System, Beijing Institute of Technology Press, 2023 (in Chinese);（曾宪琳，洪奕光，方浩，多智能体系统的分布式非光滑优化控制，北京理工大学出版社，2023）
-- Hao Fang, Xianlin Zeng, Qingkai Yang, Jie Chen, Autonomous Intelligent Unmanned System, Tsinghua University Press, 2023 (in Chinese);（方浩，曾宪琳，杨庆凯，陈杰，自主智能无人系统，清华大学出版社，2025）
-
+      <li>Xianlin Zeng, Yiguang Hong, Hao Fang, Distributed Optimization and Control of Multi-agent System, Beijing Institute of Technology Press, 2023 (in Chinese);（曾宪琳，洪奕光，方浩，多智能体系统的分布式非光滑优化控制，北京理工大学出版社，2023）</li>
+      <li>Hao Fang, Xianlin Zeng, Qingkai Yang, Jie Chen, Autonomous Intelligent Unmanned System, Tsinghua University Press, 2023 (in Chinese);（方浩，曾宪琳，杨庆凯，陈杰，自主智能无人系统，清华大学出版社，2025）</li>
     </ul>
   </div>
 </section>
