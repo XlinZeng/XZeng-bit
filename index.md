@@ -315,8 +315,6 @@
     <strong>🏛 Current Funding</strong>
     <ul style="margin-top:.5rem; padding-left:1.2rem; font-size:.92rem;">
       <li>NSFC Key International Cooperation Project — Distributed Optimization and Intelligent Decision-Making for Multi-Agent Cooperative Exploration in Complex Open Environments (2026–2030, Co-PI)</li>
-      <li>NSFC General Program — Distributed Nonsmooth Optimization for Multi-Agent Systems (2021–2024, PI, Completed)</li>
-      <li>National Key R&amp;D Program — Trustworthy and Explainable Autonomous Decision-Making for Human-Machine Shared Driving (2020–2025, Sub-project PI)</li>
     </ul>
   </div>
 </section>
