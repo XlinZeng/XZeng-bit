@@ -156,6 +156,10 @@
     margin-bottom: .8rem;
   }
   .pub-section ol { padding-left: 1.3rem; }
+  .pub-section li {
+    margin-bottom: .5rem;
+    line-height: 1.65;
+  }
 
   /* timeline style for education */
   .timeline { border-left: 3px solid var(--accent); padding-left: 1.5rem; }
@@ -216,6 +220,24 @@
     margin-top: 1rem;
   }
 
+  .awards-list {
+    list-style: none;
+    padding: 0;
+  }
+  .awards-list li {
+    padding: .5rem 0;
+    border-bottom: 1px solid var(--border);
+    font-size: .92rem;
+  }
+  .awards-list li:last-child { border-bottom: none; }
+  .awards-list .award-year {
+    display: inline-block;
+    width: 4.5rem;
+    color: var(--muted);
+    font-size: .82rem;
+    font-weight: 500;
+  }
+
   .footer {
     text-align: center;
     padding: 2rem;
@@ -233,7 +255,6 @@
     .card { padding: 1rem 1.2rem; }
   }
 
-  /* Publication counter badge */
   .pub-count {
     font-size: .78rem;
     color: var(--muted);
@@ -246,7 +267,7 @@
 
 <!-- ═══ HEADER ═══ -->
 <header class="header">
-  <h1>Xianlin Zeng</h1>
+  <h1>Xianlin Zeng (曾宪琳)</h1>
   <h2>Ph.D. &bull; Professor</h2>
   <div class="affil">
     National Key Laboratory of Autonomous Intelligent Unmanned Systems<br>
@@ -254,8 +275,8 @@
     📧 xianlin.zeng@bit.edu.cn
   </div>
   <div class="links">
-    <a href="https://xlinzeng.github.io/web/" target="_blank">📄 Publications</a>
     <a href="https://scholar.google.com/citations?user=S4KS0noAAAAJ&hl=en" target="_blank">🎓 Google Scholar</a>
+    <a href="https://xlinzeng.github.io/web/" target="_blank">📄 Full Publication List</a>
   </div>
 </header>
 
@@ -276,27 +297,46 @@
 <section class="tab-content active" id="tab-about">
   <h2 class="section-title">About</h2>
   <div class="card">
-    <p>I am a Professor at the <strong>School of Automation, Beijing Institute of Technology</strong>, affiliated with the National Key Laboratory of Autonomous Intelligent Unmanned Systems. My research interests span distributed optimization, noncooperative game theory, and task & motion planning of autonomous systems.</p>
-    <p style="margin-top:.8rem">I received my Ph.D. in Mechanical Engineering from <strong>Texas Tech University</strong> (USA, 2015) and previously held postdoctoral positions at the Chinese Academy of Sciences and Beijing Institute of Technology.</p>
+    <p>I am a Professor at the <strong>School of Automation, Beijing Institute of Technology</strong>, affiliated with the National Key Laboratory of Autonomous Intelligent Unmanned Systems. My research interests span <strong>distributed optimization</strong>, <strong>noncooperative game theory</strong>, and <strong>intelligent planning &amp; decision-making for autonomous unmanned systems</strong>.</p>
+    <p style="margin-top:.8rem">I received my Ph.D. in Mechanical Engineering from <strong>Texas Tech University</strong> (USA, 2015) and previously held postdoctoral positions at the Chinese Academy of Sciences (with Prof. Yiguang Hong) and Beijing Institute of Technology.</p>
   </div>
+
+  <div class="card">
+    <h3>🏆 Selected Awards &amp; Honors</h3>
+    <ul class="awards-list">
+      <li><span class="award-year">2026</span> Best Associate Editor Award, <em>IEEE Trans. on Circuits and Systems II</em></li>
+      <li><span class="award-year">2026</span> Best Paper Award, <em>Unmanned Systems</em></li>
+      <li><span class="award-year">2025</span> CAA Natural Science Award (1st Prize) — Intelligent Control and Cooperative Decision-Making for High-Dynamic Unmanned Systems</li>
+      <li><span class="award-year">2025</span> Beijing Teaching Achievement Award (1st Prize) — Cultivating Top-Notch Innovative Talents in Control Science</li>
+    </ul>
+  </div>
+
   <div class="funding-card">
     <strong>🏛 Current Funding</strong>
-    <p style="margin-top:.5rem">Distributed Optimization and Intelligent Decision-Making for Multi-Agent Cooperative Exploration in Complex Open Environments — <em>NSFC, 2026–2030, Co-PI</em></p>
+    <ul style="margin-top:.5rem; padding-left:1.2rem; font-size:.92rem;">
+      <li>NSFC Key International Cooperation Project — Distributed Optimization and Intelligent Decision-Making for Multi-Agent Cooperative Exploration in Complex Open Environments (2026–2030, Co-PI)</li>
+      <li>NSFC General Program — Distributed Nonsmooth Optimization for Multi-Agent Systems (2021–2024, PI, Completed)</li>
+      <li>National Key R&amp;D Program — Trustworthy and Explainable Autonomous Decision-Making for Human-Machine Shared Driving (2020–2025, Sub-project PI)</li>
+    </ul>
   </div>
 </section>
 
 <!-- ═══ TAB: EDUCATION ═══ -->
 <section class="tab-content" id="tab-education">
-  <h2 class="section-title">Education & Career</h2>
+  <h2 class="section-title">Education &amp; Career</h2>
   <div class="card">
     <div class="timeline">
       <div class="timeline-item">
+        <span class="year">2019 – present</span>
+        <p>Associate Professor → Professor, School of Automation, <strong>Beijing Institute of Technology</strong></p>
+      </div>
+      <div class="timeline-item">
         <span class="year">2017 – 2019</span>
-        <p>Postdoc Researcher, School of Automation, <strong>Beijing Institute of Technology</strong></p>
+        <p>Postdoctoral Researcher, School of Automation, <strong>Beijing Institute of Technology</strong></p>
       </div>
       <div class="timeline-item">
         <span class="year">2015 – 2017</span>
-        <p>Postdoc Researcher, Academy of Mathematics and Systems Science, <strong>Chinese Academy of Sciences</strong></p>
+        <p>Postdoctoral Researcher, Academy of Mathematics and Systems Science, <strong>Chinese Academy of Sciences</strong></p>
       </div>
       <div class="timeline-item">
         <span class="year">2011 – 2015</span>
@@ -318,26 +358,27 @@
 <section class="tab-content" id="tab-research">
   <h2 class="section-title">Research Interests</h2>
   <div class="card">
-    <h3>🔬 Optimizaiton, game theory, and AI for multi-agent systems</h3>
+    <h3>🔬 Optimization, Game Theory, and AI for Multi-Agent Systems</h3>
     <ul>
-      <li>Distributed Optimization Algorithms  </li>
-      <li>Game Theory and Equilibrium Seeking</li>
-      <li>Solving Matrix Equations and Inequalities</li>
+      <li>Distributed optimization algorithms (stochastic, nonsmooth, projection-free, time-varying)</li>
+      <li>Game theory, equilibrium seeking, and adversarial decision-making</li>
+      <li>Distributed computation of matrix equations and inequalities</li>
     </ul>
   </div>
   <div class="card">
-    <h3>🤖 Application of these methods for unmanned systems</h3>
+    <h3>🤖 Intelligent Planning &amp; Control for Unmanned Systems</h3>
     <ul>
-      <li>Motion planning of autonomous vehicles and robots</li>
-      <li>Modeling and intelligent control of robotic systems</li>
-      <li>AI planning for decision makeing problems under uncertainty</li>
+      <li>Motion planning for autonomous vehicles and robots</li>
+      <li>Multi-robot cooperative task &amp; path planning</li>
+      <li>AI planning for decision-making under uncertainty and adversarial environments</li>
     </ul>
   </div>
   <div class="card">
-    <h3>📘 Textbooks & Monographs</h3>
+    <h3>📘 Textbooks &amp; Monographs</h3>
     <ul>
-      <li>Xianlin Zeng, Yiguang Hong, Hao Fang, Distributed Optimization and Control of Multi-agent System, Beijing Institute of Technology Press, 2023 (in Chinese);（曾宪琳，洪奕光，方浩，多智能体系统的分布式非光滑优化控制，北京理工大学出版社，2023）</li>
-      <li>Hao Fang, Xianlin Zeng, Qingkai Yang, Jie Chen, Autonomous Intelligent Unmanned System, Tsinghua University Press, 2023 (in Chinese);（方浩，曾宪琳，杨庆凯，陈杰，自主智能无人系统，清华大学出版社，2025）</li>
+      <li><strong>X. Zeng</strong>, Y. Hong, H. Fang. <em>Distributed Nonsmooth Optimization and Control of Multi-Agent Systems</em> (多智能体系统的分布式非光滑优化控制). Beijing Institute of Technology Press, 2023. [National "14th Five-Year" Key Publication Project]</li>
+      <li>H. Fang, <strong>X. Zeng</strong>, Q. Yang, J. Chen. <em>Autonomous Intelligent Unmanned Systems</em> (自主智能无人系统). Tsinghua University Press, 2024. [National "14th Five-Year" Planning Textbook]</li>
+      <li>H. Fang, Q. Yang, <strong>X. Zeng</strong>, J. Chen. <em>Collaborative Control and Optimization of Autonomous Unmanned Systems</em> (自主无人系统协同控制与优化). Science Press. [National "14th Five-Year" Key Publication Project]</li>
     </ul>
   </div>
 </section>
@@ -345,48 +386,75 @@
 <!-- ═══ TAB: PUBLICATIONS ═══ -->
 <section class="tab-content" id="tab-publications">
   <h2 class="section-title">Selected Publications</h2>
+  <p style="margin-bottom:1.5rem; color:var(--muted); font-size:.9rem;">A curated list organized by theme. For the full list, see <a href="https://scholar.google.com/citations?user=S4KS0noAAAAJ&hl=en" style="color:var(--link)">Google Scholar</a>.</p>
 
+  <!-- ── Category 1 ── -->
   <div class="pub-section">
-    <h3>Distributed & Stochastic Optimization</h3>
+    <h3>Distributed Stochastic &amp; Projection-Free Optimization <span class="pub-count">(10)</span></h3>
     <ol>
-      <li>Jie Hou, <strong>X. Zeng</strong>, S. Cui, J. Sun. Stochastic Frank-Wolfe Algorithm for Constrained Bilevel Optimization. <em>IEEE Trans. Signal Processing</em>, vol. 73, 2025.</li>
-      <li>Jie Hou, <strong>X. Zeng</strong>, S. Cui, J. Sun. Distributed Stochastic Frank-Wolfe for Constrained Composite Minimization. <em>IEEE Trans. Automatic Control</em>, Dec 2025.</li>
-      <li>Xia Jiang, <strong>X. Zeng</strong>, L. Xie, J. Sun, J. Chen. Variance-reduced Reshuffling Gradient Descent for Nonconvex Optimization. <em>Automatica</em>, 2024.</li>
-      <li>Xia Jiang, <strong>X. Zeng</strong>, L. Xie, J. Sun, J. Chen. Distributed stochastic projection-free solver. <em>IEEE Trans. Automatic Control</em>, 2024.</li>
-      <li>Jie Hou, <strong>X. Zeng</strong>, G. Wang, C. Chen, J. Sun. Distributed Frank-Wolfe Solver for Stochastic Optimization with Coupled Inequality Constraints. <em>IEEE Trans. Neural Networks and Learning Systems</em>, 2024.</li>
+      <li>J. Hou, <strong>X. Zeng*</strong>, S. Cui, X. Jiang, J. Sun. "Stochastic Frank-Wolfe Algorithm for Constrained Bilevel Optimization with Improved Per-Iteration Complexity." <em>IEEE Trans. Signal Processing</em>, vol. 73, pp. 3237–3252, 2025.</li>
+      <li>J. Hou, <strong>X. Zeng*</strong>, S. Cui, J. Sun. "Distributed Stochastic Frank-Wolfe for Constrained Composite Minimization." <em>IEEE Trans. Automatic Control</em>, DOI: 10.1109/TAC.2025.3581321, 2025.</li>
+      <li>X. Jiang, <strong>X. Zeng*</strong>, L. Xie, J. Sun, J. Chen. "Distributed Stochastic Projection-Free Algorithm for Constrained Optimization." <em>IEEE Trans. Automatic Control</em>, vol. 70, no. 4, Apr. 2025.</li>
+      <li>X. Jiang, <strong>X. Zeng*</strong>, L. Xie, J. Sun, J. Chen. "Variance-Reduced Reshuffling Gradient Descent for Non-Convex Optimization: Centralized and Distributed Algorithms." <em>Automatica</em>, vol. 171, Jan. 2025.</li>
+      <li>Y. Huang, <strong>X. Zeng*</strong>, J. Sun, Z. Meng. "Distributed Event-Triggered Algorithm for Convex Optimization with Coupled Constraints." <em>Automatica</em>, vol. 170, Dec. 2024.</li>
+      <li>J. Hou, <strong>X. Zeng*</strong>, G. Wang, C. Chen, J. Sun. "Distributed Frank-Wolfe Solver for Stochastic Optimization with Coupled Inequality Constraints." <em>IEEE Trans. Neural Networks and Learning Systems</em>, vol. 36, no. 5, May 2025.</li>
+      <li><strong>X. Zeng</strong>, J. Lei, J. Chen. "Dynamical Primal-Dual Accelerated Method with Applications to Network Optimization." <em>IEEE Trans. Automatic Control</em>, vol. 68, no. 3, Mar. 2023.</li>
+      <li>X. Jiang, <strong>X. Zeng*</strong>, J. Sun, J. Chen. "Distributed Stochastic Gradient Tracking Algorithm with Variance Reduction for Non-Convex Optimization." <em>IEEE Trans. Neural Networks and Learning Systems</em>, DOI: 10.1109/TNNLS.2022.3170944, 2023.</li>
+      <li>J. Hou, <strong>X. Zeng*</strong>, G. Wang, J. Sun, J. Chen. "Distributed Momentum-Based Frank-Wolfe Algorithm for Stochastic Optimization." <em>IEEE/CAA Journal of Automatica Sinica</em>, DOI: 10.1109/JAS.2022.105923, 2022.</li>
+      <li>X. Jiang, <strong>X. Zeng*</strong>, J. Sun, J. Chen. "A Fully Distributed Hybrid Control Framework for Non-Differentiable Multi-Agent Optimization." <em>IEEE/CAA Journal of Automatica Sinica</em>, 2022.</li>
     </ol>
   </div>
 
+  <!-- ── Category 2 ── -->
   <div class="pub-section">
-    <h3>Motion Planning & Control</h3>
+    <h3>Nonsmooth, Nonconvex &amp; Zeroth-Order Optimization <span class="pub-count">(4)</span></h3>
     <ol>
-      <li>X. Zhang, Q. Yang, <strong>X. Zeng</strong>, H. Fang, J. Chen. Cooperative Shape-Translation Estimation and Control. <em>IEEE Trans. Automatic Control</em>, 2025.</li>
-      <li>Z. Cheng, <strong>X. Zeng</strong>, H. Fang, G. Wang, L. Dou. Hierarchical MPC-based Motion Planning. <em>Unmanned Systems</em>, 2023.</li>
-      <li>C. Wu, H. Fang, <strong>X. Zeng</strong>, Q. Yang, Y. Wei, J. Chen. Distributed Continuous-Time Algorithm for Time-Varying Optimization. <em>IEEE Trans. Automatic Control</em>, vol. 68, 2023.</li>
-      <li><strong>X. Zeng</strong>. Hybrid Networked Control for Cyber-Physical Network Systems. <em>Ph.D. Dissertation, Texas Tech University</em>, 2015.</li>
+      <li>J. Hou, X. Jiang, <strong>X. Zeng*</strong>, L. Zhao, J. Sun. "Distributed Nonsmooth Nonconvex Optimization: Deterministic and Stochastic Zeroth-Order Algorithms with Decaying Step Sizes." <em>IEEE Trans. Signal and Information Processing over Networks</em>, vol. 12, pp. 585–598, 2026.</li>
+      <li>X. Jiang, Y. Fang, <strong>X. Zeng*</strong>, J. Sun, J. Chen. "Inexact Proximal Gradient Algorithm with Random Reshuffling for Nonsmooth Optimization." <em>Science China Information Sciences</em>, vol. 68, 112201, 2025.</li>
+      <li>Y. Wang, <strong>X. Zeng*</strong>, W. Zhao, Y. Hong. "A Zeroth-Order Algorithm for Distributed Optimization with Stochastic Stripe Observations." <em>Science China Information Sciences</em>, vol. 66, 199202, 2023.</li>
+      <li><strong>X. Zeng</strong>, P. Yi, Y. Hong, L. Xie. "Distributed Continuous-Time Algorithms for Nonsmooth Extended Monotropic Optimization." <em>SIAM Journal on Control and Optimization</em>, vol. 56, no. 6, 2018.</li>
     </ol>
   </div>
 
+  <!-- ── Category 3 ── -->
   <div class="pub-section">
-    <h3>Noncooperative Games</h3>
+    <h3>Time-Varying Optimization <span class="pub-count">(2)</span></h3>
     <ol>
-      <li>K. Zhu, <strong>X. Zeng</strong>. Almost Sure Convergence to Approximate Nash Equilibrium in Zero-Sum Extensive-Form Games. <em>IEEE ICCA</em>, 2024.</li>
-      <li><strong>X. Zeng</strong>, L. Dou, J. Chen. Accelerated First-Order Continuous-Time Algorithm for Bilinear Saddle Point Problem. <em>IFAC World Congress</em>, 2020.</li>
-      <li><strong>X. Zeng</strong>, J. Chen, S. Liang, Y. Hong. Generalized Nash equilibrium seeking for distributed nonsmooth multi-cluster game. <em>Automatica</em>, vol. 103, 2019.</li>
+      <li>Z. Lin, J. Hou*, <strong>X. Zeng</strong>. "Optimal Prediction-Correction Algorithm Using Sparse Linear Extrapolation for Time-Varying Optimization." <em>IEEE Trans. Signal Processing</em>, accepted, 2026.</li>
+      <li>Z. Lin, <strong>X. Zeng</strong>, J. Hou*, J. Sun, J. Chen. "Primal-Dual Prediction-Correction Method with Tunable Memory for Linearly Constrained Time-Varying Convex Optimization." <em>Journal of Systems Science and Complexity</em>, vol. 39, no. 2, pp. 483–510, 2026.</li>
     </ol>
   </div>
 
+  <!-- ── Category 4 ── -->
   <div class="pub-section">
-    <h3>Distributed Matrix Equations & Continuous-Time Optimization</h3>
+    <h3>Distributed Matrix Equations &amp; Networked Computation <span class="pub-count">(4)</span></h3>
     <ol>
-      <li>X. Jiang, <strong>X. Zeng</strong>, J. Sun, J. Chen. Distributed algorithms for semi-definite programming. <em>IEEE Trans. Automatic Control</em>, vol. 68, 2023.</li>
-      <li><strong>X. Zeng</strong>, J. Chen, Y. Hong. Distributed Optimization Design of Iterative Refinement for Algebraic Riccati Equations. <em>IEEE Trans. SMC: Systems</em>, 2022.</li>
-      <li>W. Li, <strong>X. Zeng</strong>, L. Pavel. Primal-dual Accelerated Mirror-Descent Method for Constrained Bilinear Saddle-Point Problems. <em>IEEE Trans. Automatic Control</em>, Feb 2026.</li>
-      <li><strong>X. Zeng</strong>, P. Yi, Y. Hong, L. Xie. Distributed continuous-time algorithms for nonsmooth extended monotropic optimization. <em>SIAM J. Control and Optimization</em>, 2018.</li>
+      <li>Y. Huang, <strong>X. Zeng*</strong>, Z. Meng, D. Meng. "Distributed Algorithms of Solving Linear Matrix Equations via Double-Layered Networks." <em>Automatica</em>, vol. 165, 111662, 2024.</li>
+      <li><strong>X. Zeng</strong>, J. Chen, Y. Hong. "Distributed Optimization Design of Iterative Refinement Technique for Algebraic Riccati Equations." <em>IEEE Trans. Systems, Man, and Cybernetics: Systems</em>, DOI: 10.1109/TSMC.2021.3056871, 2022. (Regular Paper)</li>
+      <li><strong>X. Zeng</strong>, J. Chen, J. Sun, Y. Hong. "Distributed Optimization Approach for Solving Continuous-Time Lyapunov Equations with Exponential Rate of Convergence." <em>IEEE Trans. Systems, Man, and Cybernetics: Systems</em>, vol. 52, no. 3, pp. 1684–1691, 2022.</li>
+      <li><strong>X. Zeng</strong>, J. Chen, Y. Hong. "Distributed Optimization Design for Computation of Algebraic Riccati Inequalities." <em>IEEE Trans. Cybernetics</em>, vol. 52, no. 3, pp. 1924–1935, 2022. (Regular Paper)</li>
     </ol>
   </div>
 
-  <p style="margin-top:1.2rem">
+  <!-- ── Category 5 ── -->
+  <div class="pub-section">
+    <h3>Game Theory &amp; Multi-Agent Decision Making <span class="pub-count">(3)</span></h3>
+    <ol>
+      <li>X. Zhang, <strong>X. Zeng*</strong>, Q. Yang, H. Fang, L. Xie, J. Chen. "Distributed Nominal Configuration Design for Linear Formations." <em>IEEE Trans. Automatic Control</em>, DOI: 10.1109/TAC.2026.3689360, 2026.</li>
+      <li><strong>X. Zeng</strong>, J. Chen, S. Liang, Y. Hong. "Generalized Nash Equilibrium Seeking Strategy for Distributed Nonsmooth Multi-Cluster Game." <em>Automatica</em>, vol. 103, pp. 20–26, 2019.</li>
+      <li><strong>X. Zeng</strong>, L. Dou, J. Cui. "Distributed Accelerated Nash Equilibrium Learning for Two-Subnetwork Zero-Sum Game with Bilinear Coupling." <em>Kybernetika</em>, 2023.</li>
+    </ol>
+  </div>
+
+  <!-- ── Category 6 ── -->
+  <div class="pub-section">
+    <h3>Survey <span class="pub-count">(1)</span></h3>
+    <ol>
+      <li>X. Jiang, <strong>X. Zeng</strong>, J. Sun*, J. Chen. "Distributed Optimization for Multi-Agent Systems: A Survey and Perspectives" (多智能体系统分布式优化综述与前瞻). <em>Science China Information Sciences</em> (中国科学：信息科学), 2025.</li>
+    </ol>
+  </div>
+
+  <p style="margin-top:1.2rem; padding-top:1rem; border-top:1px solid var(--border);">
     📄 <a href="https://xlinzeng.github.io/web/" style="color:var(--link)">Complete Publication List</a>
     &nbsp;&nbsp;|&nbsp;&nbsp;
     🎓 <a href="https://scholar.google.com/citations?user=S4KS0noAAAAJ&hl=en" style="color:var(--link)">Google Scholar</a>
@@ -412,7 +480,7 @@
       </tr>
       <tr style="border-bottom:1px solid var(--border)">
         <td style="padding:.6rem .8rem; color:var(--muted); font-size:.85rem;">2023–now</td>
-        <td style="padding:.6rem .8rem">Fundamentals of Swarm Intelligence and Adversarial Games <span style="color:var(--muted)">(Graduate)</span></td>
+        <td style="padding:.6rem .8rem">Fundamentals of Swarm Intelligence and Adversarial Games <span style="color:var(--muted)">(Graduate)</span> <span style="font-size:.78rem; color:var(--accent); font-weight:500;">— National AI-Empowered Course</span></td>
       </tr>
       <tr style="border-bottom:1px solid var(--border)">
         <td style="padding:.6rem .8rem; color:var(--muted); font-size:.85rem;">2021–2024</td>
@@ -433,16 +501,16 @@
   <h3 style="margin-bottom:.6rem; color:var(--navy);">Ph.D. Students <span class="badge badge-phd">8</span></h3>
   <div class="student-grid">
     <div class="student-card"><span class="name">Kui Zhu</span><br><span class="topic">Algorithms for noncooperative games</span></div>
-    <div class="student-card"><span class="name">Zijun Cheng</span><br><span class="topic">Planning & control of autonomous robots</span></div>
+    <div class="student-card"><span class="name">Zijun Cheng</span><br><span class="topic">Planning &amp; control of autonomous robots</span></div>
     <div class="student-card"><span class="name">Azhushima</span><br><span class="topic">Distributed optimization for multiple robots</span></div>
     <div class="student-card"><span class="name">Yuman He</span><br><span class="topic">Algorithms for noncooperative games</span></div>
-    <div class="student-card"><span class="name">Yuliang Wang</span><br><span class="topic">Task & path planning of robots</span></div>
+    <div class="student-card"><span class="name">Yuliang Wang</span><br><span class="topic">Task &amp; path planning of robots</span></div>
     <div class="student-card"><span class="name">Yuhui Huang</span><br><span class="topic">TBA (2025–)</span></div>
     <div class="student-card"><span class="name">Xin Yu</span><br><span class="topic">TBA (2025–)</span></div>
     <div class="student-card"><span class="name">Qinglong Zhang</span><br><span class="topic">TBA (2025–)</span></div>
   </div>
 
-  <h3 style="margin-top:1.5rem; margin-bottom:.6rem; color:var(--navy);">Master Students <span class="badge badge-ms">3</span> <span class="badge badge-meng">8</span></h3>
+  <h3 style="margin-top:1.5rem; margin-bottom:.6rem; color:var(--navy);">Master Students <span class="badge badge-ms">M.Sc. 2</span> <span class="badge badge-meng">M.Eng. 9</span></h3>
   <div class="student-grid">
     <div class="student-card"><span class="name">Luying Chen</span> <span class="badge badge-ms">M.Sc.</span><br><span class="topic">Game theory</span></div>
     <div class="student-card"><span class="name">Kairui Guo</span> <span class="badge badge-ms">M.Sc.</span><br><span class="topic">TBA</span></div>
@@ -464,24 +532,19 @@
   <div class="card">
     <table style="width:100%; border-collapse:collapse;">
       <tr style="border-bottom:1px solid var(--border)">
-        <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem; width:7rem;">2019–2022</td>
-        <td style="padding:.5rem .6rem"><strong>Jiebang Xing</strong> <span class="badge badge-ms">M.Sc.</span></td>
-        <td style="padding:.5rem .6rem; font-size:.85rem">Pursuit evasion games via DRL</td>
+        <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem; width:7rem;">2020–2025</td>
+        <td style="padding:.5rem .6rem"><strong>Jie Hou</strong> <span class="badge badge-phd">Ph.D.</span></td>
+        <td style="padding:.5rem .6rem; font-size:.85rem">Distributed projection-free stochastic optimization</td>
       </tr>
       <tr style="border-bottom:1px solid var(--border)">
-        <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2019–2022</td>
-        <td style="padding:.5rem .6rem"><strong>Junchao Zhang</strong> <span class="badge badge-meng">M.Eng.</span></td>
-        <td style="padding:.5rem .6rem; font-size:.85rem">Pursuing strategy via model-free RL</td>
+        <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2022–2025</td>
+        <td style="padding:.5rem .6rem"><strong>Yixuan Li</strong> <span class="badge badge-ms">M.Sc.</span></td>
+        <td style="padding:.5rem .6rem; font-size:.85rem">Cooperative pursuit via adversarial game theory</td>
       </tr>
       <tr style="border-bottom:1px solid var(--border)">
-        <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2020–2023</td>
-        <td style="padding:.5rem .6rem"><strong>Zijun Cheng</strong> <span class="badge badge-meng">M.Eng.</span></td>
-        <td style="padding:.5rem .6rem; font-size:.85rem">Optimization-based motion planning</td>
-      </tr>
-      <tr style="border-bottom:1px solid var(--border)">
-        <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2020–2023</td>
-        <td style="padding:.5rem .6rem"><strong>Kai Wang</strong> <span class="badge badge-meng">M.Eng.</span></td>
-        <td style="padding:.5rem .6rem; font-size:.85rem">Interpretable intention recognition & trajectory prediction</td>
+        <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2022–2025</td>
+        <td style="padding:.5rem .6rem"><strong>Xuanming Zhang</strong> <span class="badge badge-ms">M.Sc.</span></td>
+        <td style="padding:.5rem .6rem; font-size:.85rem">Motion planning via behavioral game theory</td>
       </tr>
       <tr style="border-bottom:1px solid var(--border)">
         <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2021–2024</td>
@@ -494,19 +557,24 @@
         <td style="padding:.5rem .6rem; font-size:.85rem">Multimodal trajectory prediction for mixed traffic</td>
       </tr>
       <tr style="border-bottom:1px solid var(--border)">
-        <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2020–2025</td>
-        <td style="padding:.5rem .6rem"><strong>Jie Hou</strong> <span class="badge badge-phd">Ph.D.</span></td>
-        <td style="padding:.5rem .6rem; font-size:.85rem">Distributed projection-free stochastic optimization</td>
+        <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2020–2023</td>
+        <td style="padding:.5rem .6rem"><strong>Zijun Cheng</strong> <span class="badge badge-meng">M.Eng.</span></td>
+        <td style="padding:.5rem .6rem; font-size:.85rem">Optimization-based motion planning</td>
       </tr>
       <tr style="border-bottom:1px solid var(--border)">
-        <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2022–2025</td>
-        <td style="padding:.5rem .6rem"><strong>Yixuan Li</strong> <span class="badge badge-ms">M.Sc.</span></td>
-        <td style="padding:.5rem .6rem; font-size:.85rem">Cooperative pursuit via adversarial game theory</td>
+        <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2020–2023</td>
+        <td style="padding:.5rem .6rem"><strong>Kai Wang</strong> <span class="badge badge-meng">M.Eng.</span></td>
+        <td style="padding:.5rem .6rem; font-size:.85rem">Interpretable intention recognition &amp; trajectory prediction</td>
+      </tr>
+      <tr style="border-bottom:1px solid var(--border)">
+        <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2019–2022</td>
+        <td style="padding:.5rem .6rem"><strong>Jiebang Xing</strong> <span class="badge badge-ms">M.Sc.</span></td>
+        <td style="padding:.5rem .6rem; font-size:.85rem">Pursuit-evasion games via deep RL</td>
       </tr>
       <tr>
-        <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2022–2025</td>
-        <td style="padding:.5rem .6rem"><strong>Xuanming Zhang</strong> <span class="badge badge-ms">M.Sc.</span></td>
-        <td style="padding:.5rem .6rem; font-size:.85rem">Multimodal trajectory prediction via behavioral game theory</td>
+        <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2019–2022</td>
+        <td style="padding:.5rem .6rem"><strong>Junchao Zhang</strong> <span class="badge badge-meng">M.Eng.</span></td>
+        <td style="padding:.5rem .6rem; font-size:.85rem">Pursuit strategy via model-free RL</td>
       </tr>
     </table>
   </div>
@@ -515,7 +583,7 @@
 </main>
 
 <footer class="footer">
-  &copy; 2026 Xianlin Zeng &bull; Beijing Institute of Technology
+  &copy; 2026 Xianlin Zeng &bull; Beijing Institute of Technology &bull; Last updated: June 2026
 </footer>
 
 <script>
@@ -529,6 +597,7 @@
       contents.forEach(c => c.classList.remove('active'));
       btn.classList.add('active');
       document.getElementById('tab-' + target).classList.add('active');
+      history.replaceState(null, '', '#' + target);
     });
   });
 
