@@ -512,7 +512,7 @@
       </tr>
       <tr style="border-bottom:1px solid var(--border)">
         <td style="padding:.6rem .8rem; color:var(--muted); font-size:.85rem;">2023–now</td>
-        <td style="padding:.6rem .8rem">Fundamentals of Swarm Intelligence and Adversarial Games <span style="color:var(--muted)">(Graduate)</span> <span style="font-size:.78rem; color:var(--accent); font-weight:500;">— National AI-Empowered Course</span></td>
+        <td style="padding:.6rem .8rem">Fundamentals of Swarm Intelligence and Adversarial Games <span style="color:var(--muted)">(Graduate)</span> <span style="font-size:.78rem; color:var(--accent); font-weight:500;">— AI-Empowered Course</span></td>
       </tr>
       <tr style="border-bottom:1px solid var(--border)">
         <td style="padding:.6rem .8rem; color:var(--muted); font-size:.85rem;">2021–2024</td>
