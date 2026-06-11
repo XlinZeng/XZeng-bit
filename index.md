@@ -157,7 +157,7 @@
   }
   .pub-section ol { padding-left: 1.3rem; }
   .pub-section li {
-    margin-bottom: .5rem;
+    margin-bottom: .6rem;
     line-height: 1.65;
   }
 
@@ -358,19 +358,31 @@
 <section class="tab-content" id="tab-research">
   <h2 class="section-title">Research Interests</h2>
   <div class="card">
-    <h3>🔬 Optimization, Game Theory, and AI for Multi-Agent Systems</h3>
+    <h3>🔬 Distributed Optimization &amp; Computation</h3>
     <ul>
-      <li>Distributed optimization algorithms (stochastic, nonsmooth, projection-free, time-varying)</li>
-      <li>Game theory, equilibrium seeking, and adversarial decision-making</li>
-      <li>Distributed computation of matrix equations and inequalities</li>
+      <li>Distributed stochastic optimization (projection-free, variance-reduced, zeroth-order methods)</li>
+      <li>Distributed nonsmooth and nonconvex optimization over networks</li>
+      <li>Continuous-time dynamical optimization algorithms with convergence rate analysis</li>
+      <li>Distributed solutions to matrix equations (Lyapunov, Riccati, SDP)</li>
+      <li>Time-varying and online optimization with prediction-correction strategies</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3>🎯 Game Theory &amp; Multi-Agent Decision Making</h3>
+    <ul>
+      <li>Generalized Nash equilibrium seeking in nonsmooth multi-cluster games</li>
+      <li>Algorithms for extensive-form games and adversarial decision-making</li>
+      <li>Saddle-point problems and primal-dual accelerated methods</li>
+      <li>Pursuit-evasion games and cooperative strategies</li>
     </ul>
   </div>
   <div class="card">
     <h3>🤖 Intelligent Planning &amp; Control for Unmanned Systems</h3>
     <ul>
-      <li>Motion planning for autonomous vehicles and robots</li>
+      <li>Motion planning for autonomous vehicles (MPC-based, optimization-based)</li>
       <li>Multi-robot cooperative task &amp; path planning</li>
       <li>AI planning for decision-making under uncertainty and adversarial environments</li>
+      <li>Cooperative shape estimation and formation control</li>
     </ul>
   </div>
   <div class="card">
@@ -386,11 +398,11 @@
 <!-- ═══ TAB: PUBLICATIONS ═══ -->
 <section class="tab-content" id="tab-publications">
   <h2 class="section-title">Selected Publications</h2>
-  <p style="margin-bottom:1.5rem; color:var(--muted); font-size:.9rem;">A curated list organized by theme. For the full list, see <a href="https://scholar.google.com/citations?user=S4KS0noAAAAJ&hl=en" style="color:var(--link)">Google Scholar</a>.</p>
+  <p style="margin-bottom:1.5rem; color:var(--muted); font-size:.9rem;">A curated selection organized by research theme. For the complete list, see <a href="https://xlinzeng.github.io/web/" style="color:var(--link)">full publication page</a> or <a href="https://scholar.google.com/citations?user=S4KS0noAAAAJ&hl=en" style="color:var(--link)">Google Scholar</a>.</p>
 
-  <!-- ── Category 1 ── -->
+  <!-- ── Category 1: Distributed Stochastic & Projection-Free Optimization ── -->
   <div class="pub-section">
-    <h3>Distributed Stochastic &amp; Projection-Free Optimization <span class="pub-count">(10)</span></h3>
+    <h3>Distributed Stochastic &amp; Projection-Free Optimization</h3>
     <ol>
       <li>J. Hou, <strong>X. Zeng*</strong>, S. Cui, X. Jiang, J. Sun. "Stochastic Frank-Wolfe Algorithm for Constrained Bilevel Optimization with Improved Per-Iteration Complexity." <em>IEEE Trans. Signal Processing</em>, vol. 73, pp. 3237–3252, 2025.</li>
       <li>J. Hou, <strong>X. Zeng*</strong>, S. Cui, J. Sun. "Distributed Stochastic Frank-Wolfe for Constrained Composite Minimization." <em>IEEE Trans. Automatic Control</em>, DOI: 10.1109/TAC.2025.3581321, 2025.</li>
@@ -398,57 +410,79 @@
       <li>X. Jiang, <strong>X. Zeng*</strong>, L. Xie, J. Sun, J. Chen. "Variance-Reduced Reshuffling Gradient Descent for Non-Convex Optimization: Centralized and Distributed Algorithms." <em>Automatica</em>, vol. 171, Jan. 2025.</li>
       <li>Y. Huang, <strong>X. Zeng*</strong>, J. Sun, Z. Meng. "Distributed Event-Triggered Algorithm for Convex Optimization with Coupled Constraints." <em>Automatica</em>, vol. 170, Dec. 2024.</li>
       <li>J. Hou, <strong>X. Zeng*</strong>, G. Wang, C. Chen, J. Sun. "Distributed Frank-Wolfe Solver for Stochastic Optimization with Coupled Inequality Constraints." <em>IEEE Trans. Neural Networks and Learning Systems</em>, vol. 36, no. 5, May 2025.</li>
-      <li><strong>X. Zeng</strong>, J. Lei, J. Chen. "Dynamical Primal-Dual Accelerated Method with Applications to Network Optimization." <em>IEEE Trans. Automatic Control</em>, vol. 68, no. 3, Mar. 2023.</li>
       <li>X. Jiang, <strong>X. Zeng*</strong>, J. Sun, J. Chen. "Distributed Stochastic Gradient Tracking Algorithm with Variance Reduction for Non-Convex Optimization." <em>IEEE Trans. Neural Networks and Learning Systems</em>, DOI: 10.1109/TNNLS.2022.3170944, 2023.</li>
-      <li>J. Hou, <strong>X. Zeng*</strong>, G. Wang, J. Sun, J. Chen. "Distributed Momentum-Based Frank-Wolfe Algorithm for Stochastic Optimization." <em>IEEE/CAA Journal of Automatica Sinica</em>, DOI: 10.1109/JAS.2022.105923, 2022.</li>
+      <li>J. Hou, <strong>X. Zeng*</strong>, G. Wang, J. Sun, J. Chen. "Distributed Momentum-Based Frank-Wolfe Algorithm for Stochastic Optimization." <em>IEEE/CAA Journal of Automatica Sinica</em>, DOI: 10.1109/JAS.2022.105923, 2023.</li>
+    </ol>
+  </div>
+
+  <!-- ── Category 2: Continuous-Time & Accelerated Optimization ── -->
+  <div class="pub-section">
+    <h3>Continuous-Time &amp; Accelerated Distributed Optimization</h3>
+    <ol>
+      <li>W. Li, <strong>X. Zeng</strong>, L. Pavel. "Primal-Dual Accelerated Mirror-Descent Method for Constrained Bilinear Saddle-Point Problems." <em>IEEE Trans. Automatic Control</em>, Feb. 2026.</li>
+      <li><strong>X. Zeng</strong>, J. Lei, J. Chen. "Dynamical Primal-Dual Accelerated Method with Applications to Network Optimization." <em>IEEE Trans. Automatic Control</em>, vol. 68, no. 3, Mar. 2023.</li>
+      <li>C. Wu, H. Fang, <strong>X. Zeng</strong>, Q. Yang, Y. Wei, J. Chen. "Distributed Continuous-Time Algorithm for Time-Varying Optimization with Affine Formation Constraints." <em>IEEE Trans. Automatic Control</em>, vol. 68, no. 4, 2023.</li>
+      <li><strong>X. Zeng</strong>, P. Yi, Y. Hong, L. Xie. "Distributed Continuous-Time Algorithms for Nonsmooth Extended Monotropic Optimization." <em>SIAM Journal on Control and Optimization</em>, vol. 56, no. 6, pp. 3973–3993, 2018.</li>
       <li>X. Jiang, <strong>X. Zeng*</strong>, J. Sun, J. Chen. "A Fully Distributed Hybrid Control Framework for Non-Differentiable Multi-Agent Optimization." <em>IEEE/CAA Journal of Automatica Sinica</em>, 2022.</li>
     </ol>
   </div>
 
-  <!-- ── Category 2 ── -->
+  <!-- ── Category 3: Nonsmooth, Nonconvex & Zeroth-Order ── -->
   <div class="pub-section">
-    <h3>Nonsmooth, Nonconvex &amp; Zeroth-Order Optimization <span class="pub-count">(4)</span></h3>
+    <h3>Nonsmooth, Nonconvex &amp; Zeroth-Order Optimization</h3>
     <ol>
       <li>J. Hou, X. Jiang, <strong>X. Zeng*</strong>, L. Zhao, J. Sun. "Distributed Nonsmooth Nonconvex Optimization: Deterministic and Stochastic Zeroth-Order Algorithms with Decaying Step Sizes." <em>IEEE Trans. Signal and Information Processing over Networks</em>, vol. 12, pp. 585–598, 2026.</li>
       <li>X. Jiang, Y. Fang, <strong>X. Zeng*</strong>, J. Sun, J. Chen. "Inexact Proximal Gradient Algorithm with Random Reshuffling for Nonsmooth Optimization." <em>Science China Information Sciences</em>, vol. 68, 112201, 2025.</li>
       <li>Y. Wang, <strong>X. Zeng*</strong>, W. Zhao, Y. Hong. "A Zeroth-Order Algorithm for Distributed Optimization with Stochastic Stripe Observations." <em>Science China Information Sciences</em>, vol. 66, 199202, 2023.</li>
-      <li><strong>X. Zeng</strong>, P. Yi, Y. Hong, L. Xie. "Distributed Continuous-Time Algorithms for Nonsmooth Extended Monotropic Optimization." <em>SIAM Journal on Control and Optimization</em>, vol. 56, no. 6, 2018.</li>
     </ol>
   </div>
 
-  <!-- ── Category 3 ── -->
+  <!-- ── Category 4: Time-Varying Optimization ── -->
   <div class="pub-section">
-    <h3>Time-Varying Optimization <span class="pub-count">(2)</span></h3>
+    <h3>Time-Varying &amp; Online Optimization</h3>
     <ol>
       <li>Z. Lin, J. Hou*, <strong>X. Zeng</strong>. "Optimal Prediction-Correction Algorithm Using Sparse Linear Extrapolation for Time-Varying Optimization." <em>IEEE Trans. Signal Processing</em>, accepted, 2026.</li>
       <li>Z. Lin, <strong>X. Zeng</strong>, J. Hou*, J. Sun, J. Chen. "Primal-Dual Prediction-Correction Method with Tunable Memory for Linearly Constrained Time-Varying Convex Optimization." <em>Journal of Systems Science and Complexity</em>, vol. 39, no. 2, pp. 483–510, 2026.</li>
     </ol>
   </div>
 
-  <!-- ── Category 4 ── -->
+  <!-- ── Category 5: Distributed Matrix Equations ── -->
   <div class="pub-section">
-    <h3>Distributed Matrix Equations &amp; Networked Computation <span class="pub-count">(4)</span></h3>
+    <h3>Distributed Matrix Equations &amp; Networked Computation</h3>
     <ol>
+      <li>X. Jiang, <strong>X. Zeng*</strong>, J. Sun, J. Chen. "Distributed Algorithms for Semi-Definite Programming Problems over Unbalanced Digraphs." <em>IEEE Trans. Automatic Control</em>, vol. 68, no. 12, 2023.</li>
       <li>Y. Huang, <strong>X. Zeng*</strong>, Z. Meng, D. Meng. "Distributed Algorithms of Solving Linear Matrix Equations via Double-Layered Networks." <em>Automatica</em>, vol. 165, 111662, 2024.</li>
-      <li><strong>X. Zeng</strong>, J. Chen, Y. Hong. "Distributed Optimization Design of Iterative Refinement Technique for Algebraic Riccati Equations." <em>IEEE Trans. Systems, Man, and Cybernetics: Systems</em>, DOI: 10.1109/TSMC.2021.3056871, 2022. (Regular Paper)</li>
+      <li><strong>X. Zeng</strong>, J. Chen, Y. Hong. "Distributed Optimization Design of Iterative Refinement Technique for Algebraic Riccati Equations." <em>IEEE Trans. Systems, Man, and Cybernetics: Systems</em>, DOI: 10.1109/TSMC.2021.3056871, 2022.</li>
       <li><strong>X. Zeng</strong>, J. Chen, J. Sun, Y. Hong. "Distributed Optimization Approach for Solving Continuous-Time Lyapunov Equations with Exponential Rate of Convergence." <em>IEEE Trans. Systems, Man, and Cybernetics: Systems</em>, vol. 52, no. 3, pp. 1684–1691, 2022.</li>
-      <li><strong>X. Zeng</strong>, J. Chen, Y. Hong. "Distributed Optimization Design for Computation of Algebraic Riccati Inequalities." <em>IEEE Trans. Cybernetics</em>, vol. 52, no. 3, pp. 1924–1935, 2022. (Regular Paper)</li>
+      <li><strong>X. Zeng</strong>, J. Chen, Y. Hong. "Distributed Optimization Design for Computation of Algebraic Riccati Inequalities." <em>IEEE Trans. Cybernetics</em>, vol. 52, no. 3, pp. 1924–1935, 2022.</li>
     </ol>
   </div>
 
-  <!-- ── Category 5 ── -->
+  <!-- ── Category 6: Game Theory ── -->
   <div class="pub-section">
-    <h3>Game Theory &amp; Multi-Agent Decision Making <span class="pub-count">(3)</span></h3>
+    <h3>Game Theory &amp; Multi-Agent Decision Making</h3>
     <ol>
       <li>X. Zhang, <strong>X. Zeng*</strong>, Q. Yang, H. Fang, L. Xie, J. Chen. "Distributed Nominal Configuration Design for Linear Formations." <em>IEEE Trans. Automatic Control</em>, DOI: 10.1109/TAC.2026.3689360, 2026.</li>
       <li><strong>X. Zeng</strong>, J. Chen, S. Liang, Y. Hong. "Generalized Nash Equilibrium Seeking Strategy for Distributed Nonsmooth Multi-Cluster Game." <em>Automatica</em>, vol. 103, pp. 20–26, 2019.</li>
+      <li><strong>X. Zeng</strong>, L. Dou, J. Chen. "Accelerated First-Order Continuous-Time Algorithm for Solving Bilinear Saddle Point Problems." <em>IFAC World Congress</em>, 2020.</li>
       <li><strong>X. Zeng</strong>, L. Dou, J. Cui. "Distributed Accelerated Nash Equilibrium Learning for Two-Subnetwork Zero-Sum Game with Bilinear Coupling." <em>Kybernetika</em>, 2023.</li>
+      <li>K. Zhu, <strong>X. Zeng*</strong>. "Almost Sure Convergence to Approximate Nash Equilibrium in Zero-Sum Extensive-Form Games." <em>IEEE ICCA</em>, 2024.</li>
     </ol>
   </div>
 
-  <!-- ── Category 6 ── -->
+  <!-- ── Category 7: Motion Planning & Control ── -->
   <div class="pub-section">
-    <h3>Survey <span class="pub-count">(1)</span></h3>
+    <h3>Motion Planning &amp; Autonomous Systems</h3>
+    <ol>
+      <li>X. Zhang, Q. Yang, <strong>X. Zeng</strong>, H. Fang, J. Chen. "Cooperative Shape-Translation Estimation and Control for Multi-Robot Systems." <em>IEEE Trans. Automatic Control</em>, 2025.</li>
+      <li>Z. Cheng, <strong>X. Zeng*</strong>, H. Fang, G. Wang, L. Dou. "Hierarchical MPC-based Motion Planning for Autonomous Driving in Unstructured Environments." <em>Unmanned Systems</em>, 2023. <span style="color:var(--accent); font-size:.8rem; font-weight:500;">(Best Paper Award 2026)</span></li>
+      <li><strong>X. Zeng</strong>. "Hybrid Networked Control for Cyber-Physical Network Systems." <em>Ph.D. Dissertation, Texas Tech University</em>, 2015.</li>
+    </ol>
+  </div>
+
+  <!-- ── Category 8: Survey ── -->
+  <div class="pub-section">
+    <h3>Survey</h3>
     <ol>
       <li>X. Jiang, <strong>X. Zeng</strong>, J. Sun*, J. Chen. "Distributed Optimization for Multi-Agent Systems: A Survey and Perspectives" (多智能体系统分布式优化综述与前瞻). <em>Science China Information Sciences</em> (中国科学：信息科学), 2025.</li>
     </ol>
