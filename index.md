@@ -361,7 +361,7 @@
   <h2 class="section-title"><span data-lang="en">About</span><span data-lang="zh">个人简介</span></h2>
   <div class="card" data-lang="en">
     <p>I am a Professor at the <strong>School of Automation, Beijing Institute of Technology</strong>, affiliated with the National Key Laboratory of Autonomous Intelligent Unmanned Systems. My research interests span <strong>distributed optimization</strong>, <strong>noncooperative game theory</strong>, and <strong>intelligent planning &amp; decision-making for autonomous unmanned systems</strong>.</p>
-    <p style="margin-top:.8rem">I received my Ph.D. in Mechanical Engineering from <strong>Texas Tech University</strong> (USA, 2015) and previously held postdoctoral positions at the Academy of Mathematics and Systems Science, Chinese Academy of Sciences, and Beijing Institute of Technology.</p>
+    <p style="margin-top:.8rem">I received my Ph.D. in Mechanical Engineering from <strong>Texas Tech University</strong> (USA, 2015) and previously held postdoctoral positions at the Academy of Mathematics and Systems Science of the Chinese Academy of Sciences and Beijing Institute of Technology.</p>
   </div>
   <div class="card" data-lang="zh">
     <p>我是<strong>北京理工大学自动化学院</strong>教授，隶属于自主智能无人系统全国重点实验室。主要研究方向包括<strong>分布式优化</strong>、<strong>非合作博弈理论</strong>以及<strong>自主无人系统的智能规划与决策</strong>。</p>
