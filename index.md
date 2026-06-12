@@ -372,7 +372,7 @@
     <strong><span data-lang="en">🏛 Current Funding</span><span data-lang="zh">🏛 在研项目</span></strong>
     <ul style="margin-top:.5rem; padding-left:1.2rem; font-size:.92rem;">
       <li data-lang="en">NSFC Key International Cooperation Project — Distributed Optimization and Intelligent Decision-Making for Multi-Agent Cooperative Exploration in Complex Open Environments (2026–2030, Co-PI)</li>
-      <li data-lang="zh">国家自然科学基金重点国际合作项目 — 复杂开放环境下多智能体协同探索的分布式优化与智能决策（2026–2030，合作PI）</li>
+      <li data-lang="zh">国家自然科学基金重点国际合作项目 — 复杂开放环境下多智能体协同探索的分布式优化与智能决策（2026–2030，子课题负责人）</li>
     </ul>
   </div>
 </section>
@@ -404,7 +404,7 @@
       </div>
       <div class="timeline-item">
         <span class="year">2005 – 2009</span>
-        <p>B.Sc. in Control Science and Engineering, <strong>Harbin Institute of Technology</strong></p>
+        <p>B.Sc. in Automation, <strong>Harbin Institute of Technology</strong></p>
       </div>
     </div>
   </div>
@@ -432,7 +432,7 @@
       </div>
       <div class="timeline-item">
         <span class="year">2005 – 2009</span>
-        <p>本科，控制科学与工程，<strong>哈尔滨工业大学</strong></p>
+        <p>本科，自动化，<strong>哈尔滨工业大学</strong></p>
       </div>
     </div>
   </div>
@@ -475,8 +475,8 @@
     <div class="card">
       <h3>📘 Textbooks &amp; Monographs</h3>
       <ul>
-        <li><strong>X. Zeng</strong>, Y. Hong, H. Fang. <em>Distributed Nonsmooth Optimization and Control of Multi-Agent Systems</em> (多智能体系统的分布式非光滑优化控制). Beijing Institute of Technology Press, 2023. [National "14th Five-Year" Key Publication Project]</li>
-        <li>H. Fang, <strong>X. Zeng</strong>, Q. Yang, J. Chen. <em>Autonomous Intelligent Unmanned Systems</em> (自主智能无人系统). Tsinghua University Press, 2024. [National "14th Five-Year" Planning Textbook]</li>
+        <li><strong>X. Zeng</strong>, Y. Hong, H. Fang. <em>Distributed Nonsmooth Optimization and Control of Multi-Agent Systems</em> (多智能体系统的分布式非光滑优化控制). Beijing Institute of Technology Press, 2023. </li>
+        <li>H. Fang, <strong>X. Zeng</strong>, Q. Yang, J. Chen. <em>Autonomous Intelligent Unmanned Systems</em> (自主智能无人系统). Tsinghua University Press, 2024.</li>
       </ul>
     </div>
   </div>
@@ -514,8 +514,8 @@
     <div class="card">
       <h3>📘 教材与专著</h3>
       <ul>
-        <li><strong>曾宪琳</strong>，洪奕光，方浩. 《多智能体系统的分布式非光滑优化控制》. 北京理工大学出版社，2023. [国家"十四五"重点出版物规划项目]</li>
-        <li>方浩，<strong>曾宪琳</strong>，杨乾龙，陈杰. 《自主智能无人系统》. 清华大学出版社，2024. [国家"十四五"规划教材]</li>
+        <li><strong>曾宪琳</strong>，洪奕光，方浩. 《多智能体系统的分布式非光滑优化控制》. 北京理工大学出版社，2023.</li>
+        <li>方浩，<strong>曾宪琳</strong>，杨乾龙，陈杰. 《自主智能无人系统》. 清华大学出版社，2024. </li>
       </ul>
     </div>
   </div>
@@ -690,17 +690,17 @@
     <div class="student-card" data-lang="en"><span class="name">Kui Zhu</span><br><span class="topic">Algorithms for noncooperative games</span></div>
     <div class="student-card" data-lang="zh"><span class="name">朱奎</span><br><span class="topic">非合作博弈算法</span></div>
     <div class="student-card" data-lang="en"><span class="name">Zijun Cheng</span><br><span class="topic">Planning &amp; control of autonomous robots</span></div>
-    <div class="student-card" data-lang="zh"><span class="name">程子骏</span><br><span class="topic">自主机器人规划与控制</span></div>
+    <div class="student-card" data-lang="zh"><span class="name">成子君</span><br><span class="topic">自主机器人规划与控制</span></div>
     <div class="student-card" data-lang="en"><span class="name">Azhushima</span><br><span class="topic">Distributed optimization for multiple robots</span></div>
-    <div class="student-card" data-lang="zh"><span class="name">阿朱什玛</span><br><span class="topic">多机器人分布式优化</span></div>
+    <div class="student-card" data-lang="zh"><span class="name">阿珠史玛</span><br><span class="topic">多机器人分布式优化</span></div>
     <div class="student-card" data-lang="en"><span class="name">Yuman He</span><br><span class="topic">Algorithms for noncooperative games</span></div>
-    <div class="student-card" data-lang="zh"><span class="name">何宇曼</span><br><span class="topic">非合作博弈算法</span></div>
+    <div class="student-card" data-lang="zh"><span class="name">何雨蔓</span><br><span class="topic">非合作博弈算法</span></div>
     <div class="student-card" data-lang="en"><span class="name">Yuliang Wang</span><br><span class="topic">Task &amp; path planning of robots</span></div>
-    <div class="student-card" data-lang="zh"><span class="name">王钰亮</span><br><span class="topic">机器人任务与路径规划</span></div>
+    <div class="student-card" data-lang="zh"><span class="name">王玉梁</span><br><span class="topic">机器人任务与路径规划</span></div>
     <div class="student-card" data-lang="en"><span class="name">Yuhui Huang</span><br><span class="topic">TBA (2025–)</span></div>
-    <div class="student-card" data-lang="zh"><span class="name">黄宇慧</span><br><span class="topic">待定 (2025–)</span></div>
+    <div class="student-card" data-lang="zh"><span class="name">黄宇辉</span><br><span class="topic">待定 (2025–)</span></div>
     <div class="student-card" data-lang="en"><span class="name">Xin Yu</span><br><span class="topic">TBA (2025–)</span></div>
-    <div class="student-card" data-lang="zh"><span class="name">于欣</span><br><span class="topic">待定 (2025–)</span></div>
+    <div class="student-card" data-lang="zh"><span class="name">余鑫</span><br><span class="topic">待定 (2025–)</span></div>
     <div class="student-card" data-lang="en"><span class="name">Qinglong Zhang</span><br><span class="topic">TBA (2025–)</span></div>
     <div class="student-card" data-lang="zh"><span class="name">张庆龙</span><br><span class="topic">待定 (2025–)</span></div>
   </div>
@@ -709,20 +709,20 @@
   <div class="student-grid">
     <div class="student-card" data-lang="en"><span class="name">Kairui Guo</span> <span class="badge badge-ms">M.Sc.</span><br><span class="topic">TBA</span></div>
     <div class="student-card" data-lang="zh"><span class="name">郭凯瑞</span> <span class="badge badge-ms">学硕</span><br><span class="topic">待定</span></div>
-    <div class="student-card" data-lang="en"><span class="name">Jiarui Liang</span> <span class="badge badge-meng">M.Eng.</span><br><span class="topic">Motion planning of vehicles</span></div>
-    <div class="student-card" data-lang="zh"><span class="name">梁嘉瑞</span> <span class="badge badge-meng">专硕</span><br><span class="topic">车辆运动规划</span></div>
+    <div class="student-card" data-lang="en"><span class="name">Jiarui Liang</span> <span class="badge badge-meng">M.Eng.</span><br><span class="topic">LLM command and control</span></div>
+    <div class="student-card" data-lang="zh"><span class="name">梁家瑞</span> <span class="badge badge-meng">专硕</span><br><span class="topic">语义指挥控制</span></div>
     <div class="student-card" data-lang="en"><span class="name">Zhonghao Lin</span> <span class="badge badge-meng">M.Eng.</span><br><span class="topic">Time-varying optimization</span></div>
     <div class="student-card" data-lang="zh"><span class="name">林仲豪</span> <span class="badge badge-meng">专硕</span><br><span class="topic">时变优化</span></div>
     <div class="student-card" data-lang="en"><span class="name">Dongxiang Liu</span> <span class="badge badge-meng">M.Eng.</span><br><span class="topic">Motion planning of vehicles</span></div>
-    <div class="student-card" data-lang="zh"><span class="name">刘东翔</span> <span class="badge badge-meng">专硕</span><br><span class="topic">车辆运动规划</span></div>
+    <div class="student-card" data-lang="zh"><span class="name">刘冬翔</span> <span class="badge badge-meng">专硕</span><br><span class="topic">车辆运动规划</span></div>
     <div class="student-card" data-lang="en"><span class="name">Zelin Li</span> <span class="badge badge-meng">M.Eng.</span><br><span class="topic">Task planning of robots</span></div>
     <div class="student-card" data-lang="zh"><span class="name">李泽林</span> <span class="badge badge-meng">专硕</span><br><span class="topic">机器人任务规划</span></div>
     <div class="student-card" data-lang="en"><span class="name">Jiahui Chen</span> <span class="badge badge-meng">M.Eng.</span><br><span class="topic">Path planning of robots</span></div>
     <div class="student-card" data-lang="zh"><span class="name">陈嘉辉</span> <span class="badge badge-meng">专硕</span><br><span class="topic">机器人路径规划</span></div>
     <div class="student-card" data-lang="en"><span class="name">Sunhan Zhou</span> <span class="badge badge-meng">M.Eng.</span><br><span class="topic">TBA</span></div>
-    <div class="student-card" data-lang="zh"><span class="name">周孙翰</span> <span class="badge badge-meng">专硕</span><br><span class="topic">待定</span></div>
+    <div class="student-card" data-lang="zh"><span class="name">周孙涵</span> <span class="badge badge-meng">专硕</span><br><span class="topic">待定</span></div>
     <div class="student-card" data-lang="en"><span class="name">Ke Jia</span> <span class="badge badge-meng">M.Eng.</span><br><span class="topic">TBA</span></div>
-    <div class="student-card" data-lang="zh"><span class="name">贾可</span> <span class="badge badge-meng">专硕</span><br><span class="topic">待定</span></div>
+    <div class="student-card" data-lang="zh"><span class="name">贾珂</span> <span class="badge badge-meng">专硕</span><br><span class="topic">待定</span></div>
     <div class="student-card" data-lang="en"><span class="name">Tong Huang</span> <span class="badge badge-meng">M.Eng.</span><br><span class="topic">TBA</span></div>
     <div class="student-card" data-lang="zh"><span class="name">黄彤</span> <span class="badge badge-meng">专硕</span><br><span class="topic">待定</span></div>
   </div>
@@ -736,12 +736,12 @@
       <tr style="border-bottom:1px solid var(--border)" data-lang="en">
         <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem; width:7rem;">2020–2025</td>
         <td style="padding:.5rem .6rem"><strong>Jie Hou</strong> <span class="badge badge-phd">Ph.D.</span></td>
-        <td style="padding:.5rem .6rem; font-size:.85rem">Distributed projection-free stochastic optimization</td>
+        <td style="padding:.5rem .6rem; font-size:.85rem">Distributed projection-free methods for constrained stochastic optimization</td>
       </tr>
       <tr style="border-bottom:1px solid var(--border)" data-lang="zh">
         <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem; width:7rem;">2020–2025</td>
-        <td style="padding:.5rem .6rem"><strong>侯杰</strong> <span class="badge badge-phd">博士</span></td>
-        <td style="padding:.5rem .6rem; font-size:.85rem">分布式无投影随机优化</td>
+        <td style="padding:.5rem .6rem"><strong>侯洁</strong> <span class="badge badge-phd">博士</span></td>
+        <td style="padding:.5rem .6rem; font-size:.85rem">有约束随机优化的分布式无投影求解方法</td>
       </tr>
       <tr style="border-bottom:1px solid var(--border)" data-lang="en">
         <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2023–2026</td>
@@ -750,7 +750,7 @@
       </tr>
       <tr style="border-bottom:1px solid var(--border)" data-lang="zh">
         <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2023–2026</td>
-        <td style="padding:.5rem .6rem"><strong>陈路影</strong> <span class="badge badge-ms">学硕</span></td>
+        <td style="padding:.5rem .6rem"><strong>陈璐颖</strong> <span class="badge badge-ms">学硕</span></td>
         <td style="padding:.5rem .6rem; font-size:.85rem">有限资源约束下的攻防博弈策略研究</td>
       </tr>
       <tr style="border-bottom:1px solid var(--border)" data-lang="en">
@@ -760,88 +760,88 @@
       </tr>
       <tr style="border-bottom:1px solid var(--border)" data-lang="zh">
         <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2023–2026</td>
-        <td style="padding:.5rem .6rem"><strong>李崇尧</strong> <span class="badge badge-meng">专硕</span></td>
-        <td style="padding:.5rem .6rem; font-size:.85rem">无人作战集群攻防对抗的资源分配策略</td>
+        <td style="padding:.5rem .6rem"><strong>李崇垚</strong> <span class="badge badge-meng">专硕</span></td>
+        <td style="padding:.5rem .6rem; font-size:.85rem">集群无人作战系统攻防对抗中的资源分配策略研究</td>
       </tr>
       <tr style="border-bottom:1px solid var(--border)" data-lang="en">
         <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2022–2025</td>
         <td style="padding:.5rem .6rem"><strong>Yixuan Li</strong> <span class="badge badge-ms">M.Sc.</span></td>
-        <td style="padding:.5rem .6rem; font-size:.85rem">Cooperative pursuit via adversarial game theory</td>
+        <td style="padding:.5rem .6rem; font-size:.85rem">Cooperative Pursuit Strategy Based on Intelligent Adversarial Game Theory</td>
       </tr>
       <tr style="border-bottom:1px solid var(--border)" data-lang="zh">
         <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2022–2025</td>
-        <td style="padding:.5rem .6rem"><strong>李奕宣</strong> <span class="badge badge-ms">学硕</span></td>
-        <td style="padding:.5rem .6rem; font-size:.85rem">基于对抗博弈的协同追逃</td>
+        <td style="padding:.5rem .6rem"><strong>李逸萱</strong> <span class="badge badge-ms">学硕</span></td>
+        <td style="padding:.5rem .6rem; font-size:.85rem">基于智能博弈对抗的合作追捕策略</td>
       </tr>
       <tr style="border-bottom:1px solid var(--border)" data-lang="en">
         <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2022–2025</td>
         <td style="padding:.5rem .6rem"><strong>Xuanming Zhang</strong> <span class="badge badge-ms">M.Sc.</span></td>
-        <td style="padding:.5rem .6rem; font-size:.85rem">Motion planning via behavioral game theory</td>
+        <td style="padding:.5rem .6rem; font-size:.85rem">Multimodal Vehicle Trajectory Prediction and Motion Planning Methods Based on Behavioral Game Theory</td>
       </tr>
       <tr style="border-bottom:1px solid var(--border)" data-lang="zh">
         <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2022–2025</td>
-        <td style="padding:.5rem .6rem"><strong>张玄名</strong> <span class="badge badge-ms">学硕</span></td>
-        <td style="padding:.5rem .6rem; font-size:.85rem">基于行为博弈的运动规划</td>
+        <td style="padding:.5rem .6rem"><strong>张轩铭</strong> <span class="badge badge-ms">学硕</span></td>
+        <td style="padding:.5rem .6rem; font-size:.85rem">基于行为博弈论的车辆多模态轨迹预测和运动规划方法</td>
       </tr>
       <tr style="border-bottom:1px solid var(--border)" data-lang="en">
         <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2021–2024</td>
         <td style="padding:.5rem .6rem"><strong>Lan Wang</strong> <span class="badge badge-ms">M.Sc.</span></td>
-        <td style="padding:.5rem .6rem; font-size:.85rem">Interpretable vehicle intention prediction</td>
+        <td style="padding:.5rem .6rem; font-size:.85rem">Interpretable Vehicle Intention Prediction Methods and Trajectory Forecasting Methods</td>
       </tr>
       <tr style="border-bottom:1px solid var(--border)" data-lang="zh">
         <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2021–2024</td>
-        <td style="padding:.5rem .6rem"><strong>王岚</strong> <span class="badge badge-ms">学硕</span></td>
-        <td style="padding:.5rem .6rem; font-size:.85rem">可解释车辆意图预测</td>
+        <td style="padding:.5rem .6rem"><strong>王兰</strong> <span class="badge badge-ms">学硕</span></td>
+        <td style="padding:.5rem .6rem; font-size:.85rem">可解释的车辆意图预测和轨迹预测方法</td>
       </tr>
       <tr style="border-bottom:1px solid var(--border)" data-lang="en">
         <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2021–2024</td>
         <td style="padding:.5rem .6rem"><strong>Yanyan Fang</strong> <span class="badge badge-meng">M.Eng.</span></td>
-        <td style="padding:.5rem .6rem; font-size:.85rem">Multimodal trajectory prediction for mixed traffic</td>
+        <td style="padding:.5rem .6rem; font-size:.85rem">Multimodal Trajectory Prediction and Planning Methods for Mixed Traffic Flows in Urban Environments</td>
       </tr>
       <tr style="border-bottom:1px solid var(--border)" data-lang="zh">
         <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2021–2024</td>
-        <td style="padding:.5rem .6rem"><strong>房彦彦</strong> <span class="badge badge-meng">专硕</span></td>
-        <td style="padding:.5rem .6rem; font-size:.85rem">混合交通多模态轨迹预测</td>
+        <td style="padding:.5rem .6rem"><strong>房妍妍</strong> <span class="badge badge-meng">专硕</span></td>
+        <td style="padding:.5rem .6rem; font-size:.85rem">城市环境下的混合车流多模态轨迹预测及规划方法</td>
       </tr>
       <tr style="border-bottom:1px solid var(--border)" data-lang="en">
         <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2020–2023</td>
         <td style="padding:.5rem .6rem"><strong>Zijun Cheng</strong> <span class="badge badge-meng">M.Eng.</span></td>
-        <td style="padding:.5rem .6rem; font-size:.85rem">Optimization-based motion planning</td>
+        <td style="padding:.5rem .6rem; font-size:.85rem">Optimization-based motion planning algorithm for multiple vehicles</td>
       </tr>
       <tr style="border-bottom:1px solid var(--border)" data-lang="zh">
         <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2020–2023</td>
-        <td style="padding:.5rem .6rem"><strong>程子骏</strong> <span class="badge badge-meng">专硕</span></td>
-        <td style="padding:.5rem .6rem; font-size:.85rem">基于优化的运动规划</td>
+        <td style="padding:.5rem .6rem"><strong>成子君</strong> <span class="badge badge-meng">专硕</span></td>
+        <td style="padding:.5rem .6rem; font-size:.85rem">基于优化的多车协同自动驾驶运动规划算法</td>
       </tr>
       <tr style="border-bottom:1px solid var(--border)" data-lang="en">
         <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2020–2023</td>
         <td style="padding:.5rem .6rem"><strong>Kai Wang</strong> <span class="badge badge-meng">M.Eng.</span></td>
-        <td style="padding:.5rem .6rem; font-size:.85rem">Interpretable intention recognition &amp; trajectory prediction</td>
+        <td style="padding:.5rem .6rem; font-size:.85rem">Rule-Based Interpretable Intention Recognition and Trajectory Prediction of Surrounding Vehicles</td>
       </tr>
       <tr style="border-bottom:1px solid var(--border)" data-lang="zh">
         <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2020–2023</td>
         <td style="padding:.5rem .6rem"><strong>王凯</strong> <span class="badge badge-meng">专硕</span></td>
-        <td style="padding:.5rem .6rem; font-size:.85rem">可解释意图识别与轨迹预测</td>
+        <td style="padding:.5rem .6rem; font-size:.85rem">基于规则可解释的周车意图识别与轨迹预测</td>
       </tr>
       <tr style="border-bottom:1px solid var(--border)" data-lang="en">
         <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2019–2022</td>
         <td style="padding:.5rem .6rem"><strong>Jiebang Xing</strong> <span class="badge badge-ms">M.Sc.</span></td>
-        <td style="padding:.5rem .6rem; font-size:.85rem">Pursuit-evasion games via deep RL</td>
+        <td style="padding:.5rem .6rem; font-size:.85rem">Research on pursuit­ evasion games based on deep reinforcement learning</td>
       </tr>
       <tr style="border-bottom:1px solid var(--border)" data-lang="zh">
         <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2019–2022</td>
         <td style="padding:.5rem .6rem"><strong>邢杰邦</strong> <span class="badge badge-ms">学硕</span></td>
-        <td style="padding:.5rem .6rem; font-size:.85rem">基于深度强化学习的追逃博弈</td>
+        <td style="padding:.5rem .6rem; font-size:.85rem">基于深度强化学习的追逃博弈研究</td>
       </tr>
       <tr data-lang="en">
         <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2019–2022</td>
         <td style="padding:.5rem .6rem"><strong>Junchao Zhang</strong> <span class="badge badge-meng">M.Eng.</span></td>
-        <td style="padding:.5rem .6rem; font-size:.85rem">Pursuit strategy via model-free RL</td>
+        <td style="padding:.5rem .6rem; font-size:.85rem">Pursuing Strategy Generation Method Based on Model-free Reinforcement Learning</td>
       </tr>
       <tr data-lang="zh">
         <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2019–2022</td>
-        <td style="padding:.5rem .6rem"><strong>张骏超</strong> <span class="badge badge-meng">专硕</span></td>
-        <td style="padding:.5rem .6rem; font-size:.85rem">基于无模型强化学习的追逃策略</td>
+        <td style="padding:.5rem .6rem"><strong>张俊超</strong> <span class="badge badge-meng">专硕</span></td>
+        <td style="padding:.5rem .6rem; font-size:.85rem">基于无模型强化学习的追捕策略生成方法</td>
       </tr>
     </table>
   </div>
