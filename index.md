@@ -301,15 +301,6 @@
     <p style="margin-top:.8rem">I received my Ph.D. in Mechanical Engineering from <strong>Texas Tech University</strong> (USA, 2015) and previously held postdoctoral positions at the Chinese Academy of Sciences (with Prof. Yiguang Hong) and Beijing Institute of Technology.</p>
   </div>
 
-  <div class="card">
-    <h3>🏆 Selected Awards &amp; Honors</h3>
-    <ul class="awards-list">
-      <li><span class="award-year">2026</span> Best Associate Editor Award, <em>IEEE Trans. on Circuits and Systems II</em></li>
-      <li><span class="award-year">2026</span> Best Paper Award, <em>Unmanned Systems</em></li>
-      <li><span class="award-year">2025</span> CAA Natural Science Award (1st Prize) — Intelligent Control and Cooperative Decision-Making for High-Dynamic Unmanned Systems</li>
-      <li><span class="award-year">2025</span> Beijing Teaching Achievement Award (1st Prize) — Cultivating Top-Notch Innovative Talents in Control Science</li>
-    </ul>
-  </div>
 
   <div class="funding-card">
     <strong>🏛 Current Funding</strong>
