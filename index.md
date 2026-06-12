@@ -535,10 +535,8 @@
 
   <h3 style="margin-top:1.5rem; margin-bottom:.6rem; color:var(--navy);">Master Students <span class="badge badge-ms">M.Sc. 2</span> <span class="badge badge-meng">M.Eng. 9</span></h3>
   <div class="student-grid">
-    <div class="student-card"><span class="name">Luying Chen</span> <span class="badge badge-ms">M.Sc.</span><br><span class="topic">Game theory</span></div>
     <div class="student-card"><span class="name">Kairui Guo</span> <span class="badge badge-ms">M.Sc.</span><br><span class="topic">TBA</span></div>
     <div class="student-card"><span class="name">Chongyao Li</span> <span class="badge badge-meng">M.Eng.</span><br><span class="topic">Game theory</span></div>
-    <div class="student-card"><span class="name">Jiarui Liang</span> <span class="badge badge-meng">M.Eng.</span><br><span class="topic">Motion planning of vehicles</span></div>
     <div class="student-card"><span class="name">Zhonghao Lin</span> <span class="badge badge-meng">M.Eng.</span><br><span class="topic">Time-varying optimization</span></div>
     <div class="student-card"><span class="name">Dongxiang Liu</span> <span class="badge badge-meng">M.Eng.</span><br><span class="topic">Motion planning of vehicles</span></div>
     <div class="student-card"><span class="name">Zelin Li</span> <span class="badge badge-meng">M.Eng.</span><br><span class="topic">Task planning of robots</span></div>
