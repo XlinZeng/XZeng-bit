@@ -536,7 +536,7 @@
   <h3 style="margin-top:1.5rem; margin-bottom:.6rem; color:var(--navy);">Master Students <span class="badge badge-ms">M.Sc. 2</span> <span class="badge badge-meng">M.Eng. 9</span></h3>
   <div class="student-grid">
     <div class="student-card"><span class="name">Kairui Guo</span> <span class="badge badge-ms">M.Sc.</span><br><span class="topic">TBA</span></div>
-    <div class="student-card"><span class="name">Chongyao Li</span> <span class="badge badge-meng">M.Eng.</span><br><span class="topic">Game theory</span></div>
+    <div class="student-card"><span class="name">Jiarui Liang</span> <span class="badge badge-meng">M.Eng.</span><br><span class="topic">Motion planning of vehicles</span></div>
     <div class="student-card"><span class="name">Zhonghao Lin</span> <span class="badge badge-meng">M.Eng.</span><br><span class="topic">Time-varying optimization</span></div>
     <div class="student-card"><span class="name">Dongxiang Liu</span> <span class="badge badge-meng">M.Eng.</span><br><span class="topic">Motion planning of vehicles</span></div>
     <div class="student-card"><span class="name">Zelin Li</span> <span class="badge badge-meng">M.Eng.</span><br><span class="topic">Task planning of robots</span></div>
@@ -556,6 +556,16 @@
         <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem; width:7rem;">2020–2025</td>
         <td style="padding:.5rem .6rem"><strong>Jie Hou</strong> <span class="badge badge-phd">Ph.D.</span></td>
         <td style="padding:.5rem .6rem; font-size:.85rem">Distributed projection-free stochastic optimization</td>
+      </tr>
+      <tr style="border-bottom:1px solid var(--border)">
+        <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2023–2026</td>
+        <td style="padding:.5rem .6rem"><strong>Luying Chen</strong> <span class="badge badge-ms">M.Sc.</span></td>
+        <td style="padding:.5rem .6rem; font-size:.85rem">Research on Attack-Defense Game Strategy under Limited Resource Constraints</td>
+      </tr>
+      <tr style="border-bottom:1px solid var(--border)">
+        <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2023–2026</td>
+        <td style="padding:.5rem .6rem"><strong>Chongyao Li</strong> <span class="badge badge-meng">M.Eng.</span></td>
+        <td style="padding:.5rem .6rem; font-size:.85rem">Resource Allocation Strategies in Attack-Defense Confrontation of Unmanned Combat Swarm Systems</td>
       </tr>
       <tr style="border-bottom:1px solid var(--border)">
         <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2022–2025</td>
