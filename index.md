@@ -639,11 +639,11 @@
       </tr>
       <tr style="border-bottom:1px solid var(--border)" data-lang="en">
         <td style="padding:.6rem .8rem; color:var(--muted); font-size:.85rem;">2025–now</td>
-        <td style="padding:.6rem .8rem">Fundamentals of Autonomous Intelligent Systems <span style="color:var(--muted)">(Graduate)</span></td>
+        <td style="padding:.6rem .8rem">Fundamentals of Autonomous Intelligent Unmanned Systems <span style="color:var(--muted)">(Graduate)</span></td>
       </tr>
       <tr style="border-bottom:1px solid var(--border)" data-lang="zh">
         <td style="padding:.6rem .8rem; color:var(--muted); font-size:.85rem;">2025–至今</td>
-        <td style="padding:.6rem .8rem">自主智能系统基础 <span style="color:var(--muted)">（研究生）</span></td>
+        <td style="padding:.6rem .8rem">自主智能无人系统基础 <span style="color:var(--muted)">（研究生）</span></td>
       </tr>
       <tr style="border-bottom:1px solid var(--border)" data-lang="en">
         <td style="padding:.6rem .8rem; color:var(--muted); font-size:.85rem;">2023–now</td>
@@ -659,7 +659,7 @@
       </tr>
       <tr style="border-bottom:1px solid var(--border)" data-lang="zh">
         <td style="padding:.6rem .8rem; color:var(--muted); font-size:.85rem;">2023–至今</td>
-        <td style="padding:.6rem .8rem">集群智能与对抗博弈基础 <span style="color:var(--muted)">（研究生）</span> <span style="font-size:.78rem; color:var(--accent); font-weight:500;">— AI赋能课程</span></td>
+        <td style="padding:.6rem .8rem">群体智能与博弈对抗基础 <span style="color:var(--muted)">（研究生）</span> <span style="font-size:.78rem; color:var(--accent); font-weight:500;">— AI赋能课程</span></td>
       </tr>
       <tr style="border-bottom:1px solid var(--border)" data-lang="en">
         <td style="padding:.6rem .8rem; color:var(--muted); font-size:.85rem;">2021–2024</td>
@@ -675,7 +675,7 @@
       </tr>
       <tr data-lang="zh">
         <td style="padding:.6rem .8rem; color:var(--muted); font-size:.85rem;">2020–2022</td>
-        <td style="padding:.6rem .8rem">优化理论与方法 <span style="color:var(--muted)">（研究生）</span></td>
+        <td style="padding:.6rem .8rem">最优化理论与方法 <span style="color:var(--muted)">（研究生）</span></td>
       </tr>
     </table>
   </div>
