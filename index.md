@@ -379,7 +379,6 @@
     <ul>
       <li><strong>X. Zeng</strong>, Y. Hong, H. Fang. <em>Distributed Nonsmooth Optimization and Control of Multi-Agent Systems</em> (多智能体系统的分布式非光滑优化控制). Beijing Institute of Technology Press, 2023. [National "14th Five-Year" Key Publication Project]</li>
       <li>H. Fang, <strong>X. Zeng</strong>, Q. Yang, J. Chen. <em>Autonomous Intelligent Unmanned Systems</em> (自主智能无人系统). Tsinghua University Press, 2024. [National "14th Five-Year" Planning Textbook]</li>
-      <li>H. Fang, Q. Yang, <strong>X. Zeng</strong>, J. Chen. <em>Collaborative Control and Optimization of Autonomous Unmanned Systems</em> (自主无人系统协同控制与优化). Science Press. [National "14th Five-Year" Key Publication Project]</li>
     </ul>
   </div>
 </section>
