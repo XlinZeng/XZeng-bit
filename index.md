@@ -830,7 +830,7 @@
       </tr>
       <tr style="border-bottom:1px solid var(--border)" data-lang="zh">
         <td style="padding:.5rem .6rem; color:var(--muted); font-size:.82rem;">2019–2022</td>
-        <td style="padding:.5rem .6rem"><strong>邢杰邦</strong> <span class="badge badge-ms">学硕</span></td>
+        <td style="padding:.5rem .6rem"><strong>邢介邦</strong> <span class="badge badge-ms">学硕</span></td>
         <td style="padding:.5rem .6rem; font-size:.85rem">基于深度强化学习的追逃博弈研究</td>
       </tr>
       <tr data-lang="en">
