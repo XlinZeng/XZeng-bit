@@ -579,7 +579,7 @@
   <div class="pub-section">
     <h3><span data-lang="en">Distributed Matrix Equations &amp; Networked Computation</span><span data-lang="zh">分布式矩阵方程与网络化计算</span></h3>
     <ol>
-      <li>X. Jiang, <strong>X. Zeng*</strong>, J. Sun, J. Chen. "Distributed Algorithms for Semi-Definite Programming Problems over Unbalanced Digraphs." <em>IEEE Trans. Automatic Control</em>, vol. 68, no. 12, 2023.</li>
+      <li>X. Jiang, <strong>X. Zeng*</strong>, J. Sun, J. Chen. "Distributed synchronous and asynchronous algorithms for semi-definite programming with diagonal constraints." <em>IEEE Trans. Automatic Control</em>, vol. 68, no. 12, 2023.</li>
       <li>Y. Huang, <strong>X. Zeng*</strong>, Z. Meng, D. Meng. "Distributed Algorithms of Solving Linear Matrix Equations via Double-Layered Networks." <em>Automatica</em>, vol. 165, 111662, 2024.</li>
       <li><strong>X. Zeng</strong>, J. Chen, Y. Hong. "Distributed Optimization Design of Iterative Refinement Technique for Algebraic Riccati Equations." <em>IEEE Trans. Systems, Man, and Cybernetics: Systems</em>, DOI: 10.1109/TSMC.2021.3056871, 2022.</li>
       <li><strong>X. Zeng</strong>, J. Chen, J. Sun, Y. Hong. "Distributed Optimization Approach for Solving Continuous-Time Lyapunov Equations with Exponential Rate of Convergence." <em>IEEE Trans. Systems, Man, and Cybernetics: Systems</em>, vol. 52, no. 3, pp. 1684–1691, 2022.</li>
