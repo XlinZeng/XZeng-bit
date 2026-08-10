@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -24,302 +23,301 @@
     line-height: 1.7;
   }
 
-/\* ── LANGUAGE TOGGLE ── \*/
-.lang-toggle {
-position: absolute;
-top: 1rem;
-right: 1.5rem;
-display: flex;
-gap: 0;
-border-radius: 6px;
-overflow: hidden;
-border: 1px solid rgba(255,255,255,0.3);
-z-index: 200;
-}
-.lang-btn {
-padding: .4rem .8rem;
-border: none;
-background: rgba(255,255,255,0.1);
-color: #bcc4d0;
-font-size: .82rem;
-cursor: pointer;
-transition: all .2s;
-font-weight: 500;
-}
-.lang-btn:hover { background: rgba(255,255,255,0.2); color: #fff; }
-.lang-btn.active {
-background: var(--accent);
-color: var(--navy);
-font-weight: 600;
-}
+  /* ── LANGUAGE TOGGLE ── */
+  .lang-toggle {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    display: flex;
+    gap: 0;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.3);
+    z-index: 200;
+  }
+  .lang-btn {
+    padding: .4rem .8rem;
+    border: none;
+    background: rgba(255,255,255,0.1);
+    color: #bcc4d0;
+    font-size: .82rem;
+    cursor: pointer;
+    transition: all .2s;
+    font-weight: 500;
+  }
+  .lang-btn:hover { background: rgba(255,255,255,0.2); color: #fff; }
+  .lang-btn.active {
+    background: var(--accent);
+    color: var(--navy);
+    font-weight: 600;
+  }
 
-/\* ── LANGUAGE DISPLAY ── \*/
-\[data-lang="zh"] { display: none; }
-body.zh \[data-lang="zh"] { display: block; }
-body.zh \[data-lang="en"] { display: none; }
-body.zh span\[data-lang="zh"],
-body.zh a\[data-lang="zh"] { display: inline; }
-body.zh span\[data-lang="en"],
-body.zh a\[data-lang="en"] { display: none; }
-span\[data-lang="zh"], a\[data-lang="zh"] { display: none; }
-span\[data-lang="en"], a\[data-lang="en"] { display: inline; }
+  /* ── LANGUAGE DISPLAY ── */
+  [data-lang="zh"] { display: none; }
+  body.zh [data-lang="zh"] { display: block; }
+  body.zh [data-lang="en"] { display: none; }
+  body.zh span[data-lang="zh"],
+  body.zh a[data-lang="zh"] { display: inline; }
+  body.zh span[data-lang="en"],
+  body.zh a[data-lang="en"] { display: none; }
+  span[data-lang="zh"], a[data-lang="zh"] { display: none; }
+  span[data-lang="en"], a[data-lang="en"] { display: inline; }
 
-/\* table rows \*/
-body.zh tr\[data-lang="zh"] { display: table-row; }
-body.zh tr\[data-lang="en"] { display: none; }
-tr\[data-lang="zh"] { display: none; }
-tr\[data-lang="en"] { display: table-row; }
+  /* table rows */
+  body.zh tr[data-lang="zh"] { display: table-row; }
+  body.zh tr[data-lang="en"] { display: none; }
+  tr[data-lang="zh"] { display: none; }
+  tr[data-lang="en"] { display: table-row; }
 
-/\* grid items \*/
-body.zh div.student-card\[data-lang="zh"] { display: block; }
-body.zh div.student-card\[data-lang="en"] { display: none; }
-div.student-card\[data-lang="zh"] { display: none; }
+  /* grid items */
+  body.zh div.student-card[data-lang="zh"] { display: block; }
+  body.zh div.student-card[data-lang="en"] { display: none; }
+  div.student-card[data-lang="zh"] { display: none; }
 
-/\* ── HEADER ── \*/
-.header {
-background: var(--navy);
-color: #fff;
-padding: 3rem 2rem 2rem;
-text-align: center;
-position: relative;
-overflow: hidden;
-}
-.header::after {
-content: '';
-position: absolute;
-bottom: 0; left: 0; right: 0;
-height: 4px;
-background: linear-gradient(90deg, var(--accent), #e5b93c, var(--accent));
-}
-.header h1 {
-font-size: 2.2rem;
-font-weight: 700;
-letter-spacing: 1px;
-margin-bottom: .2rem;
-}
-.header h2 {
-font-size: 1.1rem;
-font-weight: 400;
-color: #bcc4d0;
-}
-.header .affil {
-margin-top: .6rem;
-font-size: .92rem;
-color: #9ca3af;
-line-height: 1.6;
-}
-.header .links {
-margin-top: .8rem;
-display: flex;
-justify-content: center;
-gap: 1.4rem;
-flex-wrap: wrap;
-}
-.header .links a {
-color: var(--accent);
-text-decoration: none;
-font-size: .9rem;
-transition: color .2s;
-}
-.header .links a:hover { color: #fff; }
+  /* ── HEADER ── */
+  .header {
+    background: var(--navy);
+    color: #fff;
+    padding: 3rem 2rem 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .header::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--accent), #e5b93c, var(--accent));
+  }
+  .header h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: .2rem;
+  }
+  .header h2 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #bcc4d0;
+  }
+  .header .affil {
+    margin-top: .6rem;
+    font-size: .92rem;
+    color: #9ca3af;
+    line-height: 1.6;
+  }
+  .header .links {
+    margin-top: .8rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.4rem;
+    flex-wrap: wrap;
+  }
+  .header .links a {
+    color: var(--accent);
+    text-decoration: none;
+    font-size: .9rem;
+    transition: color .2s;
+  }
+  .header .links a:hover { color: #fff; }
 
-/\* ── TABS ── \*/
-.tab-nav {
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-gap: 0;
-background: #fff;
-border-bottom: 2px solid var(--border);
-position: sticky;
-top: 0;
-z-index: 100;
-box-shadow: 0 1px 4px rgba(0,0,0,.04);
-}
-.tab-btn {
-padding: .85rem 1.5rem;
-border: none;
-background: transparent;
-font-size: .92rem;
-cursor: pointer;
-color: var(--muted);
-font-weight: 500;
-border-bottom: 3px solid transparent;
-transition: all .2s;
-white-space: nowrap;
-}
-.tab-btn:hover { color: var(--text); background: #f3f4f6; }
-.tab-btn.active {
-color: var(--navy);
-border-bottom-color: var(--accent);
-font-weight: 600;
-}
+  /* ── TABS ── */
+  .tab-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0;
+    background: #fff;
+    border-bottom: 2px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 1px 4px rgba(0,0,0,.04);
+  }
+  .tab-btn {
+    padding: .85rem 1.5rem;
+    border: none;
+    background: transparent;
+    font-size: .92rem;
+    cursor: pointer;
+    color: var(--muted);
+    font-weight: 500;
+    border-bottom: 3px solid transparent;
+    transition: all .2s;
+    white-space: nowrap;
+  }
+  .tab-btn:hover { color: var(--text); background: #f3f4f6; }
+  .tab-btn.active {
+    color: var(--navy);
+    border-bottom-color: var(--accent);
+    font-weight: 600;
+  }
 
-/\* ── MAIN ── \*/
-.container {
-max-width: 920px;
-margin: 0 auto;
-padding: 2rem 1.5rem 4rem;
-}
-.tab-content { display: none; animation: fadeIn .35s ease; }
-.tab-content.active { display: block; }
-@keyframes fadeIn { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:translateY(0); } }
+  /* ── MAIN ── */
+  .container {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 4rem;
+  }
+  .tab-content { display: none; animation: fadeIn .35s ease; }
+  .tab-content.active { display: block; }
+  @keyframes fadeIn { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:translateY(0); } }
 
-.section-title {
-font-size: 1.4rem;
-font-weight: 700;
-color: var(--navy);
-margin-bottom: 1rem;
-padding-bottom: .5rem;
-border-bottom: 2px solid var(--accent);
-display: inline-block;
-}
-.card {
-background: var(--card);
-border-radius: 10px;
-padding: 1.5rem 1.8rem;
-margin-bottom: 1.5rem;
-box-shadow: 0 1px 3px rgba(0,0,0,.06);
-border: 1px solid var(--border);
-}
-.card h3 {
-font-size: 1.05rem;
-color: var(--navy);
-margin-bottom: .6rem;
-}
-.card ul, .card ol {
-padding-left: 1.3rem;
-}
-.card li {
-margin-bottom: .5rem;
-line-height: 1.65;
-}
+  .section-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 1rem;
+    padding-bottom: .5rem;
+    border-bottom: 2px solid var(--accent);
+    display: inline-block;
+  }
+  .card {
+    background: var(--card);
+    border-radius: 10px;
+    padding: 1.5rem 1.8rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,.06);
+    border: 1px solid var(--border);
+  }
+  .card h3 {
+    font-size: 1.05rem;
+    color: var(--navy);
+    margin-bottom: .6rem;
+  }
+  .card ul, .card ol {
+    padding-left: 1.3rem;
+  }
+  .card li {
+    margin-bottom: .5rem;
+    line-height: 1.65;
+  }
 
-/\* ── PUB SUBSECTIONS ── \*/
-.pub-section { margin-bottom: 1.8rem; }
-.pub-section h3 {
-font-size: 1rem;
-color: var(--accent);
-background: #fef9ee;
-display: inline-block;
-padding: .25rem .8rem;
-border-radius: 20px;
-font-weight: 600;
-margin-bottom: .8rem;
-}
-.pub-section ol { padding-left: 1.3rem; }
-.pub-section li {
-margin-bottom: .6rem;
-line-height: 1.65;
-}
+  /* ── PUB SUBSECTIONS ── */
+  .pub-section { margin-bottom: 1.8rem; }
+  .pub-section h3 {
+    font-size: 1rem;
+    color: var(--accent);
+    background: #fef9ee;
+    display: inline-block;
+    padding: .25rem .8rem;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-bottom: .8rem;
+  }
+  .pub-section ol { padding-left: 1.3rem; }
+  .pub-section li {
+    margin-bottom: .6rem;
+    line-height: 1.65;
+  }
 
-/\* timeline style for education \*/
-.timeline { border-left: 3px solid var(--accent); padding-left: 1.5rem; }
-.timeline-item {
-position: relative;
-margin-bottom: 1rem;
-padding: .5rem 0;
-}
-.timeline-item::before {
-content: '';
-position: absolute;
-left: -1.9rem;
-top: .7rem;
-width: 10px; height: 10px;
-background: var(--accent);
-border-radius: 50%;
-}
-.timeline-item .year {
-font-size: .82rem;
-color: var(--muted);
-font-weight: 500;
-}
-.student-grid {
-display: grid;
-grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-gap: .8rem;
-}
-.student-card {
-background: var(--card);
-border-radius: 8px;
-padding: .9rem 1rem;
-border: 1px solid var(--border);
-font-size: .92rem;
-transition: box-shadow .2s;
-}
-.student-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,.08); }
-.student-card .name { font-weight: 600; color: var(--navy); }
-.student-card .topic { font-size: .82rem; color: var(--muted); margin-top: .2rem; }
+  /* timeline style for education */
+  .timeline { border-left: 3px solid var(--accent); padding-left: 1.5rem; }
+  .timeline-item {
+    position: relative;
+    margin-bottom: 1rem;
+    padding: .5rem 0;
+  }
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -1.9rem;
+    top: .7rem;
+    width: 10px; height: 10px;
+    background: var(--accent);
+    border-radius: 50%;
+  }
+  .timeline-item .year {
+    font-size: .82rem;
+    color: var(--muted);
+    font-weight: 500;
+  }
+  .student-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: .8rem;
+  }
+  .student-card {
+    background: var(--card);
+    border-radius: 8px;
+    padding: .9rem 1rem;
+    border: 1px solid var(--border);
+    font-size: .92rem;
+    transition: box-shadow .2s;
+  }
+  .student-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+  .student-card .name { font-weight: 600; color: var(--navy); }
+  .student-card .topic { font-size: .82rem; color: var(--muted); margin-top: .2rem; }
 
-/\* badges \*/
-.badge {
-display: inline-block;
-padding: .15rem .6rem;
-border-radius: 12px;
-font-size: .78rem;
-font-weight: 500;
-margin-left: .4rem;
-}
-.badge-phd { background: #e0e7ff; color: #3730a3; }
-.badge-ms { background: #d1fae5; color: #065f46; }
-.badge-meng { background: #fef3c7; color: #92400e; }
+  /* badges */
+  .badge {
+    display: inline-block;
+    padding: .15rem .6rem;
+    border-radius: 12px;
+    font-size: .78rem;
+    font-weight: 500;
+    margin-left: .4rem;
+  }
+  .badge-phd { background: #e0e7ff; color: #3730a3; }
+  .badge-ms { background: #d1fae5; color: #065f46; }
+  .badge-meng { background: #fef3c7; color: #92400e; }
 
-.funding-card {
-background: linear-gradient(135deg, #f0f4ff, #fef9ee);
-border: 1px solid #dbeafe;
-border-radius: 10px;
-padding: 1.2rem 1.5rem;
-margin-top: 1rem;
-}
+  .funding-card {
+    background: linear-gradient(135deg, #f0f4ff, #fef9ee);
+    border: 1px solid #dbeafe;
+    border-radius: 10px;
+    padding: 1.2rem 1.5rem;
+    margin-top: 1rem;
+  }
 
-.awards-list {
-list-style: none;
-padding: 0;
-}
-.awards-list li {
-padding: .5rem 0;
-border-bottom: 1px solid var(--border);
-font-size: .92rem;
-}
-.awards-list li:last-child { border-bottom: none; }
-.awards-list .award-year {
-display: inline-block;
-width: 4.5rem;
-color: var(--muted);
-font-size: .82rem;
-font-weight: 500;
-}
+  .awards-list {
+    list-style: none;
+    padding: 0;
+  }
+  .awards-list li {
+    padding: .5rem 0;
+    border-bottom: 1px solid var(--border);
+    font-size: .92rem;
+  }
+  .awards-list li:last-child { border-bottom: none; }
+  .awards-list .award-year {
+    display: inline-block;
+    width: 4.5rem;
+    color: var(--muted);
+    font-size: .82rem;
+    font-weight: 500;
+  }
 
-.footer {
-text-align: center;
-padding: 2rem;
-color: var(--muted);
-font-size: .85rem;
-border-top: 1px solid var(--border);
-margin-top: 2rem;
-}
-.footer a { color: var(--link); }
+  .footer {
+    text-align: center;
+    padding: 2rem;
+    color: var(--muted);
+    font-size: .85rem;
+    border-top: 1px solid var(--border);
+    margin-top: 2rem;
+  }
+  .footer a { color: var(--link); }
 
-@media (max-width: 640px) {
-.header h1 { font-size: 1.6rem; }
-.tab-btn { padding: .7rem .9rem; font-size: .82rem; }
-.container { padding: 1.2rem .8rem 2rem; }
-.card { padding: 1rem 1.2rem; }
-.lang-toggle { top: .6rem; right: .8rem; }
-}
+  @media (max-width: 640px) {
+    .header h1 { font-size: 1.6rem; }
+    .tab-btn { padding: .7rem .9rem; font-size: .82rem; }
+    .container { padding: 1.2rem .8rem 2rem; }
+    .card { padding: 1rem 1.2rem; }
+    .lang-toggle { top: .6rem; right: .8rem; }
+  }
 
-.pub-count {
-font-size: .78rem;
-color: var(--muted);
-font-weight: 400;
-margin-left: .3rem;
-} </style>
-
+  .pub-count {
+    font-size: .78rem;
+    color: var(--muted);
+    font-weight: 400;
+    margin-left: .3rem;
+  }
+</style>
 </head>
 <body>
 
 <!-- ═══ HEADER ═══ -->
-
 <header class="header">
   <div class="lang-toggle">
     <button class="lang-btn active" data-lang-btn="en">EN</button>
@@ -346,7 +344,6 @@ margin-left: .3rem;
 </header>
 
 <!-- ═══ TAB NAV ═══ -->
-
 <nav class="tab-nav" id="tabNav">
   <button class="tab-btn active" data-tab="about"><span data-lang="en">About</span><span data-lang="zh">简介</span></button>
   <button class="tab-btn" data-tab="education"><span data-lang="en">Education</span><span data-lang="zh">教育经历</span></button>
@@ -360,7 +357,6 @@ margin-left: .3rem;
 <main class="container">
 
 <!-- ═══ TAB: ABOUT ═══ -->
-
 <section class="tab-content active" id="tab-about">
   <h2 class="section-title"><span data-lang="en">About</span><span data-lang="zh">个人简介</span></h2>
   <div class="card" data-lang="en">
@@ -382,7 +378,6 @@ margin-left: .3rem;
 </section>
 
 <!-- ═══ TAB: EDUCATION ═══ -->
-
 <section class="tab-content" id="tab-education">
   <h2 class="section-title"><span data-lang="en">Education &amp; Career</span><span data-lang="zh">教育与工作经历</span></h2>
   <div class="card" data-lang="en">
@@ -444,12 +439,10 @@ margin-left: .3rem;
 </section>
 
 <!-- ═══ TAB: RESEARCH ═══ -->
-
 <section class="tab-content" id="tab-research">
   <h2 class="section-title"><span data-lang="en">Research Interests</span><span data-lang="zh">研究方向</span></h2>
 
   <!-- English -->
-
   <div data-lang="en">
     <div class="card">
       <h3>🔬 Distributed Optimization &amp; Computation</h3>
@@ -489,7 +482,6 @@ margin-left: .3rem;
   </div>
 
   <!-- Chinese -->
-
   <div data-lang="zh">
     <div class="card">
       <h3>🔬 分布式优化与计算</h3>
@@ -530,7 +522,6 @@ margin-left: .3rem;
 </section>
 
 <!-- ═══ TAB: PUBLICATIONS ═══ -->
-
 <section class="tab-content" id="tab-publications">
   <h2 class="section-title"><span data-lang="en">Selected Publications</span><span data-lang="zh">代表性论文</span></h2>
   <p style="margin-bottom:1.5rem; color:var(--muted); font-size:.9rem;">
@@ -539,7 +530,6 @@ margin-left: .3rem;
   </p>
 
   <!-- ── Category 1: Distributed Stochastic & Projection-Free Optimization ── -->
-
   <div class="pub-section">
     <h3><span data-lang="en">Distributed Stochastic &amp; Projection-Free Optimization</span><span data-lang="zh">分布式随机与无投影优化</span></h3>
     <ol>
@@ -552,7 +542,6 @@ margin-left: .3rem;
   </div>
 
   <!-- ── Category 2: Time-Varying & Online Optimization ── -->
-
   <div class="pub-section">
     <h3><span data-lang="en">Time-Varying &amp; Online Optimization</span><span data-lang="zh">时变与在线优化</span></h3>
     <ol>
@@ -561,7 +550,6 @@ margin-left: .3rem;
   </div>
 
   <!-- ── Category 3: Continuous-Time & Accelerated Distributed Optimization ── -->
-
   <div class="pub-section">
     <h3><span data-lang="en">Continuous-Time &amp; Accelerated Distributed Optimization</span><span data-lang="zh">连续时间与加速分布式优化</span></h3>
     <ol>
@@ -574,7 +562,6 @@ margin-left: .3rem;
   </div>
 
   <!-- ── Category 4: Nonsmooth & Nonconvex Optimization ── -->
-
   <div class="pub-section">
     <h3><span data-lang="en">Nonsmooth &amp; Nonconvex Optimization</span><span data-lang="zh">非光滑与非凸优化</span></h3>
     <ol>
@@ -583,7 +570,6 @@ margin-left: .3rem;
   </div>
 
   <!-- ── Category 5: Distributed Matrix Equations & Networked Computation ── -->
-
   <div class="pub-section">
     <h3><span data-lang="en">Distributed Matrix Equations &amp; Networked Computation</span><span data-lang="zh">分布式矩阵方程与网络化计算</span></h3>
     <ol>
@@ -597,7 +583,6 @@ margin-left: .3rem;
   </div>
 
   <!-- ── Category 6: Game Theory & Multi-Agent Decision Making ── -->
-
   <div class="pub-section">
     <h3><span data-lang="en">Game Theory &amp; Multi-Agent Decision Making</span><span data-lang="zh">博弈论与多智能体决策</span></h3>
     <ol>
@@ -606,7 +591,6 @@ margin-left: .3rem;
   </div>
 
   <!-- ── Category 7: Motion Planning, Cooperative Control & Autonomous Systems ── -->
-
   <div class="pub-section">
     <h3><span data-lang="en">Motion Planning, Cooperative Control &amp; Autonomous Systems</span><span data-lang="zh">运动规划、协同控制与自主系统</span></h3>
     <ol>
@@ -616,7 +600,6 @@ margin-left: .3rem;
   </div>
 
   <!-- ── Category 8: Survey ── -->
-
   <div class="pub-section">
     <h3><span data-lang="en">Survey</span><span data-lang="zh">综述</span></h3>
     <ol>
@@ -627,7 +610,6 @@ margin-left: .3rem;
   </div>
 
   <!-- ── Category 9: Early Work on Cyber-Physical Systems ── -->
-
   <div class="pub-section">
     <h3><span data-lang="en">Early Work on Cyber-Physical Systems</span><span data-lang="zh">网络物理系统早期工作</span></h3>
     <ol>
@@ -638,7 +620,6 @@ margin-left: .3rem;
 </section>
 
 <!-- ═══ TAB: TEACHING ═══ -->
-
 <section class="tab-content" id="tab-teaching">
   <h2 class="section-title"><span data-lang="en">Teaching</span><span data-lang="zh">教学</span></h2>
   <div class="card">
@@ -696,7 +677,6 @@ margin-left: .3rem;
 </section>
 
 <!-- ═══ TAB: STUDENTS ═══ -->
-
 <section class="tab-content" id="tab-students">
   <h2 class="section-title"><span data-lang="en">Current Graduate Students</span><span data-lang="zh">在读研究生</span></h2>
 
@@ -750,7 +730,6 @@ margin-left: .3rem;
 </section>
 
 <!-- ═══ TAB: ALUMNI ═══ -->
-
 <section class="tab-content" id="tab-alumni">
   <h2 class="section-title"><span data-lang="en">Student Alumni</span><span data-lang="zh">毕业学生</span></h2>
   <div class="card">
