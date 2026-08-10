@@ -718,8 +718,6 @@ margin-left: .3rem;
     <div class="student-card" data-lang="zh"><span class="name">余鑫</span><br><span class="topic">待定 (2025–)</span></div>
     <div class="student-card" data-lang="en"><span class="name">Qinglong Zhang</span><br><span class="topic">TBA (2025–)</span></div>
     <div class="student-card" data-lang="zh"><span class="name">张庆龙</span><br><span class="topic">待定 (2025–)</span></div>
-    <div class="student-card" data-lang="en"><span class="name">Zhong Zhuang</span><br><span class="topic">TBA (2026–)</span></div>
-    <div class="student-card" data-lang="zh"><span class="name">庄重</span><br><span class="topic">待定 (2026–)</span></div>
   </div>
 
   <h3 style="margin-top:1.5rem; margin-bottom:.6rem; color:var(--navy);"><span data-lang="en">Master Students</span><span data-lang="zh">硕士生</span> <span class="badge badge-ms"><span data-lang="en">M.Sc.</span><span data-lang="zh">学硕</span></span> <span class="badge badge-meng"><span data-lang="en">M.Eng.</span><span data-lang="zh">专硕</span></span></h3>
