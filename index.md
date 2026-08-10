@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -23,301 +24,302 @@
     line-height: 1.7;
   }
 
-  /* ── LANGUAGE TOGGLE ── */
-  .lang-toggle {
-    position: absolute;
-    top: 1rem;
-    right: 1.5rem;
-    display: flex;
-    gap: 0;
-    border-radius: 6px;
-    overflow: hidden;
-    border: 1px solid rgba(255,255,255,0.3);
-    z-index: 200;
-  }
-  .lang-btn {
-    padding: .4rem .8rem;
-    border: none;
-    background: rgba(255,255,255,0.1);
-    color: #bcc4d0;
-    font-size: .82rem;
-    cursor: pointer;
-    transition: all .2s;
-    font-weight: 500;
-  }
-  .lang-btn:hover { background: rgba(255,255,255,0.2); color: #fff; }
-  .lang-btn.active {
-    background: var(--accent);
-    color: var(--navy);
-    font-weight: 600;
-  }
+/\* ── LANGUAGE TOGGLE ── \*/
+.lang-toggle {
+position: absolute;
+top: 1rem;
+right: 1.5rem;
+display: flex;
+gap: 0;
+border-radius: 6px;
+overflow: hidden;
+border: 1px solid rgba(255,255,255,0.3);
+z-index: 200;
+}
+.lang-btn {
+padding: .4rem .8rem;
+border: none;
+background: rgba(255,255,255,0.1);
+color: #bcc4d0;
+font-size: .82rem;
+cursor: pointer;
+transition: all .2s;
+font-weight: 500;
+}
+.lang-btn:hover { background: rgba(255,255,255,0.2); color: #fff; }
+.lang-btn.active {
+background: var(--accent);
+color: var(--navy);
+font-weight: 600;
+}
 
-  /* ── LANGUAGE DISPLAY ── */
-  [data-lang="zh"] { display: none; }
-  body.zh [data-lang="zh"] { display: block; }
-  body.zh [data-lang="en"] { display: none; }
-  body.zh span[data-lang="zh"],
-  body.zh a[data-lang="zh"] { display: inline; }
-  body.zh span[data-lang="en"],
-  body.zh a[data-lang="en"] { display: none; }
-  span[data-lang="zh"], a[data-lang="zh"] { display: none; }
-  span[data-lang="en"], a[data-lang="en"] { display: inline; }
+/\* ── LANGUAGE DISPLAY ── \*/
+\[data-lang="zh"] { display: none; }
+body.zh \[data-lang="zh"] { display: block; }
+body.zh \[data-lang="en"] { display: none; }
+body.zh span\[data-lang="zh"],
+body.zh a\[data-lang="zh"] { display: inline; }
+body.zh span\[data-lang="en"],
+body.zh a\[data-lang="en"] { display: none; }
+span\[data-lang="zh"], a\[data-lang="zh"] { display: none; }
+span\[data-lang="en"], a\[data-lang="en"] { display: inline; }
 
-  /* table rows */
-  body.zh tr[data-lang="zh"] { display: table-row; }
-  body.zh tr[data-lang="en"] { display: none; }
-  tr[data-lang="zh"] { display: none; }
-  tr[data-lang="en"] { display: table-row; }
+/\* table rows \*/
+body.zh tr\[data-lang="zh"] { display: table-row; }
+body.zh tr\[data-lang="en"] { display: none; }
+tr\[data-lang="zh"] { display: none; }
+tr\[data-lang="en"] { display: table-row; }
 
-  /* grid items */
-  body.zh div.student-card[data-lang="zh"] { display: block; }
-  body.zh div.student-card[data-lang="en"] { display: none; }
-  div.student-card[data-lang="zh"] { display: none; }
+/\* grid items \*/
+body.zh div.student-card\[data-lang="zh"] { display: block; }
+body.zh div.student-card\[data-lang="en"] { display: none; }
+div.student-card\[data-lang="zh"] { display: none; }
 
-  /* ── HEADER ── */
-  .header {
-    background: var(--navy);
-    color: #fff;
-    padding: 3rem 2rem 2rem;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-  }
-  .header::after {
-    content: '';
-    position: absolute;
-    bottom: 0; left: 0; right: 0;
-    height: 4px;
-    background: linear-gradient(90deg, var(--accent), #e5b93c, var(--accent));
-  }
-  .header h1 {
-    font-size: 2.2rem;
-    font-weight: 700;
-    letter-spacing: 1px;
-    margin-bottom: .2rem;
-  }
-  .header h2 {
-    font-size: 1.1rem;
-    font-weight: 400;
-    color: #bcc4d0;
-  }
-  .header .affil {
-    margin-top: .6rem;
-    font-size: .92rem;
-    color: #9ca3af;
-    line-height: 1.6;
-  }
-  .header .links {
-    margin-top: .8rem;
-    display: flex;
-    justify-content: center;
-    gap: 1.4rem;
-    flex-wrap: wrap;
-  }
-  .header .links a {
-    color: var(--accent);
-    text-decoration: none;
-    font-size: .9rem;
-    transition: color .2s;
-  }
-  .header .links a:hover { color: #fff; }
+/\* ── HEADER ── \*/
+.header {
+background: var(--navy);
+color: #fff;
+padding: 3rem 2rem 2rem;
+text-align: center;
+position: relative;
+overflow: hidden;
+}
+.header::after {
+content: '';
+position: absolute;
+bottom: 0; left: 0; right: 0;
+height: 4px;
+background: linear-gradient(90deg, var(--accent), #e5b93c, var(--accent));
+}
+.header h1 {
+font-size: 2.2rem;
+font-weight: 700;
+letter-spacing: 1px;
+margin-bottom: .2rem;
+}
+.header h2 {
+font-size: 1.1rem;
+font-weight: 400;
+color: #bcc4d0;
+}
+.header .affil {
+margin-top: .6rem;
+font-size: .92rem;
+color: #9ca3af;
+line-height: 1.6;
+}
+.header .links {
+margin-top: .8rem;
+display: flex;
+justify-content: center;
+gap: 1.4rem;
+flex-wrap: wrap;
+}
+.header .links a {
+color: var(--accent);
+text-decoration: none;
+font-size: .9rem;
+transition: color .2s;
+}
+.header .links a:hover { color: #fff; }
 
-  /* ── TABS ── */
-  .tab-nav {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 0;
-    background: #fff;
-    border-bottom: 2px solid var(--border);
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    box-shadow: 0 1px 4px rgba(0,0,0,.04);
-  }
-  .tab-btn {
-    padding: .85rem 1.5rem;
-    border: none;
-    background: transparent;
-    font-size: .92rem;
-    cursor: pointer;
-    color: var(--muted);
-    font-weight: 500;
-    border-bottom: 3px solid transparent;
-    transition: all .2s;
-    white-space: nowrap;
-  }
-  .tab-btn:hover { color: var(--text); background: #f3f4f6; }
-  .tab-btn.active {
-    color: var(--navy);
-    border-bottom-color: var(--accent);
-    font-weight: 600;
-  }
+/\* ── TABS ── \*/
+.tab-nav {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 0;
+background: #fff;
+border-bottom: 2px solid var(--border);
+position: sticky;
+top: 0;
+z-index: 100;
+box-shadow: 0 1px 4px rgba(0,0,0,.04);
+}
+.tab-btn {
+padding: .85rem 1.5rem;
+border: none;
+background: transparent;
+font-size: .92rem;
+cursor: pointer;
+color: var(--muted);
+font-weight: 500;
+border-bottom: 3px solid transparent;
+transition: all .2s;
+white-space: nowrap;
+}
+.tab-btn:hover { color: var(--text); background: #f3f4f6; }
+.tab-btn.active {
+color: var(--navy);
+border-bottom-color: var(--accent);
+font-weight: 600;
+}
 
-  /* ── MAIN ── */
-  .container {
-    max-width: 920px;
-    margin: 0 auto;
-    padding: 2rem 1.5rem 4rem;
-  }
-  .tab-content { display: none; animation: fadeIn .35s ease; }
-  .tab-content.active { display: block; }
-  @keyframes fadeIn { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:translateY(0); } }
+/\* ── MAIN ── \*/
+.container {
+max-width: 920px;
+margin: 0 auto;
+padding: 2rem 1.5rem 4rem;
+}
+.tab-content { display: none; animation: fadeIn .35s ease; }
+.tab-content.active { display: block; }
+@keyframes fadeIn { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:translateY(0); } }
 
-  .section-title {
-    font-size: 1.4rem;
-    font-weight: 700;
-    color: var(--navy);
-    margin-bottom: 1rem;
-    padding-bottom: .5rem;
-    border-bottom: 2px solid var(--accent);
-    display: inline-block;
-  }
-  .card {
-    background: var(--card);
-    border-radius: 10px;
-    padding: 1.5rem 1.8rem;
-    margin-bottom: 1.5rem;
-    box-shadow: 0 1px 3px rgba(0,0,0,.06);
-    border: 1px solid var(--border);
-  }
-  .card h3 {
-    font-size: 1.05rem;
-    color: var(--navy);
-    margin-bottom: .6rem;
-  }
-  .card ul, .card ol {
-    padding-left: 1.3rem;
-  }
-  .card li {
-    margin-bottom: .5rem;
-    line-height: 1.65;
-  }
+.section-title {
+font-size: 1.4rem;
+font-weight: 700;
+color: var(--navy);
+margin-bottom: 1rem;
+padding-bottom: .5rem;
+border-bottom: 2px solid var(--accent);
+display: inline-block;
+}
+.card {
+background: var(--card);
+border-radius: 10px;
+padding: 1.5rem 1.8rem;
+margin-bottom: 1.5rem;
+box-shadow: 0 1px 3px rgba(0,0,0,.06);
+border: 1px solid var(--border);
+}
+.card h3 {
+font-size: 1.05rem;
+color: var(--navy);
+margin-bottom: .6rem;
+}
+.card ul, .card ol {
+padding-left: 1.3rem;
+}
+.card li {
+margin-bottom: .5rem;
+line-height: 1.65;
+}
 
-  /* ── PUB SUBSECTIONS ── */
-  .pub-section { margin-bottom: 1.8rem; }
-  .pub-section h3 {
-    font-size: 1rem;
-    color: var(--accent);
-    background: #fef9ee;
-    display: inline-block;
-    padding: .25rem .8rem;
-    border-radius: 20px;
-    font-weight: 600;
-    margin-bottom: .8rem;
-  }
-  .pub-section ol { padding-left: 1.3rem; }
-  .pub-section li {
-    margin-bottom: .6rem;
-    line-height: 1.65;
-  }
+/\* ── PUB SUBSECTIONS ── \*/
+.pub-section { margin-bottom: 1.8rem; }
+.pub-section h3 {
+font-size: 1rem;
+color: var(--accent);
+background: #fef9ee;
+display: inline-block;
+padding: .25rem .8rem;
+border-radius: 20px;
+font-weight: 600;
+margin-bottom: .8rem;
+}
+.pub-section ol { padding-left: 1.3rem; }
+.pub-section li {
+margin-bottom: .6rem;
+line-height: 1.65;
+}
 
-  /* timeline style for education */
-  .timeline { border-left: 3px solid var(--accent); padding-left: 1.5rem; }
-  .timeline-item {
-    position: relative;
-    margin-bottom: 1rem;
-    padding: .5rem 0;
-  }
-  .timeline-item::before {
-    content: '';
-    position: absolute;
-    left: -1.9rem;
-    top: .7rem;
-    width: 10px; height: 10px;
-    background: var(--accent);
-    border-radius: 50%;
-  }
-  .timeline-item .year {
-    font-size: .82rem;
-    color: var(--muted);
-    font-weight: 500;
-  }
-  .student-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    gap: .8rem;
-  }
-  .student-card {
-    background: var(--card);
-    border-radius: 8px;
-    padding: .9rem 1rem;
-    border: 1px solid var(--border);
-    font-size: .92rem;
-    transition: box-shadow .2s;
-  }
-  .student-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,.08); }
-  .student-card .name { font-weight: 600; color: var(--navy); }
-  .student-card .topic { font-size: .82rem; color: var(--muted); margin-top: .2rem; }
+/\* timeline style for education \*/
+.timeline { border-left: 3px solid var(--accent); padding-left: 1.5rem; }
+.timeline-item {
+position: relative;
+margin-bottom: 1rem;
+padding: .5rem 0;
+}
+.timeline-item::before {
+content: '';
+position: absolute;
+left: -1.9rem;
+top: .7rem;
+width: 10px; height: 10px;
+background: var(--accent);
+border-radius: 50%;
+}
+.timeline-item .year {
+font-size: .82rem;
+color: var(--muted);
+font-weight: 500;
+}
+.student-grid {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+gap: .8rem;
+}
+.student-card {
+background: var(--card);
+border-radius: 8px;
+padding: .9rem 1rem;
+border: 1px solid var(--border);
+font-size: .92rem;
+transition: box-shadow .2s;
+}
+.student-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+.student-card .name { font-weight: 600; color: var(--navy); }
+.student-card .topic { font-size: .82rem; color: var(--muted); margin-top: .2rem; }
 
-  /* badges */
-  .badge {
-    display: inline-block;
-    padding: .15rem .6rem;
-    border-radius: 12px;
-    font-size: .78rem;
-    font-weight: 500;
-    margin-left: .4rem;
-  }
-  .badge-phd { background: #e0e7ff; color: #3730a3; }
-  .badge-ms { background: #d1fae5; color: #065f46; }
-  .badge-meng { background: #fef3c7; color: #92400e; }
+/\* badges \*/
+.badge {
+display: inline-block;
+padding: .15rem .6rem;
+border-radius: 12px;
+font-size: .78rem;
+font-weight: 500;
+margin-left: .4rem;
+}
+.badge-phd { background: #e0e7ff; color: #3730a3; }
+.badge-ms { background: #d1fae5; color: #065f46; }
+.badge-meng { background: #fef3c7; color: #92400e; }
 
-  .funding-card {
-    background: linear-gradient(135deg, #f0f4ff, #fef9ee);
-    border: 1px solid #dbeafe;
-    border-radius: 10px;
-    padding: 1.2rem 1.5rem;
-    margin-top: 1rem;
-  }
+.funding-card {
+background: linear-gradient(135deg, #f0f4ff, #fef9ee);
+border: 1px solid #dbeafe;
+border-radius: 10px;
+padding: 1.2rem 1.5rem;
+margin-top: 1rem;
+}
 
-  .awards-list {
-    list-style: none;
-    padding: 0;
-  }
-  .awards-list li {
-    padding: .5rem 0;
-    border-bottom: 1px solid var(--border);
-    font-size: .92rem;
-  }
-  .awards-list li:last-child { border-bottom: none; }
-  .awards-list .award-year {
-    display: inline-block;
-    width: 4.5rem;
-    color: var(--muted);
-    font-size: .82rem;
-    font-weight: 500;
-  }
+.awards-list {
+list-style: none;
+padding: 0;
+}
+.awards-list li {
+padding: .5rem 0;
+border-bottom: 1px solid var(--border);
+font-size: .92rem;
+}
+.awards-list li:last-child { border-bottom: none; }
+.awards-list .award-year {
+display: inline-block;
+width: 4.5rem;
+color: var(--muted);
+font-size: .82rem;
+font-weight: 500;
+}
 
-  .footer {
-    text-align: center;
-    padding: 2rem;
-    color: var(--muted);
-    font-size: .85rem;
-    border-top: 1px solid var(--border);
-    margin-top: 2rem;
-  }
-  .footer a { color: var(--link); }
+.footer {
+text-align: center;
+padding: 2rem;
+color: var(--muted);
+font-size: .85rem;
+border-top: 1px solid var(--border);
+margin-top: 2rem;
+}
+.footer a { color: var(--link); }
 
-  @media (max-width: 640px) {
-    .header h1 { font-size: 1.6rem; }
-    .tab-btn { padding: .7rem .9rem; font-size: .82rem; }
-    .container { padding: 1.2rem .8rem 2rem; }
-    .card { padding: 1rem 1.2rem; }
-    .lang-toggle { top: .6rem; right: .8rem; }
-  }
+@media (max-width: 640px) {
+.header h1 { font-size: 1.6rem; }
+.tab-btn { padding: .7rem .9rem; font-size: .82rem; }
+.container { padding: 1.2rem .8rem 2rem; }
+.card { padding: 1rem 1.2rem; }
+.lang-toggle { top: .6rem; right: .8rem; }
+}
 
-  .pub-count {
-    font-size: .78rem;
-    color: var(--muted);
-    font-weight: 400;
-    margin-left: .3rem;
-  }
-</style>
+.pub-count {
+font-size: .78rem;
+color: var(--muted);
+font-weight: 400;
+margin-left: .3rem;
+} </style>
+
 </head>
 <body>
 
 <!-- ═══ HEADER ═══ -->
+
 <header class="header">
   <div class="lang-toggle">
     <button class="lang-btn active" data-lang-btn="en">EN</button>
@@ -344,6 +346,7 @@
 </header>
 
 <!-- ═══ TAB NAV ═══ -->
+
 <nav class="tab-nav" id="tabNav">
   <button class="tab-btn active" data-tab="about"><span data-lang="en">About</span><span data-lang="zh">简介</span></button>
   <button class="tab-btn" data-tab="education"><span data-lang="en">Education</span><span data-lang="zh">教育经历</span></button>
@@ -357,6 +360,7 @@
 <main class="container">
 
 <!-- ═══ TAB: ABOUT ═══ -->
+
 <section class="tab-content active" id="tab-about">
   <h2 class="section-title"><span data-lang="en">About</span><span data-lang="zh">个人简介</span></h2>
   <div class="card" data-lang="en">
@@ -378,6 +382,7 @@
 </section>
 
 <!-- ═══ TAB: EDUCATION ═══ -->
+
 <section class="tab-content" id="tab-education">
   <h2 class="section-title"><span data-lang="en">Education &amp; Career</span><span data-lang="zh">教育与工作经历</span></h2>
   <div class="card" data-lang="en">
@@ -439,10 +444,12 @@
 </section>
 
 <!-- ═══ TAB: RESEARCH ═══ -->
+
 <section class="tab-content" id="tab-research">
   <h2 class="section-title"><span data-lang="en">Research Interests</span><span data-lang="zh">研究方向</span></h2>
 
   <!-- English -->
+
   <div data-lang="en">
     <div class="card">
       <h3>🔬 Distributed Optimization &amp; Computation</h3>
@@ -482,6 +489,7 @@
   </div>
 
   <!-- Chinese -->
+
   <div data-lang="zh">
     <div class="card">
       <h3>🔬 分布式优化与计算</h3>
@@ -522,6 +530,7 @@
 </section>
 
 <!-- ═══ TAB: PUBLICATIONS ═══ -->
+
 <section class="tab-content" id="tab-publications">
   <h2 class="section-title"><span data-lang="en">Selected Publications</span><span data-lang="zh">代表性论文</span></h2>
   <p style="margin-bottom:1.5rem; color:var(--muted); font-size:.9rem;">
@@ -530,101 +539,106 @@
   </p>
 
   <!-- ── Category 1: Distributed Stochastic & Projection-Free Optimization ── -->
+
   <div class="pub-section">
     <h3><span data-lang="en">Distributed Stochastic &amp; Projection-Free Optimization</span><span data-lang="zh">分布式随机与无投影优化</span></h3>
     <ol>
-      <li>J. Hou, <strong>X. Zeng*</strong>, S. Cui, X. Jiang, J. Sun. "Stochastic Frank-Wolfe Algorithm for Constrained Bilevel Optimization with Improved Per-Iteration Complexity." <em>IEEE Trans. Signal Processing</em>, vol. 73, pp. 3237–3252, 2025.</li>
       <li>J. Hou, <strong>X. Zeng*</strong>, S. Cui, J. Sun. "Distributed Stochastic Frank-Wolfe for Constrained Composite Minimization." <em>IEEE Trans. Automatic Control</em>, DOI: 10.1109/TAC.2025.3581321, 2025.</li>
       <li>X. Jiang, <strong>X. Zeng*</strong>, L. Xie, J. Sun, J. Chen. "Distributed Stochastic Projection-Free Algorithm for Constrained Optimization." <em>IEEE Trans. Automatic Control</em>, vol. 70, no. 4, Apr. 2025.</li>
       <li>X. Jiang, <strong>X. Zeng*</strong>, L. Xie, J. Sun, J. Chen. "Variance-Reduced Reshuffling Gradient Descent for Non-Convex Optimization: Centralized and Distributed Algorithms." <em>Automatica</em>, vol. 171, Jan. 2025.</li>
-      <li>Y. Huang, <strong>X. Zeng*</strong>, J. Sun, Z. Meng. "Distributed Event-Triggered Algorithm for Convex Optimization with Coupled Constraints." <em>Automatica</em>, vol. 170, Dec. 2024.</li>
       <li>J. Hou, <strong>X. Zeng*</strong>, G. Wang, C. Chen, J. Sun. "Distributed Frank-Wolfe Solver for Stochastic Optimization with Coupled Inequality Constraints." <em>IEEE Trans. Neural Networks and Learning Systems</em>, vol. 36, no. 5, May 2025.</li>
-      <li>X. Jiang, <strong>X. Zeng*</strong>, J. Sun, J. Chen. "Distributed Stochastic Gradient Tracking Algorithm with Variance Reduction for Non-Convex Optimization." <em>IEEE Trans. Neural Networks and Learning Systems</em>, DOI: 10.1109/TNNLS.2022.3170944, 2023.</li>
-      <li>J. Hou, <strong>X. Zeng*</strong>, G. Wang, J. Sun, J. Chen. "Distributed Momentum-Based Frank-Wolfe Algorithm for Stochastic Optimization." <em>IEEE/CAA Journal of Automatica Sinica</em>, DOI: 10.1109/JAS.2022.105923, 2023.</li>
+      <li>J. Hou, <strong>X. Zeng*</strong>, G. Wang, J. Sun, J. Chen. "Distributed Momentum-Based Frank-Wolfe Algorithm for Stochastic Optimization." <em>IEEE/CAA Journal of Automatica Sinica</em>, vol. 10, no. 3, pp. 685–699, Mar. 2023.</li>
     </ol>
   </div>
 
-  <!-- ── Category 2: Continuous-Time & Accelerated Optimization ── -->
-  <div class="pub-section">
-    <h3><span data-lang="en">Continuous-Time &amp; Accelerated Distributed Optimization</span><span data-lang="zh">连续时间与加速分布式优化</span></h3>
-    <ol>
-      <li>W. Li, <strong>X. Zeng</strong>, L. Pavel. "Primal-Dual Accelerated Mirror-Descent Method for Constrained Bilinear Saddle-Point Problems." <em>IEEE Trans. Automatic Control</em>, Feb. 2026.</li>
-      <li><strong>X. Zeng</strong>, J. Lei, J. Chen. "Dynamical Primal-Dual Accelerated Method with Applications to Network Optimization." <em>IEEE Trans. Automatic Control</em>, vol. 68, no. 3, Mar. 2023.</li>
-      <li>C. Wu, H. Fang, <strong>X. Zeng</strong>, Q. Yang, Y. Wei, J. Chen. "Distributed Continuous-Time Algorithm for Time-Varying Optimization with Affine Formation Constraints." <em>IEEE Trans. Automatic Control</em>, vol. 68, no. 4, 2023.</li>
-      <li><strong>X. Zeng</strong>, P. Yi, Y. Hong, L. Xie. "Distributed Continuous-Time Algorithms for Nonsmooth Extended Monotropic Optimization." <em>SIAM Journal on Control and Optimization</em>, vol. 56, no. 6, pp. 3973–3993, 2018.</li>
-      <li>X. Jiang, <strong>X. Zeng*</strong>, J. Sun, J. Chen. "A Fully Distributed Hybrid Control Framework for Non-Differentiable Multi-Agent Optimization." <em>IEEE/CAA Journal of Automatica Sinica</em>, 2022.</li>
-    </ol>
-  </div>
+  <!-- ── Category 2: Time-Varying & Online Optimization ── -->
 
-  <!-- ── Category 3: Nonsmooth, Nonconvex & Zeroth-Order ── -->
-  <div class="pub-section">
-    <h3><span data-lang="en">Nonsmooth, Nonconvex &amp; Zeroth-Order Optimization</span><span data-lang="zh">非光滑、非凸与零阶优化</span></h3>
-    <ol>
-      <li>J. Hou, X. Jiang, <strong>X. Zeng*</strong>, L. Zhao, J. Sun. "Distributed Nonsmooth Nonconvex Optimization: Deterministic and Stochastic Zeroth-Order Algorithms with Decaying Step Sizes." <em>IEEE Trans. Signal and Information Processing over Networks</em>, vol. 12, pp. 585–598, 2026.</li>
-      <li>X. Jiang, Y. Fang, <strong>X. Zeng*</strong>, J. Sun, J. Chen. "Inexact Proximal Gradient Algorithm with Random Reshuffling for Nonsmooth Optimization." <em>Science China Information Sciences</em>, vol. 68, 112201, 2025.</li>
-      <li>Y. Wang, <strong>X. Zeng*</strong>, W. Zhao, Y. Hong. "A Zeroth-Order Algorithm for Distributed Optimization with Stochastic Stripe Observations." <em>Science China Information Sciences</em>, vol. 66, 199202, 2023.</li>
-    </ol>
-  </div>
-
-  <!-- ── Category 4: Time-Varying Optimization ── -->
   <div class="pub-section">
     <h3><span data-lang="en">Time-Varying &amp; Online Optimization</span><span data-lang="zh">时变与在线优化</span></h3>
     <ol>
       <li>Z. Lin, J. Hou*, <strong>X. Zeng</strong>. "Optimal Prediction-Correction Algorithm Using Sparse Linear Extrapolation for Time-Varying Optimization." <em>IEEE Trans. Signal Processing</em>, accepted, 2026.</li>
-      <li>Z. Lin, <strong>X. Zeng</strong>, J. Hou*, J. Sun, J. Chen. "Primal-Dual Prediction-Correction Method with Tunable Memory for Linearly Constrained Time-Varying Convex Optimization." <em>Journal of Systems Science and Complexity</em>, vol. 39, no. 2, pp. 483–510, 2026.</li>
     </ol>
   </div>
 
-  <!-- ── Category 5: Distributed Matrix Equations ── -->
+  <!-- ── Category 3: Continuous-Time & Accelerated Distributed Optimization ── -->
+
+  <div class="pub-section">
+    <h3><span data-lang="en">Continuous-Time &amp; Accelerated Distributed Optimization</span><span data-lang="zh">连续时间与加速分布式优化</span></h3>
+    <ol>
+      <li>W. Li, <strong>X. Zeng</strong>, L. Pavel*. "Primal-Dual Accelerated Mirror-Descent Method for Constrained Bilinear Saddle-Point Problems." <em>IEEE Trans. Automatic Control</em>, Feb. 2026.</li>
+      <li><strong>X. Zeng</strong>, J. Lei*, J. Chen. "Dynamical Primal-Dual Nesterov Accelerated Method with Applications to Network Optimization." <em>IEEE Trans. Automatic Control</em>, vol. 68, no. 3, Mar. 2023.</li>
+      <li>C. Wu, H. Fang, Q. Yang*, <strong>X. Zeng</strong>, J. Chen. "Distributed Continuous-Time Algorithm for Time-Varying Optimization with Affine Formation Constraints." <em>IEEE Trans. Automatic Control</em>, vol. 68, no. 4, pp. 2615–2622, Apr. 2023.</li>
+      <li><strong>X. Zeng</strong>, P. Yi, Y. Hong, L. Xie. "Distributed Continuous-Time Algorithms for Nonsmooth Extended Monotropic Optimization." <em>SIAM Journal on Control and Optimization</em>, vol. 56, no. 6, pp. 3973–3993, 2018.</li>
+      <li>Y. Wei, H. Fang, <strong>X. Zeng</strong>, J. Chen, P. Pardalos. "A Smooth Double Proximal Primal-Dual Algorithm for a Class of Distributed Nonsmooth Optimization Problem." <em>IEEE Trans. Automatic Control</em>, vol. 65, no. 4, pp. 1800–1806, 2020.</li>
+    </ol>
+  </div>
+
+  <!-- ── Category 4: Nonsmooth & Nonconvex Optimization ── -->
+
+  <div class="pub-section">
+    <h3><span data-lang="en">Nonsmooth &amp; Nonconvex Optimization</span><span data-lang="zh">非光滑与非凸优化</span></h3>
+    <ol>
+      <li>Y. Wei, C. Shang, H. Fang*, <strong>X. Zeng</strong>, L. Dou, P. Pardalos. "Solving A Class of Nonsmooth Resource Allocation Problems with Directed Graphs through Distributed Smooth Multi-Proximal Algorithms." <em>Automatica</em>, vol. 136, Feb. 2022, 110071.</li>
+    </ol>
+  </div>
+
+  <!-- ── Category 5: Distributed Matrix Equations & Networked Computation ── -->
+
   <div class="pub-section">
     <h3><span data-lang="en">Distributed Matrix Equations &amp; Networked Computation</span><span data-lang="zh">分布式矩阵方程与网络化计算</span></h3>
     <ol>
-      <li>X. Jiang, <strong>X. Zeng*</strong>, J. Sun, J. Chen. "Distributed synchronous and asynchronous algorithms for semi-definite programming with diagonal constraints." <em>IEEE Trans. Automatic Control</em>, vol. 68, no. 12, 2023.</li>
-      <li>Y. Huang, <strong>X. Zeng*</strong>, Z. Meng, D. Meng. "Distributed Algorithms of Solving Linear Matrix Equations via Double-Layered Networks." <em>Automatica</em>, vol. 165, 111662, 2024.</li>
+      <li>X. Jiang, <strong>X. Zeng</strong>, J. Sun*, J. Chen. "Distributed synchronous and asynchronous algorithms for semi-definite programming with diagonal constraints." <em>IEEE Trans. Automatic Control</em>, vol. 68, no. 2, pp. 1007–1022, Feb. 2023.</li>
       <li><strong>X. Zeng</strong>, J. Chen, Y. Hong. "Distributed Optimization Design of Iterative Refinement Technique for Algebraic Riccati Equations." <em>IEEE Trans. Systems, Man, and Cybernetics: Systems</em>, DOI: 10.1109/TSMC.2021.3056871, 2022.</li>
       <li><strong>X. Zeng</strong>, J. Chen, J. Sun, Y. Hong. "Distributed Optimization Approach for Solving Continuous-Time Lyapunov Equations with Exponential Rate of Convergence." <em>IEEE Trans. Systems, Man, and Cybernetics: Systems</em>, vol. 52, no. 3, pp. 1684–1691, 2022.</li>
       <li><strong>X. Zeng</strong>, J. Chen, Y. Hong. "Distributed Optimization Design for Computation of Algebraic Riccati Inequalities." <em>IEEE Trans. Cybernetics</em>, vol. 52, no. 3, pp. 1924–1935, 2022.</li>
+      <li>W. Deng, W. Li, <strong>X. Zeng*</strong>, Y. Hong. "矩阵方程的分布式求解算法研究概述." <em>控制理论与应用</em>, vol. 38, no. 11, pp. 1695–1706, 2021.</li>
+      <li>W. Li, W. Deng*, <strong>X. Zeng</strong>, Y. Hong. "Distributed solver for linear matrix inequalities: an optimization perspective." <em>Control Theory and Technology</em>, 2021. https://doi.org/10.1007/s11768-021-00061-z</li>
     </ol>
   </div>
 
-  <!-- ── Category 6: Game Theory ── -->
+  <!-- ── Category 6: Game Theory & Multi-Agent Decision Making ── -->
+
   <div class="pub-section">
     <h3><span data-lang="en">Game Theory &amp; Multi-Agent Decision Making</span><span data-lang="zh">博弈论与多智能体决策</span></h3>
     <ol>
-      <li>X. Zhang, <strong>X. Zeng*</strong>, Q. Yang, H. Fang, L. Xie, J. Chen. "Distributed Nominal Configuration Design for Linear Formations." <em>IEEE Trans. Automatic Control</em>, DOI: 10.1109/TAC.2026.3689360, 2026.</li>
       <li><strong>X. Zeng</strong>, J. Chen, S. Liang, Y. Hong. "Generalized Nash Equilibrium Seeking Strategy for Distributed Nonsmooth Multi-Cluster Game." <em>Automatica</em>, vol. 103, pp. 20–26, 2019.</li>
-      <li><strong>X. Zeng</strong>, L. Dou, J. Chen. "Accelerated First-Order Continuous-Time Algorithm for Solving Bilinear Saddle Point Problems." <em>IFAC World Congress</em>, 2020.</li>
-      <li><strong>X. Zeng</strong>, L. Dou, J. Cui. "Distributed Accelerated Nash Equilibrium Learning for Two-Subnetwork Zero-Sum Game with Bilinear Coupling." <em>Kybernetika</em>, 2023.</li>
-      <li>K. Zhu, <strong>X. Zeng*</strong>. "Almost Sure Convergence to Approximate Nash Equilibrium in Zero-Sum Extensive-Form Games." <em>IEEE ICCA</em>, 2024.</li>
     </ol>
   </div>
 
-  <!-- ── Category 7: Motion Planning & Control ── -->
+  <!-- ── Category 7: Motion Planning, Cooperative Control & Autonomous Systems ── -->
+
   <div class="pub-section">
-    <h3><span data-lang="en">Motion Planning &amp; Autonomous Systems</span><span data-lang="zh">运动规划与自主系统</span></h3>
+    <h3><span data-lang="en">Motion Planning, Cooperative Control &amp; Autonomous Systems</span><span data-lang="zh">运动规划、协同控制与自主系统</span></h3>
     <ol>
-      <li>X. Zhang, Q. Yang, <strong>X. Zeng</strong>, H. Fang, J. Chen. "Cooperative Shape-Translation Estimation and Control for Multi-Robot Systems." <em>IEEE Trans. Automatic Control</em>, 2025.</li>
-      <li>Z. Cheng, <strong>X. Zeng*</strong>, H. Fang, G. Wang, L. Dou. "Hierarchical MPC-based Motion Planning for Autonomous Driving in Unstructured Environments." <em>Unmanned Systems</em>, 2023. <span style="color:var(--accent); font-size:.8rem; font-weight:500;">(Best Paper Award 2026)</span></li>
-      <li><strong>X. Zeng</strong>. "Hybrid Networked Control for Cyber-Physical Network Systems." <em>Ph.D. Dissertation, Texas Tech University</em>, 2015.</li>
+      <li>Z. Cheng, <strong>X. Zeng*</strong>, H. Fang, G. Wang, L. Dou. "Hierarchical MPC-based Motion Planning for Autonomous Driving in Unstructured Environments." <em>Unmanned Systems</em>, accepted, Mar. 2023. <span style="color:var(--accent); font-size:.8rem; font-weight:500;">(Best Paper Award 2026)</span></li>
+      <li>C. Wu, H. Fang, Q. Yang*, <strong>X. Zeng</strong>, J. Chen. "Distributed Cooperative Control of Redundant Mobile Manipulators with Safety Constraints." <em>IEEE Trans. Cybernetics</em>, vol. 53, no. 2, pp. 1195–1207, 2023.</li>
     </ol>
   </div>
 
   <!-- ── Category 8: Survey ── -->
+
   <div class="pub-section">
     <h3><span data-lang="en">Survey</span><span data-lang="zh">综述</span></h3>
     <ol>
-      <li>X. Jiang, <strong>X. Zeng</strong>, J. Sun*, J. Chen. "Distributed Optimization for Multi-Agent Systems: A Survey and Perspectives" (多智能体系统分布式优化综述与前瞻). <em>Science China Information Sciences</em> (中国科学：信息科学), 2025.</li>
+      <li>X. Jiang, <strong>X. Zeng</strong>, J. Sun*, J. Chen. "Distributed Optimization for Multi-Agent Systems: A Survey and Perspectives" (多智能体系统分布式优化综述与前瞻). <em>Science China Information Sciences</em> (中国科学：信息科学), Nov. 2025. https://www.sciengine.com/doi/10.1360/SSI-2025-0337</li>
+      <li>X. Jiang, <strong>X. Zeng</strong>, J. Sun*, J. Chen. "Research status and prospect of distributed optimization for multiple aircraft." <em>Acta Aeronautica et Astronautica Sinica</em>, vol. 42, no. 4, 523551, 2021. (in Chinese)</li>
+      <li>J. Chen, H. Fang*, <strong>X. Zeng</strong>. "面向高危行业的无人平台智能化发展" (Intelligent Development of Unmanned Platforms for High-Risk Industries). <em>中国科学: 信息科学</em>, vol. 51, no. 9, pp. 1397–1410, 2021.</li>
     </ol>
   </div>
 
-  <p style="margin-top:1.2rem; padding-top:1rem; border-top:1px solid var(--border);">
-    📄 <a href="https://xlinzeng.github.io/web/" style="color:var(--link)"><span data-lang="en">Complete Publication List</span><span data-lang="zh">完整论文列表</span></a>
-    &nbsp;&nbsp;|&nbsp;&nbsp;
-    🎓 <a href="https://scholar.google.com/citations?user=S4KS0noAAAAJ&hl=en" style="color:var(--link)"><span data-lang="en">Google Scholar</span><span data-lang="zh">谷歌学术</span></a>
-  </p>
+  <!-- ── Category 9: Early Work on Cyber-Physical Systems ── -->
+
+  <div class="pub-section">
+    <h3><span data-lang="en">Early Work on Cyber-Physical Systems</span><span data-lang="zh">网络物理系统早期工作</span></h3>
+    <ol>
+      <li><strong>X. Zeng</strong>, Q. Hui. "Energy-Event-Triggered Hybrid Supervisory Control for Cyber-Physical Network Systems." <em>IEEE Trans. Automatic Control</em>, vol. 60, no. 11, pp. 3083–3088, 2015.</li>
+      <li><strong>X. Zeng</strong>, Z. Liu, Q. Hui. "Energy Equipartition Stabilization and Cascading Resilience Optimization for Geospatially Distributed Cyber-Physical Network Systems." <em>IEEE Trans. Systems, Man, and Cybernetics: Systems</em>, vol. 45, no. 1, pp. 25–43, 2015.</li>
+    </ol>
+  </div>
 </section>
 
 <!-- ═══ TAB: TEACHING ═══ -->
+
 <section class="tab-content" id="tab-teaching">
   <h2 class="section-title"><span data-lang="en">Teaching</span><span data-lang="zh">教学</span></h2>
   <div class="card">
@@ -682,6 +696,7 @@
 </section>
 
 <!-- ═══ TAB: STUDENTS ═══ -->
+
 <section class="tab-content" id="tab-students">
   <h2 class="section-title"><span data-lang="en">Current Graduate Students</span><span data-lang="zh">在读研究生</span></h2>
 
@@ -725,10 +740,17 @@
     <div class="student-card" data-lang="zh"><span class="name">贾珂</span> <span class="badge badge-meng">专硕</span><br><span class="topic">待定</span></div>
     <div class="student-card" data-lang="en"><span class="name">Tong Huang</span> <span class="badge badge-meng">M.Eng.</span><br><span class="topic">TBA</span></div>
     <div class="student-card" data-lang="zh"><span class="name">黄彤</span> <span class="badge badge-meng">专硕</span><br><span class="topic">待定</span></div>
+    <div class="student-card" data-lang="en"><span class="name">Xu Zhang</span> <span class="badge badge-meng">M.Eng.</span><br><span class="topic">TBA (2026–)</span></div>
+    <div class="student-card" data-lang="zh"><span class="name">张旭</span> <span class="badge badge-meng">专硕</span><br><span class="topic">待定 (2026–)</span></div>
+    <div class="student-card" data-lang="en"><span class="name">Wenhui Lu</span> <span class="badge badge-meng">M.Eng.</span><br><span class="topic">TBA (2026–)</span></div>
+    <div class="student-card" data-lang="zh"><span class="name">路文慧</span> <span class="badge badge-meng">专硕</span><br><span class="topic">待定 (2026–)</span></div>
+    <div class="student-card" data-lang="en"><span class="name">Yuzhen Huang</span> <span class="badge badge-meng">M.Eng.</span><br><span class="topic">TBA (2026–)</span></div>
+    <div class="student-card" data-lang="zh"><span class="name">黄钰祯</span> <span class="badge badge-meng">专硕</span><br><span class="topic">待定 (2026–)</span></div>
   </div>
 </section>
 
 <!-- ═══ TAB: ALUMNI ═══ -->
+
 <section class="tab-content" id="tab-alumni">
   <h2 class="section-title"><span data-lang="en">Student Alumni</span><span data-lang="zh">毕业学生</span></h2>
   <div class="card">
